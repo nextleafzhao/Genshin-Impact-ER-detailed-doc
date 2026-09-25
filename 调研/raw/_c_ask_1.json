@@ -1,0 +1,371 @@
+SOURCE: bwiki api ask [[羁绊属性::+]]
+FETCHED: 2026-09-22
+
+{
+ "query": {
+  "printrequests": [
+   {
+    "label": "",
+    "key": "",
+    "redi": "",
+    "typeid": "_wpg",
+    "mode": 2
+   }
+  ],
+  "results": {
+   "七七": {
+    "printouts": [],
+    "fulltext": "七七",
+    "fullurl": "https://wiki.biligame.com/ys/%E4%B8%83%E4%B8%83",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": ""
+   },
+   "伊安珊": {
+    "printouts": [],
+    "fulltext": "伊安珊",
+    "fullurl": "https://wiki.biligame.com/ys/%E4%BC%8A%E5%AE%89%E7%8F%8A",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": ""
+   },
+   "伊法": {
+    "printouts": [],
+    "fulltext": "伊法",
+    "fullurl": "https://wiki.biligame.com/ys/%E4%BC%8A%E6%B3%95",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": ""
+   },
+   "伊涅芙": {
+    "printouts": [],
+    "fulltext": "伊涅芙",
+    "fullurl": "https://wiki.biligame.com/ys/%E4%BC%8A%E6%B6%85%E8%8A%99",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": ""
+   },
+   "八重神子": {
+    "printouts": [],
+    "fulltext": "八重神子",
+    "fullurl": "https://wiki.biligame.com/ys/%E5%85%AB%E9%87%8D%E7%A5%9E%E5%AD%90",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": "八重神子"
+   },
+   "兹白": {
+    "printouts": [],
+    "fulltext": "兹白",
+    "fullurl": "https://wiki.biligame.com/ys/%E5%85%B9%E7%99%BD",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": "兹白"
+   },
+   "北斗": {
+    "printouts": [],
+    "fulltext": "北斗",
+    "fullurl": "https://wiki.biligame.com/ys/%E5%8C%97%E6%96%97",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": ""
+   },
+   "卡齐娜": {
+    "printouts": [],
+    "fulltext": "卡齐娜",
+    "fullurl": "https://wiki.biligame.com/ys/%E5%8D%A1%E9%BD%90%E5%A8%9C",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": ""
+   },
+   "可莉": {
+    "printouts": [],
+    "fulltext": "可莉",
+    "fullurl": "https://wiki.biligame.com/ys/%E5%8F%AF%E8%8E%89",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": ""
+   },
+   "叶洛亚": {
+    "printouts": [],
+    "fulltext": "叶洛亚",
+    "fullurl": "https://wiki.biligame.com/ys/%E5%8F%B6%E6%B4%9B%E4%BA%9A",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": ""
+   },
+   "哥伦比娅": {
+    "printouts": [],
+    "fulltext": "哥伦比娅",
+    "fullurl": "https://wiki.biligame.com/ys/%E5%93%A5%E4%BC%A6%E6%AF%94%E5%A8%85",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": "哥伦比娅·希珀塞莱尼娅"
+   },
+   "基尼奇": {
+    "printouts": [],
+    "fulltext": "基尼奇",
+    "fullurl": "https://wiki.biligame.com/ys/%E5%9F%BA%E5%B0%BC%E5%A5%87",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": ""
+   },
+   "奈芙尔": {
+    "printouts": [],
+    "fulltext": "奈芙尔",
+    "fullurl": "https://wiki.biligame.com/ys/%E5%A5%88%E8%8A%99%E5%B0%94",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": "奈芙尔"
+   },
+   "尼可": {
+    "printouts": [],
+    "fulltext": "尼可",
+    "fullurl": "https://wiki.biligame.com/ys/%E5%B0%BC%E5%8F%AF",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": "尼可"
+   },
+   "布伦妮": {
+    "printouts": [],
+    "fulltext": "布伦妮",
+    "fullurl": "https://wiki.biligame.com/ys/%E5%B8%83%E4%BC%A6%E5%A6%AE",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": ""
+   },
+   "希诺宁": {
+    "printouts": [],
+    "fulltext": "希诺宁",
+    "fullurl": "https://wiki.biligame.com/ys/%E5%B8%8C%E8%AF%BA%E5%AE%81",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": "希诺宁"
+   },
+   "恰斯卡": {
+    "printouts": [],
+    "fulltext": "恰斯卡",
+    "fullurl": "https://wiki.biligame.com/ys/%E6%81%B0%E6%96%AF%E5%8D%A1",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": "恰斯卡"
+   },
+   "旅行者/冰": {
+    "printouts": [],
+    "fulltext": "旅行者/冰",
+    "fullurl": "https://wiki.biligame.com/ys/%E6%97%85%E8%A1%8C%E8%80%85/%E5%86%B0",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": "旅行者（冰元素）"
+   },
+   "旅行者/火": {
+    "printouts": [],
+    "fulltext": "旅行者/火",
+    "fullurl": "https://wiki.biligame.com/ys/%E6%97%85%E8%A1%8C%E8%80%85/%E7%81%AB",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": "旅行者（火元素）"
+   },
+   "杜林": {
+    "printouts": [],
+    "fulltext": "杜林",
+    "fullurl": "https://wiki.biligame.com/ys/%E6%9D%9C%E6%9E%97",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": "杜林"
+   },
+   "桑多涅": {
+    "printouts": [],
+    "fulltext": "桑多涅",
+    "fullurl": "https://wiki.biligame.com/ys/%E6%A1%91%E5%A4%9A%E6%B6%85",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": "桑多涅"
+   },
+   "梦见月瑞希": {
+    "printouts": [],
+    "fulltext": "梦见月瑞希",
+    "fullurl": "https://wiki.biligame.com/ys/%E6%A2%A6%E8%A7%81%E6%9C%88%E7%91%9E%E5%B8%8C",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": "梦见月瑞希"
+   },
+   "欧洛伦": {
+    "printouts": [],
+    "fulltext": "欧洛伦",
+    "fullurl": "https://wiki.biligame.com/ys/%E6%AC%A7%E6%B4%9B%E4%BC%A6",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": ""
+   },
+   "法尔伽": {
+    "printouts": [],
+    "fulltext": "法尔伽",
+    "fullurl": "https://wiki.biligame.com/ys/%E6%B3%95%E5%B0%94%E4%BC%BD",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": ""
+   },
+   "洛恩": {
+    "printouts": [],
+    "fulltext": "洛恩",
+    "fullurl": "https://wiki.biligame.com/ys/%E6%B4%9B%E6%81%A9",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": "洛恩"
+   },
+   "温迪": {
+    "printouts": [],
+    "fulltext": "温迪",
+    "fullurl": "https://wiki.biligame.com/ys/%E6%B8%A9%E8%BF%AA",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": "温迪"
+   },
+   "爱诺": {
+    "printouts": [],
+    "fulltext": "爱诺",
+    "fullurl": "https://wiki.biligame.com/ys/%E7%88%B1%E8%AF%BA",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": ""
+   },
+   "玛拉妮": {
+    "printouts": [],
+    "fulltext": "玛拉妮",
+    "fullurl": "https://wiki.biligame.com/ys/%E7%8E%9B%E6%8B%89%E5%A6%AE",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": "玛拉妮"
+   },
+   "玛薇卡": {
+    "printouts": [],
+    "fulltext": "玛薇卡",
+    "fullurl": "https://wiki.biligame.com/ys/%E7%8E%9B%E8%96%87%E5%8D%A1",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": "玛薇卡"
+   },
+   "瓦雷莎": {
+    "printouts": [],
+    "fulltext": "瓦雷莎",
+    "fullurl": "https://wiki.biligame.com/ys/%E7%93%A6%E9%9B%B7%E8%8E%8E",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": "瓦雷莎"
+   },
+   "砂糖": {
+    "printouts": [],
+    "fulltext": "砂糖",
+    "fullurl": "https://wiki.biligame.com/ys/%E7%A0%82%E7%B3%96",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": "砂糖"
+   },
+   "茜特菈莉": {
+    "printouts": [],
+    "fulltext": "茜特菈莉",
+    "fullurl": "https://wiki.biligame.com/ys/%E8%8C%9C%E7%89%B9%E8%8F%88%E8%8E%89",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": "茜特菈莉"
+   },
+   "莉奈娅": {
+    "printouts": [],
+    "fulltext": "莉奈娅",
+    "fullurl": "https://wiki.biligame.com/ys/%E8%8E%89%E5%A5%88%E5%A8%85",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": ""
+   },
+   "莫娜": {
+    "printouts": [],
+    "fulltext": "莫娜",
+    "fullurl": "https://wiki.biligame.com/ys/%E8%8E%AB%E5%A8%9C",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": ""
+   },
+   "莱欧斯利": {
+    "printouts": [],
+    "fulltext": "莱欧斯利",
+    "fullurl": "https://wiki.biligame.com/ys/%E8%8E%B1%E6%AC%A7%E6%96%AF%E5%88%A9",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": ""
+   },
+   "菈乌玛": {
+    "printouts": [],
+    "fulltext": "菈乌玛",
+    "fullurl": "https://wiki.biligame.com/ys/%E8%8F%88%E4%B9%8C%E7%8E%9B",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": "菈乌玛"
+   },
+   "菲林斯": {
+    "printouts": [],
+    "fulltext": "菲林斯",
+    "fullurl": "https://wiki.biligame.com/ys/%E8%8F%B2%E6%9E%97%E6%96%AF",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": ""
+   },
+   "菲谢尔": {
+    "printouts": [],
+    "fulltext": "菲谢尔",
+    "fullurl": "https://wiki.biligame.com/ys/%E8%8F%B2%E8%B0%A2%E5%B0%94",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": ""
+   },
+   "赛诺": {
+    "printouts": [],
+    "fulltext": "赛诺",
+    "fullurl": "https://wiki.biligame.com/ys/%E8%B5%9B%E8%AF%BA",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": ""
+   },
+   "迪奥娜": {
+    "printouts": [],
+    "fulltext": "迪奥娜",
+    "fullurl": "https://wiki.biligame.com/ys/%E8%BF%AA%E5%A5%A5%E5%A8%9C",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": "迪奥娜"
+   },
+   "阿贝多": {
+    "printouts": [],
+    "fulltext": "阿贝多",
+    "fullurl": "https://wiki.biligame.com/ys/%E9%98%BF%E8%B4%9D%E5%A4%9A",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": ""
+   },
+   "雅珂达": {
+    "printouts": [],
+    "fulltext": "雅珂达",
+    "fullurl": "https://wiki.biligame.com/ys/%E9%9B%85%E7%8F%82%E8%BE%BE",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": ""
+   },
+   "雷泽": {
+    "printouts": [],
+    "fulltext": "雷泽",
+    "fullurl": "https://wiki.biligame.com/ys/%E9%9B%B7%E6%B3%BD",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": ""
+   }
+  },
+  "serializer": "SMW\\Serializers\\QueryResultSerializer",
+  "version": 2,
+  "meta": {
+   "hash": "d58a87be84e642f73d92bde4f7bcb1ae",
+   "count": 43,
+   "offset": 0,
+   "source": "",
+   "time": "0.003740"
+  }
+ }
+}

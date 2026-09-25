@@ -1,0 +1,142 @@
+\section{队伍系统：月兆 与 星之楔}
+
+\indent 月曜与星烁反应都不是“元素之间自然发生”的反应，而是\textbf{队伍编制的产物}：必须带上特定角色，旧反应才会被转化。这两套系统是理解新反应“为什么打不出伤害”的第一前提。
+
+\subsection{月兆（Moonsign）}
+
+月兆系统的常用概念见表 \ref{tab:moonsign}。
+
+\indent\src{T0 · 月之一更新说明「八、系统更新」}
+
+\begin{quote}
+在队伍中编入月兆角色，能提升队伍的月兆等级。编入 1/2 名月兆角色时，分别使队伍的月兆等级变为初辉/满辉。
+
+当月兆等级达到「\term{月兆·满辉}」时，月兆角色将会获得强化，非月兆角色在施放元素战技或元素爆发后的一段时间内，能够提升附近所有角色造成的月曜反应伤害。
+\end{quote}
+
+\begin{table}[ht]\centering\small
+\caption{月兆相关概念}\label{tab:moonsign}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{4.9cm}>{\raggedright\arraybackslash}p{10.6cm}@{}}
+\toprule
+\textbf{概念} & \textbf{含义} \\
+\midrule
+\term{月兆祝赐}（Moonsign Benediction） & “月兆”相关固有天赋的命名前缀（如“月兆祝赐·千籁恩宠”）；此类天赋的共同效果为“在队伍中时，队伍的月兆将会上升一级”，持有者即“月兆角色”；挪德卡莱角色普遍持有此类天赋，但其中只有一部分带转化句 \\
+\rowline
+\term{月兆·初辉}（Nascent Gleam） & 队伍编入 \textbf{1} 名月兆角色时的等级 \\
+\rowline
+\term{月兆·满辉}（Ascendant Gleam） & 队伍编入 \textbf{2 名及以上}月兆角色时的等级（官方原文作「1/2 名」） \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\indent\textbf{月兆祝赐天赋分两类}：一类带\textbf{转化句}（「队伍中的角色触发 X 反应时，将转为触发月曜变体」），这类角色才能开启月曜反应；另一类全文只写「在队伍中时，队伍的月兆将会上升一级」（爱诺、雅珂达、叶洛亚），自身不能开启月曜反应。本版持有者共 10 人，其中带转化句的 7 人正是可开启者；能否开启取决于\textbf{天赋里有无转化句}——哥伦比娅的属性栏写作「三相月临」，同样可以开启三种月曜反应。\src{T0 · 各版更新说明｜T3 · bwiki｜T1 KeqingMains}
+
+\indent\textbf{非月兆角色提供的月曜反应增伤}（折算率与上限见表 \ref{tab:nonmoonsign}；\src{T0} 官方给出机制，KeqingMains 给出折算率与上限）\src{T0｜T1}
+
+\begin{table}[ht]\centering\small
+\caption{非月兆角色增伤的折算率与上限}\label{tab:nonmoonsign}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{4.2cm}>{\raggedright\arraybackslash}p{4.5cm}>{\raggedright\arraybackslash}p{3.8cm}>{\raggedright\arraybackslash}p{2.5cm}@{}}
+\toprule
+\textbf{提供者元素} & \textbf{折算率} & \textbf{达到上限所需面板} & \textbf{上限} \\
+\midrule
+\icon{火}火 / \icon{雷}雷 / \icon{冰}冰 & 每 100 点攻击力 → 0.9\% & 4000 攻击力 & \textbf{36\%} \\
+\rowline
+\icon{水}水 & 每 1000 点生命值 → 0.6\% & 60000 生命值 & \textbf{36\%} \\
+\rowline
+\icon{岩}岩 & 每 100 点防御力 → 1.0\% & 3600 防御力 & \textbf{36\%} \\
+\rowline
+\icon{风}风 / \icon{草}草 & 每 100 点元素精通 → 2.25\% & 1600 元素精通 & \textbf{36\%} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{itemize}
+\item 该增伤\textbf{不叠加}：同期只取“最近一次施放元素战技/爆发”的非月兆角色所提供的一份。
+\item 初辉与满辉的强化效果\textbf{无法叠加}（官方原文：「不同月兆等级提供的强化效果无法叠加」；相关异说见 \sref{sec:open}）。
+\end{itemize}
+
+\subsection{星之楔（Stellar Linchpin）}
+
+\indent 「\term{星之楔}」是部分角色属性栏中取代“神之眼”的条目（7.0 及之前\textbf{可玩角色}仅桑多涅、奥黛塔）。它\textbf{只是属性栏标签，不是触发条件}：真正把超导／冰扩散替换为\rxStellar{星超导}／\rxStellar{星扩散}的，是角色自身的固有天赋（奥黛塔「星耀祝礼·银晓之舞」、桑多涅「星曜祝礼·唯理为光」、旅行者「星耀祝礼·幻变冰镜」），这些天赋并不要求队伍中存在星之楔角色；星烁体系的伤害也主要来自这些“视为星烁反应伤害”的天赋。\cunyi“星之楔 $\to$ 可触发星烁”只有 2 个角色样本（反向已被旅行者(冰) 否证），属经验相关，不能作为定义。\src{T0 · 月之八／7.0 更新说明｜T1 KeqingMains}
+
+\medskip
+
+\section{元素反应通性}
+
+\subsection{通则}\label{sec:common}
+
+\begin{enumerate}
+\item \textbf{触发要求}：需至少 2 种元素参与（碎冰需先冻结）
+\item \textbf{元素角色}：反应伤害由触发者结算，受益于其元素精通
+\item \textbf{元素残留}：除感电／燃烧／激化外，触发元素不残留
+\item \textbf{伤害冷却}：
+\begin{itemize}
+\item 超导／扩散／碎冰：0.5 秒 / 2 次
+\item 感电／超载／水扩散：0.5 秒 / 1 次（水扩散的范围扩散伤害为 0，即水元素不向周围敌人传播伤害）
+\item 绽放系列：0.5 秒 / 2 次（原绽放／超绽放／烈绽放三者合计）
+\end{itemize}
+除结晶外，这些计次器均按\textbf{触发角色 ＋ 受击目标}的组合独立计算（每个角色 × 每个敌人 × 每 0.5 秒各一套），不同角色互不影响；\textbf{月曜与星烁反应不适用该计次器}（节奏见 \sref{sec:newrules}）。\src{T1 KeqingMains《Transformative Reactions》}
+\end{enumerate}
+
+\subsection{新体系补充}\label{sec:newrules}
+
+\begin{enumerate}[start=5]
+\item \textbf{转化优先于原反应}：队伍中存在对应体系的开启者时，被转化的反应\textbf{不再以原形态结算}，例：伊涅芙在队时队伍只触发\rxLunar{月感电}，不触发感电；桑多涅／奥黛塔/旅行者(冰)在队时风冰触发\rxStellar{星扩散}。
+\item \textbf{不吃防御、不吃常规增伤}：月曜与星烁伤害均不参与防御区，也不受元素伤害加成、通用增伤、普攻/重击/战技/爆发类型增伤影响；只有写明“月曜／\rxLunar{月感电}／\rxLunar{月绽放}／\rxLunar{月结晶}／\rxStellar{星超导}／\rxStellar{星扩散}／星烁反应伤害提升”的增益生效（圣遗物套装、角色天赋、命之座等）。
+\item \textbf{可暴击}：月曜与星烁全部伤害进入暴击区；多角色加权结算的反应（\rxLunar{月感电}、\rxLunar{月结晶}、\rxStellar{星扩散}）\textbf{暴击与否由最高贡献者的那次结算决定}。
+\item \textbf{不锁面板}：\rxLunar{月感电}的精通与双暴按实时面板结算，不锁定触发瞬间的数值（与其它剧变反应一致——1.4 起剧变反应的精通不再随技能快照）。
+\item \textbf{擢升（Elevation）}：月曜与星烁目前独有的乘区，仅通过限定五星命之座获得（如桑多涅 6 命使所有星烁反应伤害擢升 20\%、奈芙尔 6 命\rxLunar{月绽放}擢升 15\%、哥伦比娅命座逐级 1.5\%／7\%，六命合计 20\%）。
+\item \textbf{等级系数口径}：反应型月曜／\rxStellar{星扩散}沿用剧变等级系数（90 级 = 1446.85）；直伤型不吃等级系数。
+\item \textbf{计量学差异}：\rxLunar{月感电}每 2 秒结算且雷击不施加附着；\rxLunar{月结晶}\textbf{无全局 ICD}（常规结晶为 1 秒）；\rxStellar{星扩散}\textbf{不传播冰元素}（改为风旋爆炸施加 1U 冰）。
+\item \textbf{多贡献者加权口径}：月曜与星烁“多角色共同决定伤害”按贡献由高到低加权，\textbf{0.6／0.3／0.05／0.05}（和为 1）——这套权重对应的是\textbf{按系数（\rxLunar{月感电} 3／\rxLunar{月结晶} 1.6）计得的单角色伤害}；若单角色伤害已折入最高贡献者的 0.6（等效系数 1.8／0.96），同一算法的比例写作 \textbf{1、1/2、1/12}。两套写法等价，混用会放大 1/0.6 倍。\src{T1｜T2}
+\end{enumerate}
+
+\medskip
+
+\section{历史调整}
+
+元素反应相关的历史调整见表 \ref{tab:history}。
+
+% 批注4：本表原为 [H] 整块不可分页，会把上一页顶出大片留白（读者在 p17 看到半页空白）；
+% 改为 longtable（流内、可跨页），页脚注与来源说明仍紧随表后落在表尾所在页。
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{3.2cm}>{\raggedright\arraybackslash}p{12.6cm}@{}}
+\caption{元素反应相关历史调整时间线}\label{tab:history}\\
+\toprule
+\textbf{版本} & \textbf{调整内容} \\
+\midrule
+\endfirsthead
+\multicolumn{2}{@{}l}{\kaifont 表 19（续）：元素反应相关历史调整时间线}\\
+\toprule
+\textbf{版本} & \textbf{调整内容} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+1.1 & 世界等级 > 4 时环境反应伤害固定为 WL4 强度；修复碎冰伤害有概率无法正确触发的问题 \\
+\rowline
+1.6 & 剧变反应基础伤害提升；元素精通收益大幅提高；结晶护盾吸收量增强 \\
+\rowline
+2.1 & 修复由非角色（怪物、环境等）触发的燃烧反应异常受角色元素精通影响的问题 \\
+\rowline
+3.0 & 新增草系反应（激化／绽放）；降低燃烧元素附着量 \\
+\rowline
+\textbf{5.2} & 超导倍率 0.5 → \textbf{1.5}；碎冰倍率 1.5 → \textbf{3.0}；感电倍率 1.2 → \textbf{2.0}；超载倍率 2.0 → \textbf{2.75} \\
+\rowline
+\textbf{5.8} & \textbf{新增\rxLunar{月感电}反应}（伊涅芙，雷 + 水） \\
+\rowline
+\textbf{月之一（6.0）} & \textbf{新增\rxLunar{月绽放}反应}（菈乌玛，草 + 水）；\textbf{实装「\term{月兆}」队伍加成系统}；绽放反应的草原核对\textbf{角色自身}造成的伤害\textbf{比例}降低为原先的 \textbf{40\%} \\
+\rowline
+\textbf{月之二（6.1）} & 奈芙尔实装「\term{诳言之核}」，\rxLunar{月绽放}体系补全 \\
+\rowline
+\textbf{月之四（6.3）} & \textbf{新增\rxLunar{月结晶}反应}（兹白、哥伦比娅，岩 + 水）；\textbf{岩元素共鸣纳入\rxLunar{月结晶}判定}；深境螺旋出现“月曜反应伤害提升 75\%”地脉异常（该类并列加成自 5.8 起） \\
+\rowline
+\textbf{月之六（6.5）} & 莉奈娅（\rxLunar{月结晶}体系）实装，反应层无改动 \\
+\rowline
+\textbf{月之八（6.7）} & \textbf{新增\rxStellar{星超导}反应}（桑多涅，冰 + 雷）；7 名老角色经「\term{魔女的谕示}」获得\rxStellar{星超导}相关强化（莱欧斯利、八重神子、赛诺、梦见月瑞希、七七、迪奥娜、北斗）；桑多涅的属性栏写作“星之楔：冰” \\
+\rowline
+\textbf{7.0} & \textbf{新增\rxStellar{星扩散}反应}（风 + 冰；转化者：桑多涅、奥黛塔、旅行者(冰)）；\textbf{翠绿之影（风套）4 件套纳入\rxStellar{星扩散}}（\rxStellar{星扩散}反应伤害 +20\%、触发时降 40\% 冰抗）；新增圣遗物「血红之证」「炉火融炼之心」与武器「白湖冬羽」等星烁体系装备 \\
+\end{longtable}
+}
+
+\srcfoot{［T0］上表版本与日期均出自对应版本的官方更新说明“元素反应／系统更新／调整及改善”章节；其中「岩元素共鸣纳入\rxLunar{月结晶}判定」为 ［T1］KeqingMains，「翠绿之影 4 件套」为 ［T2/T3］bwiki 现行文本与 gachabase 数据（官方 7.0 更新说明未列该套装改动）。［版本号与日期口径］表中四个日期（5.8＝2025/07/30、月之一＝2025/09/10、月之四＝2026/01/14、月之八＝2026/07/01）均有官方更新说明原文；而「月之N ＝ 6.(N-1)」的编号对应关系出自 Fandom 版本表（wiki 口径）——官方文本自称「月之N」（英／日文 Luna I–VIII），不出现 6.1～6.8 编号，本文把该映射作为注释而非官方结论。}

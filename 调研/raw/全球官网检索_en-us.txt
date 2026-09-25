@@ -1,0 +1,520 @@
+[2020-10-11 17:14:32] Recent Fixes and Adjustments to In-Game Descriptions (iInfoId=103729)
+    ·When a character takes DMG, the Rain Sword will shatter, reducing the amount of DMG taken.
+[2020-10-11 17:14:32] Recent Fixes and Adjustments to In-Game Descriptions (iInfoId=103729)
+    ·Increases the character&#39;s resistance to interruption.
+[2020-10-11 17:14:32] Recent Fixes and Adjustments to In-Game Descriptions (iInfoId=103729)
+    ·When a character takes DMG, the Rain Sword will shatter, reducing the amount of DMG taken.
+[2020-10-11 17:14:32] Recent Fixes and Adjustments to In-Game Descriptions (iInfoId=103729)
+    ·Increases the character&#39;s resistance to interruption.
+[2020-10-11 17:14:32] Recent Fixes and Adjustments to In-Game Descriptions (iInfoId=103729)
+    If a character triggers an Electro-related Elemental Reaction when Oz is on the field, the enemy shall be stricken with Thundering Retribution, dealing Electro DMG equal to 80% of Fischl&#39;s ATK.
+[2020-10-11 17:14:32] Recent Fixes and Adjustments to In-Game Descriptions (iInfoId=103729)
+    If your active character triggers an Electro-Related Elemental Reaction when Oz is on the field, the enemy shall be stricken with Thundering Retribution, dealing Electro DMG equal to 80% of Fischl&#39;s ATK.
+[2020-10-11 17:14:32] Recent Fixes and Adjustments to In-Game Descriptions (iInfoId=103729)
+    When Sucrose triggers a Swirl effect, characters in the party with the matching element have their Elemental Mastery increased by 50 for 8s.
+[2020-10-11 17:14:32] Recent Fixes and Adjustments to In-Game Descriptions (iInfoId=103729)
+    When Sucrose triggers a Swirl effect, all characters in the party with the matching element (excluding Sucrose) have their Elemental Mastery increased by 50 for 8s.
+[2020-10-11 17:14:32] Recent Fixes and Adjustments to In-Game Descriptions (iInfoId=103729)
+    When &quot;Astable Anemohypostasis Creation - 6308&quot; or &quot;Forbidden Creation - Isomer 75 / Type II&quot; hit an enemy, increases other party members&#39; Elemental Mastery based on 20% of Sucrose&#39;s Elemental Mastery for 8s.
+[2020-10-11 17:14:32] Recent Fixes and Adjustments to In-Game Descriptions (iInfoId=103729)
+    When &quot;Astable Anemohypostasis Creation - 6308&quot; or &quot;Forbidden Creation - Isomer 75 / Type II&quot; hit an enemy, increases all party members&#39; (excluding Sucrose) Elemental Mastery based on 20% of Sucrose&#39;s Elemental Mastery for 8s.
+[2020-10-11 17:14:32] Recent Fixes and Adjustments to In-Game Descriptions (iInfoId=103729)
+    The effects of Hydro-related Elemental Reactions are enhanced for 8s after a character hits an enemy affected by an Omen:
+[2020-10-11 17:14:32] Recent Fixes and Adjustments to In-Game Descriptions (iInfoId=103729)
+    ·Electro-Charged DMG is increased by 15%.
+[2020-10-11 17:14:32] Recent Fixes and Adjustments to In-Game Descriptions (iInfoId=103729)
+    The effects of Hydro-related Elemental Reactions are enhanced for 8s after any of your characters in the party hit an enemy affected by an Omen:
+[2020-10-11 17:14:32] Recent Fixes and Adjustments to In-Game Descriptions (iInfoId=103729)
+    ·Electro-Charged DMG is increased by 15%.
+[2020-10-11 17:14:32] Recent Fixes and Adjustments to In-Game Descriptions (iInfoId=103729)
+    Allies within the radius of Wake of Earth have their CRIT Rate increased by 10% and have increased resistance against interruption.
+[2020-10-11 17:14:32] Recent Fixes and Adjustments to In-Game Descriptions (iInfoId=103729)
+    Party members within the radius of Wake of Earth have their CRIT Rate increased by 10% and have increased resistance against interruption.
+[2020-10-11 17:14:32] Recent Fixes and Adjustments to In-Game Descriptions (iInfoId=103729)
+    4-Piece Set: Upon obtaining a crystal created through a Geo Elemental Reaction, all party members gain 35% RES to that particular element for 10s. Only one form of Elemental RES can be gained in this manner at any one time.
+[2020-11-06 08:38:29] Version 1.1 "A New Star Approaches": About Reputation and Exploration Progress (iInfoId=103753)
+    The Tutorials Archive is your go-to place for useful tips about &quot;Elemental Reactions&quot;, &quot;Enemies&quot;, &quot;System&quot;, and &quot;Adventure&quot;. Look there for all the tutorials you have triggered during your travels.
+[2020-11-11 01:33:29] "A New Star Approaches" Version 1.1 Details (iInfoId=103763)
+    11. Fixes an issue whereby elemental reaction DMG is incorrect if a monster triggers an Overloaded, Superconduct, or Electro-Charged reaction at the moment of its death.
+[2020-11-11 01:33:29] "A New Star Approaches" Version 1.1 Details (iInfoId=103763)
+    4. Fixes an issue whereby when The Bell is equipped, the shield created by the weapon effect &quot;Rebellious Guardian&quot; does not increase the character&#39;s resistance to interruption.
+[2020-11-11 01:33:29] "A New Star Approaches" Version 1.1 Details (iInfoId=103763)
+    16. Fixes an issue with Xingqiu&#39;s Elemental Skill &quot;Guhua Sword: Fatal Rainscreen&quot; and Elemental Burst &quot;Guhua Sword: Raincutter&quot; whereby some types of incoming attacks deal reduced DMG but do not shatter one of the Rain Swords.
+[2020-11-11 01:33:29] "A New Star Approaches" Version 1.1 Details (iInfoId=103763)
+    17. Fixes an issue with Xingqiu&#39;s Elemental Skill &quot;Guhua Sword: Fatal Rainscreen&quot; and Elemental Burst &quot;Guhua Sword: Raincutter&quot; whereby after either ability is cast and Rain Swords are present, switching characters may cause errors in DMG dealt by Electro-Charged reactions triggered by the Rain Swords.
+[2020-11-11 01:33:29] "A New Star Approaches" Version 1.1 Details (iInfoId=103763)
+    20. Fixes an issue with Klee whereby after obtaining an Explosive Spark from the Talent &quot;Pounding Surprise,&quot; the Explosive Spark may be incorrectly consumed if a Charged Attack is interrupted.
+[2020-11-11 01:33:29] "A New Star Approaches" Version 1.1 Details (iInfoId=103763)
+    27. Fixes an issue with Mona and Barbara whereby the special effects of their Charged Attacks may not appear correctly if interrupted by jumping or switching character.
+[2020-11-11 01:33:29] "A New Star Approaches" Version 1.1 Details (iInfoId=103763)
+    33. Fixes an issue with Ningguang whereby after activating the Lv. 6 Constellation &quot;Grandeur be the Seven Stars,&quot; using a Normal Attack and the Elemental Burst &quot;Starshatter&quot; may cause the number of Star Jades to be incorrect.
+[2020-11-11 01:33:29] "A New Star Approaches" Version 1.1 Details (iInfoId=103763)
+    9. Fixes an issue whereby DMG dealt to characters and monsters by Burning grass does not scale with the World Level.
+[2020-11-11 01:33:29] "A New Star Approaches" Version 1.1 Details (iInfoId=103763)
+    14. Fixes an issue of Shatter DMG sometimes not triggering correctly.
+[2020-11-11 01:33:29] "A New Star Approaches" Version 1.1 Details (iInfoId=103763)
+    19. Fixes an issue whereby if Electro-Charged is triggered by adding the elemental effects in a specific order, subsequent DMG dealt by Electro-Charged reactions may not function properly.
+[2020-11-11 01:33:29] "A New Star Approaches" Version 1.1 Details (iInfoId=103763)
+    20. Fixes the issue of Elemental Resonance effect &quot;Shattering Ice&quot; and Kaeya&#39;s Constellation Lv. 1 &quot;Excellent Blood&quot; having no effect against Cryo Slimes.
+[2020-11-11 01:33:29] "A New Star Approaches" Version 1.1 Details (iInfoId=103763)
+    21. Fixes an issue whereby when different types of Elemental Reaction DMG are dealt to a monster within a very short time, some Elemental Reaction DMG may not be applied correctly.
+[2020-12-19 10:24:01] To All Travelers: Regarding Adjustments to Zhongli (iInfoId=103797)
+    *This adjustment will also greatly increase the interruption resistance of Dominus Lapidis&#39; Holding Mode.
+[2020-12-19 10:24:01] To All Travelers: Regarding Adjustments to Zhongli (iInfoId=103797)
+    Increases resistance to interruption. When protected by a shield, increases Attack DMG by 15%.
+[2021-02-01 02:49:00] "All That Glitters" Version 1.3 Update Notice (iInfoId=103837)
+    b. Character combat voice-over can interrupt idle voice-over.
+[2021-02-01 02:49:00] "All That Glitters" Version 1.3 Update Notice (iInfoId=103837)
+    Increases resistance to interruption. When protected by a shield, increases Attack DMG by 15%.
+[2021-02-02 23:45:48] "All That Glitters" Version 1.3 Update Details (iInfoId=103841)
+    b. Character combat voice-over can interrupt idle voice-over.
+[2021-02-02 23:45:48] "All That Glitters" Version 1.3 Update Details (iInfoId=103841)
+    Increases resistance to interruption. When protected by a shield, increases Attack DMG by 15%.
+[2021-02-02 23:45:48] "All That Glitters" Version 1.3 Update Details (iInfoId=103841)
+    8. Fixes an issue with Rock Shield Hilichurl Guards and Ice Shield Hilichurl Guards&#39; resistance to interruption when holding shields.
+[2021-02-02 23:45:48] "All That Glitters" Version 1.3 Update Details (iInfoId=103841)
+    2. Fixes an issue whereby casting some characters&#39; skills can be incorrectly interrupted by sitting.
+[2021-02-02 23:45:48] "All That Glitters" Version 1.3 Update Details (iInfoId=103841)
+    10. Fixes an issue whereby if wooden crates in the Dragonspine region disappear due to Burning, they still diminish Sheer Cold.
+[2021-02-02 23:45:48] "All That Glitters" Version 1.3 Update Details (iInfoId=103841)
+    17. Fixes an issue whereby under certain conditions, an elemental reaction cannot be triggered even though the target is still affected by one of the elements involved. This fix takes effect for all units (both characters and monsters).
+[2021-02-02 23:45:48] "All That Glitters" Version 1.3 Update Details (iInfoId=103841)
+    * Example: A monster who is affected by a relevant element is hit by a Geo attack, causing the Crystallize reaction. As of Version 1.3, providing the monster continues to be affected by the relevant element (i.e. the effect has not worn off), additional elemental reactions can be triggered by attacking the monster with corresponding elemental attacks. (In previous versions, it was sometimes impossible to produce additional elemental reactions after the initial reaction.)
+[2021-02-02 23:45:48] "All That Glitters" Version 1.3 Update Details (iInfoId=103841)
+    ◆ Corrects the wording of the tutorial &quot;Elemental Reaction: Superconduct.&quot; The original wording reads: &quot;Superconduct deals AoE Cryo DMG and significantly decreases DEF for the affected being.&quot; The revised wording reads: &quot;Superconduct deals AoE Cryo DMG and significantly decreases Physical RES for the affected being.&quot;
+[2021-03-16 10:37:26] Invitation of Windblume: Version 1.4 Update Details (iInfoId=103878)
+    Fixes an issue with the boss fight &quot;Andrius, Dominator of Wolves&quot; whereby if Andrius takes damage while sprinting around the perimeter of the proving ground, or while sprinting from the perimeter towards the center, his movements will be interrupted.
+[2021-03-16 10:37:26] Invitation of Windblume: Version 1.4 Update Details (iInfoId=103878)
+    Fixes an issue whereby the homing function of Ningguang&#39;s Elemental Burst &quot;Starshatter&quot; may fail to take effect.
+[2021-03-16 10:37:26] Invitation of Windblume: Version 1.4 Update Details (iInfoId=103878)
+    Fixes an issue in single player mode whereby pausing the game by opening the menu may cause the Elemental Reaction trigger mechanic to not function correctly.
+[2021-04-27 11:21:24] "Beneath the Light of Jadeite" Version 1.5 Update Details (iInfoId=103914)
+    1. Fixes an issue whereby certain characters&#39; skills are unable to trigger elemental reactions in Co-Op Mode.
+[2021-04-27 11:21:24] "Beneath the Light of Jadeite" Version 1.5 Update Details (iInfoId=103914)
+    6. Fixes an issue whereby when Fischl summons Oz, he incorrectly targets the burning area generated by the Pyro Regisvine&#39;s seeds.
+[2021-04-27 11:21:24] "Beneath the Light of Jadeite" Version 1.5 Update Details (iInfoId=103914)
+    7. Fixes an issue whereby when Oz, summoned by Fischl, triggers certain elemental reactions that attack multiple opponents, an incorrect quantity of Elemental Particles is generated.
+[2021-06-05 03:09:19] "Midsummer Island Adventure" Version 1.6 Update Notice (iInfoId=103939)
+    Increases the damage caused by major reactions (i.e. Electro-Charged, Superconduct, Overloaded, Swirl, and Shatter), when a character reaches Level 60 or above.
+[2021-06-05 03:09:19] "Midsummer Island Adventure" Version 1.6 Update Notice (iInfoId=103939)
+    Increases the DMG Bonus provided by Elemental Mastery for major reactions. (Refer to the attributes panel in-game for the exact DMG Bonus amount.)
+[2021-06-08 10:59:47] "Midsummer Island Adventure" Version 1.6 Update Details (iInfoId=103951)
+    ◆ A part of the &quot;Millennial Movement&quot; that wanders amidst the winds. Increases DMG by 10% when wielded. When characters trigger Elemental Reactions, they gain a Sigil of Rebellion. This effect can be triggered once every 0.5s and can be triggered even if said character is not on the field.
+[2021-06-08 10:59:47] "Midsummer Island Adventure" Version 1.6 Update Details (iInfoId=103951)
+    Increases the damage caused by major reactions (i.e. Electro-Charged, Superconduct, Overloaded, Swirl, and Shatter), when a character reaches Level 60 or above.
+[2021-06-08 10:59:47] "Midsummer Island Adventure" Version 1.6 Update Details (iInfoId=103951)
+    Increases the DMG Bonus provided by Elemental Mastery for major reactions. (Refer to the attributes panel in-game for the exact DMG Bonus amount.)
+[2021-06-08 10:59:47] "Midsummer Island Adventure" Version 1.6 Update Details (iInfoId=103951)
+    Fixes an issue whereby when switching characters while protected by a shield, there is a small chance that the character who takes the field will be launched if hit by an attack with a stronger interrupt effect at the moment of switching.
+[2021-06-08 10:59:47] "Midsummer Island Adventure" Version 1.6 Update Details (iInfoId=103951)
+    Fixes an issue whereby when characters enter a conversation when their HP is about to go to zero due to Burning, the character will freeze after the conversation ends.
+[2021-06-08 10:59:47] "Midsummer Island Adventure" Version 1.6 Update Details (iInfoId=103951)
+    Fixes an issue in the open world whereby the character voice-over line triggered by an increase in Friendship Level is not interrupted normally or it overlaps with other audio after switching to other interfaces.
+[2021-06-08 10:59:47] "Midsummer Island Adventure" Version 1.6 Update Details (iInfoId=103951)
+    Fixes an issue whereby when multiple elemental reactions take place simultaneously, some elemental-reaction-related DMG Bonuses may be incorrect (for example, DMG Bonuses triggered by the 4-Piece Set effects of the Crimson Witch of Flames and Thundering Fury artifact sets).
+[2021-07-20 15:32:02] Version 2.0 "The Immovable God and the Eternal Euthymia" Update Details (iInfoId=103985)
+    ◇ Sometime in the ancient past, the mountains rose higher than the skies, and the earth was larger than heaven&#39;s dome. But one day, the mirror shattered, and the oceans arose. In these legends, this caused the court of the primeval sakura to become sundered from the other islands.
+[2021-07-20 15:32:02] Version 2.0 "The Immovable God and the Eternal Euthymia" Update Details (iInfoId=103985)
+    ◆ After the character equipped with this weapon triggers an Electro elemental reaction, nearby party members of an Elemental Type involved in the elemental reaction receive a Elemental DMG Bonus for their element, lasting 6s. Elemental Bonuses gained in this way cannot be stacked.
+[2021-07-20 15:32:02] Version 2.0 "The Immovable God and the Eternal Euthymia" Update Details (iInfoId=103985)
+    Has two states: Ignited and Extinguished. Extinguishing it with the right elemental reactions will give you an opportunity to strike.
+[2021-07-20 15:32:02] Version 2.0 "The Immovable God and the Eternal Euthymia" Update Details (iInfoId=103985)
+    Phase 1: Shattering Moon
+[2021-10-12 11:20:07] "Into the Perilous Labyrinth of Fog" Version 2.2 Update Details (iInfoId=104066)
+    4. Fixes an issue in Single Player Mode whereby the calculation of the duration and cooldown of opponents&#39; abilities would not be interrupted after the game was paused.
+[2021-11-22 02:48:29] "Shadows Amidst Snowstorms" Version 2.3 Update Notice (iInfoId=104093)
+    1. Adds a maximum limit to single-instance DMG of character and enemy Skill DMG, Elemental Reaction DMG, DMG dealt by mechanisms, and other DMG. Maximum DMG will not exceed 9,999,999.
+[2021-11-22 02:48:29] "Shadows Amidst Snowstorms" Version 2.3 Update Notice (iInfoId=104093)
+    2. Reduces the interruption ability of the Hydro Specter&#39;s water ball attack and the Geo Specter&#39;s rock attack.
+[2021-11-23 10:36:12] "Shadows Amidst Snowstorms" Version 2.3 Update Details (iInfoId=104101)
+    ◇ 4-Piece Set: When the character equipping this artifact set heals a character in the party, a Sea-Dyed Foam will appear for 3 seconds, accumulating the amount of HP recovered from healing (including overflow healing). At the end of the duration, the Sea-Dyed Foam will explode, dealing DMG to nearby opponents based on 90% of the accumulated healing. (This DMG is calculated similarly to Reactions such as Electro-Charged, and Superconduct, but is not affected by Elemental Mastery, Character Levels, or Reaction DMG Bonuses). Only one Sea-Dyed Foam can be produced every 3.5 seconds. Each Sea-Dyed Foam can accumulate up to 30,000 HP (including overflow healing). There can be no more than one Sea-Dyed Foam active at any given time. This effect can still be triggered even when the character who is using this artifact set is not on the field.
+[2021-11-23 10:36:12] "Shadows Amidst Snowstorms" Version 2.3 Update Details (iInfoId=104101)
+    1. Adds a maximum limit to single-instance DMG of character and enemy Skill DMG, Elemental Reaction DMG, DMG dealt by mechanisms, and other DMG. Maximum DMG will not exceed 9,999,999.
+[2021-11-23 10:36:12] "Shadows Amidst Snowstorms" Version 2.3 Update Details (iInfoId=104101)
+    2. Reduces the interruption ability of the Hydro Specter&#39;s water ball attack and the Geo Specter&#39;s rock attack.
+[2021-11-23 10:36:12] "Shadows Amidst Snowstorms" Version 2.3 Update Details (iInfoId=104101)
+    1. Fixes an issue whereby the Fatui Agents could still deal damage to the character even after their Sprint Skill was interrupted.
+[2021-11-23 10:36:12] "Shadows Amidst Snowstorms" Version 2.3 Update Details (iInfoId=104101)
+    1. Fixes an issue whereby when certain Catalysts&#39; page-turning animation is interrupted, the next page-turning animation would display abnormally.
+[2022-01-04 13:27:58] Fleeting Colors in Flight Version 2.4 Update Details (iInfoId=104157)
+    7. Fixes an issue whereby when Beidou casts her Elemental Skill, some attacks with very weak interruption effects do not add to the number of attacks she receives.
+[2022-02-11 17:27:48] "When the Sakura Bloom" Version 2.5 Update Notice (iInfoId=104186)
+    When opponents take Electro-Charged DMG, their Electro RES decreases by 10% for 10s. Max 4 stacks. Each stack&#39;s duration is independent. Each enemy can receive this effect once every 1.2s.
+[2022-02-15 07:34:51] "When the Sakura Bloom" Version 2.5 Update Details (iInfoId=104191)
+    When opponents take Electro-Charged DMG, their Electro RES decreases by 10% for 10s. Max 4 stacks. Each stack&#39;s duration is independent. Each enemy can receive this effect once every 1.2s.
+[2022-02-15 07:34:51] "When the Sakura Bloom" Version 2.5 Update Details (iInfoId=104191)
+    6. Fixes an issue with Bennett whereby if he is interrupted during his Charged Attack, his facial expressions would abnormally remain.
+[2022-03-29 07:59:42] "Zephyr of the Violet Garden" Version 2.6 Update Details (iInfoId=104226)
+    3. Fixes an issue whereby the weapon of &quot;Crackling Axe Mitachurl&quot; could not be interacted with and that the Electro element effects were not consumed normally after triggering the Electro-Charged reaction.
+[2022-03-29 07:59:42] "Zephyr of the Violet Garden" Version 2.6 Update Details (iInfoId=104226)
+    1. Fixes an issue whereby the Parametric Transformer gadget cannot be charged when exposed to elemental attacks on burning grass.
+[2022-05-26 07:33:40] "Hidden Dreams in the Depths" Version 2.7 Update Notice (iInfoId=104261)
+    4. Optimizes the mechanism when idle voice-over is interrupted by the character&#39;s Elemental Skill.
+[2022-05-30 11:48:34] "Hidden Dreams in the Depths" Version 2.7 Update Details (iInfoId=104269)
+    4. Optimizes the mechanism when idle voice-over is interrupted by the character&#39;s Elemental Skill.
+[2022-05-30 11:48:34] "Hidden Dreams in the Depths" Version 2.7 Update Details (iInfoId=104269)
+    2. Fixes an issue whereby the Electro-Charged reaction mechanism functioned abnormally after the Version 2.4 update. After the fix, the Electro-Charged reaction mechanism is expected to function as it did before the Version 2.4 update.
+[2022-07-08 13:19:14] Summer Fantasia Version 2.8 Update Notice (iInfoId=104296)
+    4. Reduces Specters&#39; HP and resistance to interruption, and increases the HP Percentage to fill up the Fury meter of Specters.
+[2022-07-12 07:18:02] Summer Fantasia Version 2.8 Update Details (iInfoId=104306)
+    4. Reduces Specters&#39; HP and resistance to interruption, and increases the HP Percentage to fill up the Fury meter of Specters.
+[2022-07-12 07:18:02] Summer Fantasia Version 2.8 Update Details (iInfoId=104306)
+    3. Fixes an issue whereby when the character undergoes the Shatter reaction, character switching or sprinting had a chance to abnormally trigger the Shatter special effects repeatedly.
+[2022-08-19 13:35:04] "The Morn a Thousand Roses Brings" Version 3.0 Update Maintenance Preview (iInfoId=104346)
+    1. New Dendro Elemental Resonance &quot;Sprawling Greenery&quot;: Elemental Mastery increased by 50. After triggering Burning, Quicken, or Bloom reactions, all nearby party members gain 30 Elemental Mastery for 6s. After triggering Aggravate, Spread, Hyperbloom, or Burgeon reactions, all nearby party members gain 20 Elemental Mastery for 6s. The durations of the aforementioned effects will be counted independently.
+[2022-08-19 13:35:04] "The Morn a Thousand Roses Brings" Version 3.0 Update Maintenance Preview (iInfoId=104346)
+    3. Electro Resonance &quot;High Voltage&quot; is adjusted to: &quot;Affected by Hydro for 40% less time. Superconduct, Overloaded, Electro-Charged, Quicken, Aggravate, or Hyperbloom have a 100% chance to generate an Electro Elemental Particle (CD: 5s).&quot;
+[2022-08-19 13:35:04] "The Morn a Thousand Roses Brings" Version 3.0 Update Maintenance Preview (iInfoId=104346)
+    7. Reduces elemental effects on targets affected by Burning reactions.
+[2022-08-19 13:35:04] "The Morn a Thousand Roses Brings" Version 3.0 Update Maintenance Preview (iInfoId=104346)
+    9. Optimizes the display of the Burning reaction effect triggered on the enemy.
+[2022-08-23 12:20:35] "The Morn a Thousand Roses Brings" Version 3.0 Update Details (iInfoId=104354)
+    5. Elemental Reactions: New Catalyze and Bloom reactio
+[2022-08-23 12:20:35] "The Morn a Thousand Roses Brings" Version 3.0 Update Details (iInfoId=104354)
+    Gain 12% All Elemental DMG Bonus. Obtain the Tireless Hunt effect after hitting an opponent with a Charged Attack. This effect increases Charged Attack DMG by 160% of Elemental Mastery. This effect will be removed after 12 Charged Attacks or 10s. Only 1 instance of Tireless Hunt can be gained every 12s.
+[2022-08-23 12:20:35] "The Morn a Thousand Roses Brings" Version 3.0 Update Details (iInfoId=104354)
+    After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 60 Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness&#39; effect cannot stack.
+[2022-08-23 12:20:35] "The Morn a Thousand Roses Brings" Version 3.0 Update Details (iInfoId=104354)
+    After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 60 Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness&#39; effect cannot stack.
+[2022-08-23 12:20:35] "The Morn a Thousand Roses Brings" Version 3.0 Update Details (iInfoId=104354)
+    After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Revival will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 16% ATK for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field.
+[2022-08-23 12:20:35] "The Morn a Thousand Roses Brings" Version 3.0 Update Details (iInfoId=104354)
+    Obtain the &quot;Wax and Wane&quot; effect after an Elemental Reaction is triggered, gaining 24 Elemental Mastery while losing 5% ATK. For every 0.3s, 1 stack of Wax and Wane can be gained. Max 5 stacks. For every 6s that go by without an Elemental Reaction being triggered, 1 stack will be lost. This effect can be triggered even when the character is off-field.
+[2022-08-23 12:20:35] "The Morn a Thousand Roses Brings" Version 3.0 Update Details (iInfoId=104354)
+    Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Bursts, increasing Elemental Mastery by 60 for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal 100% of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s.
+[2022-08-23 12:20:35] "The Morn a Thousand Roses Brings" Version 3.0 Update Details (iInfoId=104354)
+    ◇ 2-Piece Set: Increases Elemental Mastery.
+[2022-08-23 12:20:35] "The Morn a Thousand Roses Brings" Version 3.0 Update Details (iInfoId=104354)
+    ◇ 4-Piece Set: Within a few seconds of triggering an Elemental Reaction, the character equipping this will obtain buffs based on the Elemental Type of the other party members. ATK is increased by a certain percentage for each party member whose Elemental Type is the same as the equipping character, and Elemental Mastery is increased by a certain value for every party member with a different Elemental Type. Each of the aforementioned buffs will count up to 3 characters. This effect can be triggered once every few seconds. The character who equips this can still trigger its effects when not on the field.
+[2022-08-23 12:20:35] "The Morn a Thousand Roses Brings" Version 3.0 Update Details (iInfoId=104354)
+    V. Elemental Reactions
+[2022-08-23 12:20:35] "The Morn a Thousand Roses Brings" Version 3.0 Update Details (iInfoId=104354)
+    1. New Dendro Elemental Resonance &quot;Sprawling Greenery&quot;: Elemental Mastery increased by 50. After triggering Burning, Quicken, or Bloom reactions, all nearby party members gain 30 Elemental Mastery for 6s. After triggering Aggravate, Spread, Hyperbloom, or Burgeon reactions, all nearby party members gain 20 Elemental Mastery for 6s. The durations of the aforementioned effects will be counted independently.
+[2022-08-23 12:20:35] "The Morn a Thousand Roses Brings" Version 3.0 Update Details (iInfoId=104354)
+    3. Electro Resonance &quot;High Voltage&quot; is adjusted to: &quot;Affected by Hydro for 40% less time. Superconduct, Overloaded, Electro-Charged, Quicken, Aggravate, or Hyperbloom have a 100% chance to generate an Electro Elemental Particle (CD: 5s).&quot;
+[2022-08-23 12:20:35] "The Morn a Thousand Roses Brings" Version 3.0 Update Details (iInfoId=104354)
+    7. Reduces elemental effects on targets affected by Burning reactions.
+[2022-08-23 12:20:35] "The Morn a Thousand Roses Brings" Version 3.0 Update Details (iInfoId=104354)
+    9. Optimizes the display of the Burning reaction effect triggered on the enemy.
+[2022-08-23 12:20:35] "The Morn a Thousand Roses Brings" Version 3.0 Update Details (iInfoId=104354)
+    3. Fixes an issue in Controller Mode whereby when players opened the Shortcut Wheel when using Sprint or Alternate Sprint, the Sprint Skill would be interrupted.
+[2022-08-23 12:20:35] "The Morn a Thousand Roses Brings" Version 3.0 Update Details (iInfoId=104354)
+    2. Fixes an issue whereby DMG was calculated abnormally when Electro-Charged, Overloaded, and Superconduct reactions were triggered by lightning strikes in the open world.
+[2022-09-27 09:55:00] "King Deshret and the Three Magi" Version 3.1 Update Details (iInfoId=104403)
+    ◆ Calls upon a divine spirit to possess him, morphing into the Pactsworn Pathclearer, causing his Normal, Charged, and Plunging Attacks to be converted to Electro Damage that cannot be overridden. At the same time, Cyno&#39;s Elemental Mastery and resistance to interruption will increase, and he gains immunity to Electro-Charged Damage. This effect will be canceled when Cyno leaves the field and lasts for a set duration.
+[2022-09-27 09:55:00] "King Deshret and the Three Magi" Version 3.1 Update Details (iInfoId=104403)
+    The completion of the third dance step of Nilou&#39;s Dance of Haftkarsvar will grant all nearby characters the Golden Chalice&#39;s Bounty for 30s upon its completion. Characters under the effect of Golden Chalice&#39;s Bounty will have their Elemental Mastery increased whenever they are hit by Dendro attacks. Also, triggering the Bloom reaction will create Bountiful Cores instead of Dendro Cores. Such Cores will burst very quickly after being created, and they have larger AoEs. Bountiful Cores cannot trigger Hyperbloom or Burgeon, and they share an upper numerical limit with Dendro Cores. Bountiful Core DMG is considered DMG dealt by Dendro Cores produced by Bloom.
+[2022-09-27 09:55:00] "King Deshret and the Three Magi" Version 3.1 Update Details (iInfoId=104403)
+    The equipping character gains 52% of their Elemental Mastery as bonus ATK. When an Elemental Skill hits opponents, the Dream of the Scarlet Sands effect will be gained for 10s: The equipping character will gain 28% of their Elemental Mastery as bonus ATK. Max 3 stacks.
+[2022-09-27 09:55:00] "King Deshret and the Three Magi" Version 3.1 Update Details (iInfoId=104403)
+    · The following effect will trigger every 10s: The equipping character will gain 24% of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field.
+[2022-09-27 09:55:00] "King Deshret and the Three Magi" Version 3.1 Update Details (iInfoId=104403)
+    HP increased by 20%. When an Elemental Skill hits opponents, you gain the Grand Hymn effect for 20s. This effect increases the equipping character&#39;s Elemental Mastery by 0.12% of their Max HP. This effect can trigger once every 0.3s. Max 3 stacks. When this effect gains 3 stacks, or when the third stack&#39;s duration is refreshed, the Elemental Mastery of all nearby party members will be increased by 0.2% of the equipping character&#39;s max HP for 20s.
+[2022-09-27 09:55:00] "King Deshret and the Three Magi" Version 3.1 Update Details (iInfoId=104403)
+    The following effect will trigger every 10s: The equipping character will gain 0.036% Energy Recharge for each point of Elemental Mastery they possess for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field.
+[2022-09-27 09:55:00] "King Deshret and the Three Magi" Version 3.1 Update Details (iInfoId=104403)
+    The following effect will trigger every 10s: The equipping character will gain 24% of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field.
+[2022-09-27 09:55:00] "King Deshret and the Three Magi" Version 3.1 Update Details (iInfoId=104403)
+    Within 10s after an Elemental Reaction is triggered, ATK is increased by 12% and Elemental Mastery is increased by 48.
+[2022-09-27 09:55:00] "King Deshret and the Three Magi" Version 3.1 Update Details (iInfoId=104403)
+    After a character triggers Bloom, Hyperbloom, or Burgeon, all party members will have their Elemental Mastery increased by 40 for 10s. This effect can be triggered once every 0.1s. Max 5 stacks. Each stack&#39;s duration is counted independently.
+[2022-11-01 07:24:58] "Akasha Pulses, the Kalpa Flame Rises" Version 3.2 Update Details (iInfoId=104446)
+    ◆ When tapped, Nahida sends forth karmic bonds of wood and tree from her side, dealing AoE Dendro DMG and marking opponents hit with the Seed of Skandha. When held, she enters Aiming Mode, which will allow you to select a limited number of opponents within a limited area. When Aiming Mode ends, this skill deals Dendro DMG to these opponents and marks them with the Seed of Skandha. Opponents who have been marked by the Seed of Skandha will be linked to one another up till a certain distance. After you trigger Elemental Reactions on opponents who are marked or when they take DMG from Dendro Cores (including Burgeon and Hyperbloom DMG), Nahida will unleash Tri-Karma Purification on this opponent and all connected opponents, dealing Dendro DMG based on her ATK and Elemental Mastery.
+[2022-11-01 07:24:58] "Akasha Pulses, the Kalpa Flame Rises" Version 3.2 Update Details (iInfoId=104446)
+    • If their Elemental Types are the same, increase Elemental Mastery by 32.
+[2022-11-01 07:24:58] "Akasha Pulses, the Kalpa Flame Rises" Version 3.2 Update Details (iInfoId=104446)
+    Each of the aforementioned effects can have up to 3 stacks. Additionally, all nearby party members other than the equipping character will have their Elemental Mastery increased by 40. Multiple such effects from multiple such weapons can stack.
+[2022-11-01 07:24:58] "Akasha Pulses, the Kalpa Flame Rises" Version 3.2 Update Details (iInfoId=104446)
+    • All party members have their Elemental Mastery increased by 200.
+[2022-11-01 07:24:58] "Akasha Pulses, the Kalpa Flame Rises" Version 3.2 Update Details (iInfoId=104446)
+    When characters trigger Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon on an opponent, all party members will gain 10% Dendro DMG Bonus for 10s. This bonus can be triggered once every 5s. Max 4 stacks. Once 4 stacks have been gained, when characters deal Dendro DMG to an opponent, a shockwave will be unleashed at that opponent&#39;s position, dealing True DMG. A shockwave can be unleashed in this way once every 5s.
+[2022-11-01 07:24:58] "Akasha Pulses, the Kalpa Flame Rises" Version 3.2 Update Details (iInfoId=104446)
+    1. Reduces the damage inflicted when the boss &quot;Pyro Hypostasis&quot; is in a Burning state and unleashes blazing punches or serpentine fireballs to hit the character continuously.
+[2022-11-01 07:24:58] "Akasha Pulses, the Kalpa Flame Rises" Version 3.2 Update Details (iInfoId=104446)
+    4. Adjusts the visual effects display of Dendro Elemental Reactions to reduce the load on system performance (including Dendro Infusion, Bloom, Hyperbloom, Burgeon, Quicken, Aggravate, and Spread).
+[2022-11-01 07:24:58] "Akasha Pulses, the Kalpa Flame Rises" Version 3.2 Update Details (iInfoId=104446)
+    8. Fixes an issue whereby when Cyno casts his Elemental Burst, if the Elemental Skill that was cast in the &quot;Endseer&quot; state is interrupted, when casting the next Elemental Skill, the &quot;Judication&quot; effect will trigger abnormally even if Cyno is not in the &quot;Endseer&quot; state.
+[2022-11-01 07:24:58] "Akasha Pulses, the Kalpa Flame Rises" Version 3.2 Update Details (iInfoId=104446)
+    4. Fixes an issue with the boss &quot;Childe&quot; whereby when he switches combat phases, his voice line would be interrupted abnormally.
+[2022-11-01 07:43:12] "Akasha Pulses, the Kalpa Flame Rises" Version 3.2 Update Maintenance Preview (iInfoId=104440)
+    1. Reduces the damage inflicted when the boss &quot;Pyro Hypostasis&quot; is in a Burning state and unleashes blazing punches or serpentine fireballs to hit the character continuously.
+[2022-11-01 07:43:12] "Akasha Pulses, the Kalpa Flame Rises" Version 3.2 Update Maintenance Preview (iInfoId=104440)
+    4. Adjusts the visual effects display of Dendro Elemental Reactions to reduce the load on system performance (including Dendro Infusion, Bloom, Hyperbloom, Burgeon, Quicken, Aggravate, and Spread).
+[2022-12-06 06:14:36] "All Senses Clear, All Existence Void" Version 3.3 Update Details (iInfoId=104486)
+    ◇ 2-Piece Set: Increased Elemental Mastery.
+[2022-12-06 06:14:36] "All Senses Clear, All Existence Void" Version 3.3 Update Details (iInfoId=104486)
+    Fixes an issue with Nahida&#39;s Talent &quot;Awakening Elucidated&quot; whereby there is a small chance that the Elemental Mastery increase buff of the 4-Piece Artifact set &quot;Gilded Dreams&quot; was not properly included in the effect of the Talent.
+[2022-12-06 06:14:36] "All Senses Clear, All Existence Void" Version 3.3 Update Details (iInfoId=104486)
+    Fixes an issue whereby there is a probability that the Burgeon reaction would not be properly included in the Elemental Mastery increase buff of the 4-Piece Artifact set &quot;Gilded Dreams.&quot;
+[2023-01-13 19:58:21] "The Exquisite Night Chimes" Version 3.4 Update Maintenance Preview (iInfoId=105044)
+    Optimizes the sound of some Elemental Reaction effects in Genius Invokation TCG.
+[2023-01-17 16:57:09] "The Exquisite Night Chimes" Version 3.4 Update Details (iInfoId=105081)
+    CRIT Rate is increased by 4%. After Normal Attacks deal Elemental DMG, the Foliar Incision effect will be obtained, increasing DMG dealt by Normal Attacks and Elemental Skills by 120% of Elemental Mastery. This effect will disappear after 28 DMG instances or 12s. You can obtain Foliar Incision once every 12s.
+[2023-01-17 16:57:09] "The Exquisite Night Chimes" Version 3.4 Update Details (iInfoId=105081)
+    Optimizes the sound of some Elemental Reaction effects in Genius Invokation TCG.
+[2023-01-17 16:57:09] "The Exquisite Night Chimes" Version 3.4 Update Details (iInfoId=105081)
+    Fixed an issue where some enemies' weapon could become the target of an Electro-Charged reaction.
+[2023-02-28 15:00:21] "Windblume's Breath" Version 3.5 Update Details (iInfoId=105440)
+    ◆ Dehya's Elemental Skill "Molten Inferno" has two parts to it. "Molten Inferno: Indomitable Flame" deals AoE Pyro DMG and creates a Fiery Sanctum field, while "Molten Inferno: Ranging Flame" recreates said field at a new position after dealing AoE Pyro DMG, which will inherit the remaining duration of the previous field. When an enemy within a Fiery Sanctum field takes damage, the field will unleash a coordinated attack. In addition, active characters within the Fiery Sanctum field have their resistance to interruption increased, and when such characters take DMG, a portion of that damage will be mitigated and flow into Redmane's Blood. Dehya will then take this DMG over a period of time.
+[2023-02-28 15:00:21] "Windblume's Breath" Version 3.5 Update Details (iInfoId=105440)
+    ◆ After casting her Elemental Burst "Leonine Bite," Dehya retrieves the Fiery Sanctum on the field and enters the "Blazing Lioness" state, which increases her resistance to interruption. In this state, Dehya uses her Flame-Mane's Fist and Incineration Drive to deal Pyro DMG to enemies. When this state ends, a Fiery Sanctum field will be recreated at her new position, and will inherit the remaining duration of the previous field.
+[2023-02-28 15:00:21] "Windblume's Breath" Version 3.5 Update Details (iInfoId=105440)
+    Within 8s after the character's Elemental Skill hits an opponent or the character triggers an Elemental Reaction, their ATK and Elemental Mastery will be increased by 12% and 48 respectively.
+[2023-02-28 15:00:21] "Windblume's Breath" Version 3.5 Update Details (iInfoId=105440)
+    Fixes an issue whereby a Korean voice-over in the Story Quest "Kaeya's Gain" was abnormally interrupted.
+[2023-04-11 11:12:05] "A Parade of Providence" Version 3.6 Update Details (iInfoId=111044)
+    ◆ Baizhu enters the Pulsing Clarity state, creating a Seamless Shield that absorbs Dendro DMG with 250% effectiveness. While in this state, Baizhu will generate a new Seamless Shield every 2.5s. When a new Seamless Shield is generated, or when the Seamless Shield's effects expire, or when it is shattered, the Seamless Shield will heal your own active character based on Baizhu's Max HP and attack opponents by unleashing Spiritveins, dealing Dendro DMG.
+[2023-04-11 11:12:05] "A Parade of Providence" Version 3.6 Update Details (iInfoId=111044)
+    ◆ Kaveh completely unleashes Mehrak's energy and creates a cubic scanned space, dealing AoE Dendro DMG to all opponents within it, causing all Dendro Cores in its AoE to immediately burst. For a specific duration, it increases Kaveh's Normal, Charged, and Plunging Attack AoE, converts his attack DMG to Dendro DMG that cannot be overridden, and increases Kaveh's resistance to interruption. In addition, all Dendro Cores created by all your own party members through Bloom reactions will deal additional DMG when they burst. These effects will be canceled once Kaveh leaves the field.
+[2023-04-11 11:12:05] "A Parade of Providence" Version 3.6 Update Details (iInfoId=111044)
+    When DMG dealt by Dendro Cores (including DMG from Hyperbloom and Burgeon reactions) hits a character, Elemental Mastery will be increased by 200 for all characters in the party for 4s.
+[2023-04-11 11:12:05] "A Parade of Providence" Version 3.6 Update Details (iInfoId=111044)
+    Fixes an issue with the Spiral Abyss 2 and Domain of Blessing: Frost I whereby opponents were unable to emerge from the Frozen state even after the Shatter reaction is triggered.
+[2023-04-11 11:12:05] "A Parade of Providence" Version 3.6 Update Details (iInfoId=111044)
+    Fixes an issue whereby under certain circumstances, the Plunging Attack of Electro Catalyst characters when it hits the water would have a chance of causing a sustained Electro-Charged reaction in the water.
+[2023-05-22 21:00:59] "Duel! The Summoners' Summit!" Version 3.7 Update Details (iInfoId=111578)
+    The character's Elemental Mastery will increase by 40 within 6s after Charged Attacks hit opponents. Max 2 stacks. This effect can be triggered once every 0.5s.
+[2023-05-22 21:00:59] "Duel! The Summoners' Summit!" Version 3.7 Update Details (iInfoId=111578)
+    Fixes an issue whereby in some cases, after a character defeats an opponent through Elemental Reactions, when they run into the same opponent again, animations of the opponent being defeated will be abnormally displayed.
+[2023-05-22 21:00:59] "Duel! The Summoners' Summit!" Version 3.7 Update Details (iInfoId=111578)
+    Fixes an issue whereby, under certain circumstances, if Baizhu is interrupted while casting a Charged Attack, his next Charged Attack would have a chance to trigger the interrupted Charged Attack as an extra hit.
+[2023-05-22 21:00:59] "Duel! The Summoners' Summit!" Version 3.7 Update Details (iInfoId=111578)
+    Fixes issues with the "Character" interface in which the voice-overs for certain characters cannot be exited and aren't interrupted as normal when switching between characters.
+[2023-06-30 17:39:14] "Secret Summer Paradise" Version 3.8 Update Maintenance Preview (iInfoId=112157)
+    Optimizes the display location and size of special effects of certain Elemental applications and Elemental Reactions on enemies.
+[2023-07-03 18:49:44] "Secret Summer Paradise" Version 3.8 Update Details (iInfoId=112174)
+    Optimizes the display location and size of special effects of certain Elemental applications and Elemental Reactions on enemies.
+[2023-08-15 10:43:52] "As Light Rain Falls Without Reason" Version 4.0 Update Details  (iInfoId=112690)
+    ◆ Deals AoE Cryo DMG, resets the CD of Pressurized Floe, and enters the Subnautical Hunter mode. In the Subnautical Hunter mode, Pressurized Floe will receive a CD decrease and Freminet's resistance to interruption will increase. Additionally, in this mode, the frost DMG of Freminet's Normal Attacks will be increased.
+[2023-08-15 10:43:52] "As Light Rain Falls Without Reason" Version 4.0 Update Details  (iInfoId=112690)
+    When there are at least 3 different Elemental Types in your party, Elemental Mastery will be increased by 120.
+[2023-08-15 10:43:52] "As Light Rain Falls Without Reason" Version 4.0 Update Details  (iInfoId=112690)
+    When not on the field for more than 5s, Max HP will be increased by 32% and Elemental Mastery will be increased by 40. These effects will be canceled after the wielder has been on the field for 10s.
+[2023-08-15 10:43:52] "As Light Rain Falls Without Reason" Version 4.0 Update Details  (iInfoId=112690)
+    The twin molten horns located high up on its body are Pyro-aligned organs that can unleash more vicious elemental attacks and grant it even stronger defensive capabilities. When the Armored Crablord unleashes certain attacks, its twin molten horns are closer to the ground. This provides for a great opportunity to use Elemental Reactions to remove the Pyro element within.
+[2023-08-15 10:43:52] "As Light Rain Falls Without Reason" Version 4.0 Update Details  (iInfoId=112690)
+    Shatterstone Breacher Primus, Large Shatterstone Breacher Primus, Overgrown Breacher Primus, and Large Overgrown Breacher Primus
+[2023-08-15 10:43:52] "As Light Rain Falls Without Reason" Version 4.0 Update Details  (iInfoId=112690)
+    In battle, they will enter a stressed state and unleash fierce attacks while under the protection of a Geo or Dendro shield. If the shield is broken during this period, it will cause the life forms to fall into a paralyzed state. Aside from the usual methods of using Elemental Reactions, attacks imbued with ousia and pneuma can also efficiently pierce the defenses of the Breacher Primuses.
+[2023-08-15 10:43:52] "As Light Rain Falls Without Reason" Version 4.0 Update Details  (iInfoId=112690)
+    Some of them are more aggressive and can unleash fiercer elemental attacks and possess even stronger defensive capabilities. If you use Elemental Reactions to remove their Elemental Shields, things should be easier to handle.
+[2023-08-15 10:43:52] "As Light Rain Falls Without Reason" Version 4.0 Update Details  (iInfoId=112690)
+    When a character recovers HP, that character gains 10% increased ATK for 10s. Max 3 stacks. Each stack will be counted independently. When a character loses HP, that character gains 40 Elemental Mastery for 10s. Max 3 stacks. Each stack will be counted independently. The effects from recovering and losing HP are independent from each other, and stacks are counted independently.
+[2023-08-15 10:43:52] "As Light Rain Falls Without Reason" Version 4.0 Update Details  (iInfoId=112690)
+    There is an issue whereby some enemies in the water and some characters in swimming mode are unable to take DMG from Electro-Charged Reactions in certain water bodies.This issue is scheduled to be fixed in Version 4.1.
+[2023-09-26 12:59:19] "To the Stars Shining in the Depths" Version 4.1 Update Details (iInfoId=113142)
+    ◆ Allows Wriothesley to enter the Chilling Penalty state. This state increases Wriothesley's interruption resistance. When his HP is above 50% and his Normal Attack hits opponents, it will consume Wriothesley's HP to enhance this attack and increase its DMG.
+[2023-09-26 12:59:19] "To the Stars Shining in the Depths" Version 4.1 Update Details (iInfoId=113142)
+    · When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain 40 Elemental Mastery, and 2s after the effect occurs, 2 Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.
+[2023-09-26 12:59:19] "To the Stars Shining in the Depths" Version 4.1 Update Details (iInfoId=113142)
+    · When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain 40 Elemental Mastery, and 2s after the effect occurs, 2 Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.
+[2023-09-26 12:59:19] "To the Stars Shining in the Depths" Version 4.1 Update Details (iInfoId=113142)
+    The Xenomare Pearl beneath its head is a crystallization of Electro that will allow it to use more powerful elemental attacks and possess stronger defensive abilities. Other than using Elemental Reactions to destroy the Xenomare Pearl, you can also destroy the Resonant Coral Orbs it creates while guiding Fontemer Hoarthunder to deal effective DMG to said Pearl.
+[2023-09-26 12:59:19] "To the Stars Shining in the Depths" Version 4.1 Update Details (iInfoId=113142)
+    Adjusts the effect of Cryo Cicins summoned by the Character Card "Cryo Cicin Mage": After the Cryo Cicin Mage takes Elemental Reaction DMG, this card loses 1 Usage.
+[2023-09-26 12:59:19] "To the Stars Shining in the Depths" Version 4.1 Update Details (iInfoId=113142)
+    Fixes an issue which would occur in certain situations where enemies would be affected by both Hydro and Pyro at the same time, but wouldn't undergo an Elemental Reaction.
+[2023-09-26 12:59:19] "To the Stars Shining in the Depths" Version 4.1 Update Details (iInfoId=113142)
+    Fixes an issue whereby some enemies in the water and some characters in swimming mode were unable to take DMG from Electro-Charged Reactions in certain water bodies.
+[2023-11-07 11:26:03] "Masquerade of the Guilty" Version 4.2 Update Details (iInfoId=113561)
+    During the challenge, small Half-Tulpas will constantly appear and fight against their opponents. The Hydro Tulpa will absorb these Half-Tulpas into itself to grow stronger. You can use attacks or Elemental Reactions to disrupt this absorption process.
+[2024-01-29 15:56:26] "Vibrant Harriers Aloft in  Spring Breeze" Version 4.4 Update Details (iInfoId=122141)
+    ◆ Gaming enters Wushou Stance, briefly applying Pyro to him,  recovering a fixed amount of HP, and summons his companion, the Suanni Man  Chai, to smash into his target, dealing AoE Pyro DMG. After doing so, Man  Chai will then attempt to roll towards Gaming. When it links up with Gaming,  Man Chai will leave the field and reset the CD for Gaming's Elemental Skill,  Bestial Ascent. While Wushou Stance is active, his resistance to interruption is increased, and when Gaming lands with Charmed Cloudstrider attack or completes the forward pounce attack from Bestial Ascent with over 50% HP, he will summon Man Chai again.
+[2024-01-29 15:56:26] "Vibrant Harriers Aloft in  Spring Breeze" Version 4.4 Update Details (iInfoId=122141)
+    It can use Hydro and Anemo simultaneously in battle. Render it  Frozen while it is gathering Hydro-aligned adeptal energy, before using  Shatter, Melt, or other Elemental Reactions to break the ice and cause it to  enter an immobile state. When it is gathering Anemo-aligned adeptal energy,  use attacks from Elements that can react with Anemo to destroy the Spiritwind  Pearls summoned during the process to achieve the same advantage.
+[2024-01-29 15:56:26] "Vibrant Harriers Aloft in  Spring Breeze" Version 4.4 Update Details (iInfoId=122141)
+    Use Elemental Reactions to freeze this creature and use  Shatter, Melt, and other Elemental Reactions to break the ice and render it immobile temporarily.
+[2024-01-29 15:56:26] "Vibrant Harriers Aloft in  Spring Breeze" Version 4.4 Update Details (iInfoId=122141)
+    Optimizes the "Character/Ascension" screen so that characters' idle voice-overs now stop completely after being interrupted by  Ascension voice-overs.
+[2024-03-11 19:37:48] "Blades Weaving Betwixt Brocade" Version 4.5 Update Details (iInfoId=122817)
+    New Action Cards: "Tome of the Eternal Flow," "Golden Troupe's Reward," "Fortress of Meropide," "Lumenstone Adjuvant," "Controlled Directional Blast," and "Day of Resistance: Moment of Shattered Dreams" can be purchased from Prince at The Cat's Tail.
+[2024-03-11 19:37:48] "Blades Weaving Betwixt Brocade" Version 4.5 Update Details (iInfoId=122817)
+    Fixes an issue during challenges whereby, if the card "Eremite Desert Clearwater" was switched off-field after casting skills that needed to be prepared, the skill that was being prepared would not be interrupted as it should have been.
+[2024-04-23 17:27:42] "Two Worlds Aflame, the Crimson Night Fades" Version 4.6 Update Details (iInfoId=123426)
+    ◇ 4-Piece Set: After leaving combat for 3s, DMG dealt increased by 50%. In combat, if no Burning opponents are nearby for more than 6s, this DMG Bonus will decrease by 10% per second until it reaches 0%. When a Burning opponent exists, it will increase by 10% instead until it reaches 50%. This effect still triggers if the equipping character is off-field.
+[2024-04-23 17:27:42] "Two Worlds Aflame, the Crimson Night Fades" Version 4.6 Update Details (iInfoId=123426)
+    The Knave will apply Bonds of Life to characters. After clearing a Bond of Life, characters in your party will unleash a Scarlet Nighttide the next time one of their Charged Attacks hit The Knave. This attack can interrupt some of The Knave's attacks, including Bloodtide Banquet. Some of The Knave's attacks will consume her own HP, and when these attacks hit a character, they will restore her own HP and apply a Bond of Life to the character; if the character hit already has a Bond of Life, the DMG dealt by the attack will be increased yet more.
+[2024-04-23 17:27:42] "Two Worlds Aflame, the Crimson Night Fades" Version 4.6 Update Details (iInfoId=123426)
+    When a character triggers Vaporize, Overloaded, Melt, Burning, Burgeon, Pyro Swirl, or Pyro Crystallize reactions on an opponent, the opponent's All Elemental RES and Physical RES is reduced by 30% for 4s.
+[2024-06-04 11:02:47] "An Everlasting Dream Intertwined" Version 4.7 Update Details (iInfoId=123975)
+    ◆ Perform a secret rite, entering the "Twilight Meditation" state, during which Sethos's Normal Attacks will be converted into enemy-piercing Dusk Bolts: Deal Electro DMG to opponents in its path, with DMG increased based on Sethos's Elemental Mastery. DMG dealt by Dusk Bolts is considered Charged Attack DMG.
+[2024-06-04 11:02:47] "An Everlasting Dream Intertwined" Version 4.7 Update Details (iInfoId=123975)
+    After Elemental Energy is decreased, the equipping character's Elemental Mastery will increase by 40 for 18s. Max 2 stacks.
+[2024-06-04 11:02:47] "An Everlasting Dream Intertwined" Version 4.7 Update Details (iInfoId=123975)
+    Fixes an issue whereby there is still a small probability that C1 Arlecchino's interruption resistance increase would be abnormal when she performs Normal or Charged Attacks while affected by the Masque of the Red Death under specific circumstances.
+[2024-06-04 11:02:47] "An Everlasting Dream Intertwined" Version 4.7 Update Details (iInfoId=123975)
+    Fixes an issue whereby when Neuvillette was preparing the skill "Equitable Judgment," if he was switched to another character as a result of triggering an Elemental Reaction (such as Overloaded) or for any other reason, the skill that Neuvillette was preparing would not be canceled. Neuvillette's skill description has also been optimized.
+[2024-07-15 21:28:32] "Summertide Scales and Tales" Version 4.8 Update Details (iInfoId=124837)
+    ◆ Creates a Lumidouce Case that fires Puffs of Puredew at nearby opponents at intervals, dealing Dendro DMG. When nearby opponents are affected by Burning, they will give off Scents. The Lumidouce Case collects nearby Scents and after collecting a certain amount, its level will increase, increasing the quantity and DMG of Puffs of Puredew.
+[2024-07-15 21:28:32] "Summertide Scales and Tales" Version 4.8 Update Details (iInfoId=124837)
+    ATK increased by 15%. When the equipping character triggers Burning on an opponent or deals Dendro DMG to Burning opponents, the DMG dealt is increased by 18%. This effect lasts for 8s, max 2 stacks. When 2 stacks are reached or when the duration is refreshed at 2 stacks, restore 12 Energy. Energy can be restored this way once every 12s. The 2 aforementioned effects can be triggered even when the character is off-field.
+[2024-07-15 21:28:32] "Summertide Scales and Tales" Version 4.8 Update Details (iInfoId=124837)
+    When characters attack Burning opponents, their CRIT Rate is increased by 15% and their CRIT DMG is increased by 30%.
+[2024-08-24 21:01:37] A Letter of Thanks (iInfoId=125474)
+    As a game that has been in operation for years, Genshin Impact has been able to continue on its journey thanks to the understanding, patience, and support from you. In our journey ahead, "the tale will continue on, like flames ablaze, and glory will be passed through generations, forever burning."
+[2024-08-27 13:33:55] "Flowers Resplendent on the Sun-Scorched Sojourn" Version 5.0 Update Details (iInfoId=125553)
+    Gain 1 stack of Canopy's Favor after hitting an opponent with an Elemental Skill. This can be triggered once every 0.5s. After a nearby party member triggers a Burning or Burgeon reaction, the equipping character will gain 3 stacks. This effect can be triggered once every 2s and can be triggered even when the triggering party member is off-field. Canopy's Favor: Elemental Skill and Burst DMG is increased by 10% for 6s. Max 6 stacks. Each stack is counted independently.
+[2024-08-27 13:33:55] "Flowers Resplendent on the Sun-Scorched Sojourn" Version 5.0 Update Details (iInfoId=125553)
+    For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains 4.8% increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains 24 Elemental Mastery.
+[2024-08-27 13:33:55] "Flowers Resplendent on the Sun-Scorched Sojourn" Version 5.0 Update Details (iInfoId=125553)
+    ◇ 4-Piece Set: After the equipping character triggers a reaction related to their Elemental Type, all nearby party members gain a 12% Elemental DMG Bonus for the Elemental Types involved in the elemental reaction for 15s. If the equipping character is in the Nightsoul's Blessing state when triggering this effect, all nearby party members gain an additional 28% Elemental DMG Bonus for the Elemental Types involved in the elemental reaction for 20s. The equipping character can trigger this effect while off-field, and the DMG bonus from Artifact Sets with the same name do not stack.
+[2024-08-27 13:33:55] "Flowers Resplendent on the Sun-Scorched Sojourn" Version 5.0 Update Details (iInfoId=125553)
+    (1) In the new gameplay phase, Wondrous Boons will be updated to "Brilliant Blessings" focused on the current season's three-element reactions. You can continuously upgrade the Blessing level to enhance the effects of the corresponding Elemental Reactions. Based on the new Brilliant Blessings, the refresh mechanic of Performance Events has also been adjusted.
+[2024-08-27 13:33:55] "Flowers Resplendent on the Sun-Scorched Sojourn" Version 5.0 Update Details (iInfoId=125553)
+    After the version update is completed, the rewards for the web event "Off We Go to the Nation of Pyro!" will be issued officially: "Ring of Yaxche," "Footprint of the Rainbow," and "Earth Shaker," along with their corresponding Ascension Materials: Delirious Decadence of the Sacred Lord ×6, Blazing Sacrificial Heart's Terror ×3, Axis of the Secret Source ×3, Shard of a Shattered Will ×3, Ignited Stone ×3, Sentry's Wooden Whistle ×4, and Damaged Mask ×2. These rewards will be sent to Travelers via in-game mail.
+[2024-10-08 13:30:15] "The Rainbow Destined to Burn" Version 5.1 Update Details (iInfoId=126305)
+    When characters enter and maintain the Nightsoul's Blessing state, the Secret Source Automaton: Configuration Device will start progressing through its Adaptive Countermeasures. Once those are complete, the Configuration Device will start preparing its Boltsphere Cannon. During this time, the Configuration Device will start up its Accretion Mechanism to dig into Solid Phlogiston and collect phlogiston. The Accretion Mechanism will generate an energy field. If you wish to destroy the Mechanism and interrupt the charging of the Boltsphere Cannon, you must first climb the Solid Phlogiston and enter the energy field.
+[2024-10-08 13:30:15] "The Rainbow Destined to Burn" Version 5.1 Update Details (iInfoId=126305)
+    Adjusts the position of the related special effects when the enemy "Goldflame Qucusaur Tyrant" triggers a Burning reaction.
+[2024-11-18 15:41:12] "Tapestry of Spirit and Flame" Version 5.2 Update Details (iInfoId=126992)
+    ◇ After casting her Elemental Skill "Spirit Reins, Shadow Hunt," Chasca immediately deals Nightsoul-aligned AoE Anemo DMG to nearby opponents, and enters the Nightsoul's Blessing state. Chasca then mounts "Soulsniper: Ritual Staff" and remains airborne, increasing her Movement SPD and resistance to interruption. In this state, tap the Normal Attack button to deal Nightsoul-aligned Anemo DMG to opponents. Hold the Normal Attack button to carry out "Multitarget Fire" and load up to 6 Shadowhunt Shells based on the duration for which the skill was charged, dealing DMG to selected opponents. Some Shadowhunt Shells will undergo Elemental Conversion based on the Elemental Types of the other characters in the party, dealing Nightsoul-aligned DMG corresponding to the Elemental Types.
+[2024-11-18 15:41:12] "Tapestry of Spirit and Flame" Version 5.2 Update Details (iInfoId=126992)
+    Also, when nearby opponents take Electro-Charged reaction DMG or Nightsoul-aligned DMG dealt by other nearby characters, Ororon will consume a set amount of Nightsoul points and enter the Nightsoul's Blessing state. He will then deal Nightsoul-aligned Electro DMG to a set number of opponents.
+[2024-11-18 15:41:12] "Tapestry of Spirit and Flame" Version 5.2 Update Details (iInfoId=126992)
+    Burning-Aflame: Wayob Manifestation and Biting-Cold Wayob Manifestation
+[2024-11-18 15:41:12] "Tapestry of Spirit and Flame" Version 5.2 Update Details (iInfoId=126992)
+    When holding down to drag-select in Editing Mode's Multi-Select Mode, if selection is interrupted, or no new Furnishings are selected, the previously selected Furnishings will remain selected.
+[2024-11-18 15:41:12] "Tapestry of Spirit and Flame" Version 5.2 Update Details (iInfoId=126992)
+    Increases the Base DMG of the Overloaded, Superconduct, Electro-Charged, and Shatter reactions.
+[2024-11-18 15:41:12] "Tapestry of Spirit and Flame" Version 5.2 Update Details (iInfoId=126992)
+    Fixes an issue whereby there is a chance that the "Goldflame Qucusaur Tyrant" won't take DMG from Electro-Charged reactions when challenged.
+[2024-12-31 15:53:13] "Incandescent Ode of Resurrection" Version 5.3 Update Details (iInfoId=127791)
+    ◆ Elemental Burst: Hour of Burning Skies
+[2024-12-31 15:53:13] "Incandescent Ode of Resurrection" Version 5.3 Update Details (iInfoId=127791)
+    Increases Elemental Mastery by 100. Gain the "Mirror of Night" effect within 15s after the equipping character creates a shield: The current active party member deals 28% increased DMG to nearby opponents. You can gain the "Mirror of Night" effect once every 14s.
+[2024-12-31 15:53:13] "Incandescent Ode of Resurrection" Version 5.3 Update Details (iInfoId=127791)
+    Fixes an issue whereby when challenging the "Millennial Pearl Seahorse" and "Guardian of Apep's Oasis," there was a chance they wouldn't take DMG from Electro-Charged reactions.
+[2024-12-31 15:53:13] "Incandescent Ode of Resurrection" Version 5.3 Update Details (iInfoId=127791)
+    Fixes an issue whereby under specific circumstances, in the World Quest "The Flowing Primal Flame," during the quest objective "Collecting Burning Firestone," on the floating island northeast of the altar, the enemies near the mechanism would abnormally disappear, leaving no way to unlock the mechanism.
+[2025-02-11 11:02:57] "Moonlight Amidst Dreams" Version 5.4 Update Details (iInfoId=154285)
+    Elemental Mastery increases by 120 for 6s after triggering Swirl. Elemental Mastery increases by 96 for 9s after the wielder's Elemental Skill hits an opponent. Elemental Mastery increases by 32 for 30s after the wielder's Elemental Burst hits an opponent.
+[2025-02-11 11:02:57] "Moonlight Amidst Dreams" Version 5.4 Update Details (iInfoId=154285)
+    • All party members have their Elemental Mastery increased by 200.
+[2025-02-11 11:02:57] "Moonlight Amidst Dreams" Version 5.4 Update Details (iInfoId=154285)
+    Fixes an issue whereby when Citlali or Mavuika triggered their chat voice lines, after swapping to other system interfaces and returning to the original interface, the characters' interrupted voice lines would not resume playing.
+[2025-02-11 11:02:57] "Moonlight Amidst Dreams" Version 5.4 Update Details (iInfoId=154285)
+    Fixes an issue whereby when Citlali or Mavuika triggered their Chat voice lines, after swapping to other system interfaces and returning to the original interface, the characters' interrupted voice lines would not resume playing.
+[2025-03-25 11:41:52] "Day of the Flame's Return" Version 5.5 Update Details (iInfoId=155172)
+    Decreases the maximum amount of reaction DMG caused by Burning grass and Electro-Charged water bodies in Domains.
+[2025-03-25 11:41:52] "Day of the Flame's Return" Version 5.5 Update Details (iInfoId=155172)
+    Adjusts the effect of Event Card "Elemental Resonance: Sprawling Greenery" to: "If you have Burning Flame/Dendro Core/Catalyzing Field on the field, deal 1 Pyro DMG/Hydro DMG/Electro DMG to the opposing active character."
+[2025-04-30 11:13:27] "Paralogism" Version 5.6 Update Details (iInfoId=155739)
+    When casting his Elemental Skill, he enters the Nightsoul's Blessing state, in which he can hover in mid-air or move rapidly. During this period, Ifa fires a Tonicshot that restores HP for the entire party. When Ifa is in the Nightsoul's Blessing state, he can also increase the Swirl and Electro-Charged DMG dealt by all party members.
+[2025-04-30 11:13:27] "Paralogism" Version 5.6 Update Details (iInfoId=155739)
+    During the battle's second phase, the Ascended King and the Sublimated Queen will charge up to unleash a "Lethal Blow." Continuously trigger Frozen to counteract the charging. Once the Sublimated Queen is Frozen, lure the Ascended King into charging into her. This will interrupt the "Lethal Blow" completely.
+[2025-04-30 11:13:27] "Paralogism" Version 5.6 Update Details (iInfoId=155739)
+    Fixes an issue whereby some effects that take effect "after triggering an elemental reaction" fail to take effect properly when the Shatter reaction is triggered.
+[2025-07-29 14:53:19] Sunspray Summer Resort Version 5.8 Update Details (iInfoId=158026)
+    When Electro-Charged, Lunar-Charged, or Bloom is triggered, restore 12 Elemental Energy and increase Elemental Mastery by 60 for 15 seconds. This effect can be triggered once every 15s and can be triggered even when the equipping character is off-field.
+[2025-07-29 14:53:19] Sunspray Summer Resort Version 5.8 Update Details (iInfoId=158026)
+    VI. Elemental Reaction
+[2025-07-29 14:53:19] Sunspray Summer Resort Version 5.8 Update Details (iInfoId=158026)
+    • First Half: Characters' Electro-Charged and Lunar-Charged DMG increased by 75%.
+[2025-09-09 16:22:27] "Song of the Welkin Moon: Segue - 'A Dance of Snowy Tides and Hoarfrost Groves'": Version Luna I Update Details (iInfoId=159349)
+    When Flins uses his Elemental Skill, he enters the Manifest Flame form, infusing his Normal Attacks with Electro DMG and increasing his resistance to interruption. While in this form, he gains access to an enhanced Elemental Skill. After using the enhanced skill, a special Elemental Burst becomes available.
+[2025-09-09 16:22:27] "Song of the Welkin Moon: Segue - 'A Dance of Snowy Tides and Hoarfrost Groves'": Version Luna I Update Details (iInfoId=159349)
+    When the equipping character's Elemental Skill deals Hydro or Dendro DMG, they will gain Prayer of the Far North: Elemental Mastery is increased by 60 for 4.5s. When nearby party members trigger Lunar-Bloom reactions, the equipping character gains New Moon Verse: Elemental Mastery is increased by 60 for 10s. When both Prayer of the Far North and New Moon Verse are in effect, all nearby party members' Bloom DMG is increased by 120%, their Hyperbloom and Burgeon DMG is increased by 80%, and their Lunar-Bloom DMG is increased by 40%. This effect cannot stack. The aforementioned effects can be triggered even if the equipping character is off-field.
+[2025-09-09 16:22:27] "Song of the Welkin Moon: Segue - 'A Dance of Snowy Tides and Hoarfrost Groves'": Version Luna I Update Details (iInfoId=159349)
+    For 20s after using an Elemental Skill, the equipping character's Elemental Mastery is increased by 100.
+[2025-09-09 16:22:27] "Song of the Welkin Moon: Segue - 'A Dance of Snowy Tides and Hoarfrost Groves'": Version Luna I Update Details (iInfoId=159349)
+    Upon causing an Elemental Reaction, increases Max HP by 16% for 12s. Moonsign: Ascendant Gleam: Max HP from this effect is further increased by 16%. This effect can be triggered even if the equipping character is off-field.
+[2025-09-09 16:22:27] "Song of the Welkin Moon: Segue - 'A Dance of Snowy Tides and Hoarfrost Groves'": Version Luna I Update Details (iInfoId=159349)
+    Upon causing an Elemental Reaction, increases Elemental Mastery by 60 for 12s. Moonsign: Ascendant Gleam: Elemental Mastery from this effect is further increased by 60. This effect can be triggered even if the equipping character is off-field.
+[2025-09-09 16:22:27] "Song of the Welkin Moon: Segue - 'A Dance of Snowy Tides and Hoarfrost Groves'": Version Luna I Update Details (iInfoId=159349)
+    Electro-Charged DMG is increased by 48%, and Lunar-Charged DMG is increased by 12%. Moonsign: Ascendant Gleam: Lunar-Charged DMG is increased by an additional 12%.
+[2025-09-09 16:22:27] "Song of the Welkin Moon: Segue - 'A Dance of Snowy Tides and Hoarfrost Groves'": Version Luna I Update Details (iInfoId=159349)
+    Upon causing an Elemental Reaction, increases Elemental Mastery by 60 for 12s. Moonsign: Ascendant Gleam: Elemental Mastery from this effect is further increased by 60. This effect can be triggered even if the equipping character is off-field.
+[2025-09-09 16:22:27] "Song of the Welkin Moon: Segue - 'A Dance of Snowy Tides and Hoarfrost Groves'": Version Luna I Update Details (iInfoId=159349)
+    ◇ 2-Piece Set: Elemental Mastery +80.
+[2025-09-09 16:22:27] "Song of the Welkin Moon: Segue - 'A Dance of Snowy Tides and Hoarfrost Groves'": Version Luna I Update Details (iInfoId=159349)
+    ◇ 4-Piece Set: When dealing Elemental DMG, gain the Gleaming Moon: Devotion effect for 8s: Increases all party members' Elemental Mastery by 60/120 when the party's Moonsign is Nascent Gleam/Ascendant Gleam. The equipping character can trigger this effect while off-field. All party members' Lunar Reaction DMG is increased by 10% for each different Gleaming Moon effect that party members have. Effects from Gleaming Moon cannot stack.
+[2025-09-09 16:22:27] "Song of the Welkin Moon: Segue - 'A Dance of Snowy Tides and Hoarfrost Groves'": Version Luna I Update Details (iInfoId=159349)
+    VI. Elemental Reaction
+[2025-09-09 16:22:27] "Song of the Welkin Moon: Segue - 'A Dance of Snowy Tides and Hoarfrost Groves'": Version Luna I Update Details (iInfoId=159349)
+    Once combat progresses to a certain point, it will enter Duckstruction Mode, becoming more aggressive, generating a Shield for itself, and summoning floating Stamping Devices to harass you. When this happens, you must first deal with the Stamping Devices. Deal DMG with Electro-Charged or Lunar-Charged reactions, or destroy them directly, to fry their circuits and cause them to attack Knuckle Duckle's Shield instead.
+[2025-09-09 16:22:27] "Song of the Welkin Moon: Segue - 'A Dance of Snowy Tides and Hoarfrost Groves'": Version Luna I Update Details (iInfoId=159349)
+    Attack them a certain number of times with Electro-Charged or Lunar-Charged reactions while they're using kuuvahki to stop them in their tracks. Because of their reliance on kuuvahki, you might be able to make use of the properties of kuuvahki to attack more effectively.
+[2025-09-09 16:22:27] "Song of the Welkin Moon: Segue - 'A Dance of Snowy Tides and Hoarfrost Groves'": Version Luna I Update Details (iInfoId=159349)
+    First Half: Characters' Electro-Charged DMG increased by 200% and Lunar-Charged DMG increased by 75%.
+[2025-09-09 16:22:27] "Song of the Welkin Moon: Segue - 'A Dance of Snowy Tides and Hoarfrost Groves'": Version Luna I Update Details (iInfoId=159349)
+    Second Half: Characters' Electro-Charged DMG increased by 200% and Lunar-Charged DMG increased by 75%.
+[2025-09-09 16:22:27] "Song of the Welkin Moon: Segue - 'A Dance of Snowy Tides and Hoarfrost Groves'": Version Luna I Update Details (iInfoId=159349)
+    Adjusts the Elemental Die cost and effects of the Equipment Card "Amethyst Crown": Now, 0 Elemental Dice are needed instead of 1. Also, card effect is changed to: "After an opponent takes DMG: If this DMG is Dendro DMG or triggers Dendro-Related Reactions, gain 1 Crowning Crystal. (Max 2 stacks.) When the Action Phase begins: If your Crowning Crystal count is 2, the next Elemental Reaction you trigger deals +2 DMG during this Round."
+[2025-09-09 16:22:27] "Song of the Welkin Moon: Segue - 'A Dance of Snowy Tides and Hoarfrost Groves'": Version Luna I Update Details (iInfoId=159349)
+    Adjusts the effects of the Equipment Card "Flower of Paradise Lost": Card effect is changed to: "After an opponent takes DMG: If this DMG is Dendro DMG or triggers Dendro-Related Reactions, gain 1 Crowning Crystal. (Max 5 stacks.) When the Action Phase begins or when your character triggers an Elemental Reaction: If your Crowning Crystal count is 5, create 1 Omni Die and draw 1 card. (Twice per round)"
+[2025-10-21 14:20:54] Song of the Welkin Moon: Reprise — "An Elegy for Faded Moonlight": Version "Luna II" Update Details (iInfoId=160521)
+    ◇ Moonsign: Ascendant Gleam: When Nefer unleashes her Elemental Skill, any Dendro Cores on the field will be converted to Seeds of Deceit, and any Lunar-Bloom reactions triggered in the following period of time that would create Dendro Cores or Bountiful Cores will instead create Seeds of Deceit. When Nefer unleashes a Charged Attack or Special Charged Attack, she can absorb Seeds of Deceit within a certain range, gaining Veil of Falsehood, increasing Elemental Mastery and Special Charged Attack DMG.
+[2025-10-21 14:20:54] Song of the Welkin Moon: Reprise — "An Elegy for Faded Moonlight": Version "Luna II" Update Details (iInfoId=160521)
+    CRIT Rate is increased by 8%. When the equipping character unleashes an Elemental Skill, they gain the Secret of Lies effect: Elemental Mastery is increased by 80 for 12s. When the equipping character deals Lunar-Bloom DMG to an opponent, they gain the Moon of Truth effect: CRIT DMG is increased by 24% for 4s. When both the Secret of Lies and Moon of Truth effects are active at the same time, the results of both effects will be increased by 50%.
+[2025-10-21 14:20:54] Song of the Welkin Moon: Reprise — "An Elegy for Faded Moonlight": Version "Luna II" Update Details (iInfoId=160521)
+    For 10s after a Charged Attack hits an opponent, Elemental Mastery is increased by 72. For 10s after an Elemental Skill hits an opponent, Elemental Mastery is increased by 48.
+[2025-10-21 14:20:54] Song of the Welkin Moon: Reprise — "An Elegy for Faded Moonlight": Version "Luna II" Update Details (iInfoId=160521)
+    • All party members have their Elemental Mastery increased by 200.
+[2025-12-02 17:33:31] "Song of the Welkin Moon: Interlude - A Nocturne of the Far North": Version "Luna III" Update Details (iInfoId=161275)
+    "Confirmation of Purity": Calls forth the Dragon of White Flame that follows the active character and periodically attacks nearby enemies, dealing AoE Pyro DMG. When certain Elemental Reactions are triggered, decreases enemies' corresponding Elemental RES.
+[2025-12-02 17:33:31] "Song of the Welkin Moon: Interlude - A Nocturne of the Far North": Version "Luna III" Update Details (iInfoId=161275)
+    After receiving Pyro attacks, the Mechanized Fortress will continuously accumulate heat and enter an "Overheating" state. At this point, if it continues to heat up, the Mechanized Fortress will automatically activate a Cryo Ward to cool itself down. Interrupting the cooling process could significantly disrupt its operations...
+[2026-01-13 16:11:16] Song of the Welkin Moon: Postlude — "A Traveler on a Winter's Night": Version "Luna IV" Update Details (iInfoId=162159)
+    "Nightmare's Burning Heart" Illuga (Geo) (4-Star)
+[2026-01-13 16:11:16] Song of the Welkin Moon: Postlude — "A Traveler on a Winter's Night": Version "Luna IV" Update Details (iInfoId=162159)
+    Upon casting his Elemental Burst, he gains Nightingale's Song, which increases the Geo DMG and Lunar-Crystallize DMG of certain attacks by on-field party members (bonus scaling is based on his Elemental Mastery).
+[2026-01-13 16:11:16] Song of the Welkin Moon: Postlude — "A Traveler on a Winter's Night": Version "Luna IV" Update Details (iInfoId=162159)
+    Characters affected by "Lightkeeper's Oath" gain increased Elemental Mastery.
+[2026-01-13 16:11:16] Song of the Welkin Moon: Postlude — "A Traveler on a Winter's Night": Version "Luna IV" Update Details (iInfoId=162159)
+    ◇ 2-Piece Set: Elemental Mastery +80.
+[2026-01-13 16:11:16] Song of the Welkin Moon: Postlude — "A Traveler on a Winter's Night": Version "Luna IV" Update Details (iInfoId=162159)
+    VII. Elemental Reaction
+[2026-01-13 16:11:16] Song of the Welkin Moon: Postlude — "A Traveler on a Winter's Night": Version "Luna IV" Update Details (iInfoId=162159)
+    When several Fishers of Hidden Depths are present on-field, their connections to one another will form Deepdark Shields that can only be broken by Elemental Attacks or reaction DMG. Lunar Reaction DMG is especially effective at breaking these shields. When the Deepdark Shield of one of the Fishers of Hidden Depths is broken, the monsters' shared connection causes all Deepdark Shields within the swarm to shatter. The entire swarm will then be grouped around the Fisher whose shield was broken.
+[2026-02-23 21:13:29] "Song of the Welkin Moon: Variation — Homeward, He Who Caught the Wind": Version "Luna V" Update Details (iInfoId=162806)
+    Fixes an issue whereby the skill "Shattered Glacier Rain" used by the enemy "Great Wolf King of the North" had an incorrect area of effect.
+[2026-02-23 21:13:29] "Song of the Welkin Moon: Variation — Homeward, He Who Caught the Wind": Version "Luna V" Update Details (iInfoId=162806)
+    Fixes an issue whereby, if the Character Card "Ororon" equipped the Talent Card "Trails Amidst the Forest Fog" and used his Elemental Skill to summon a Spirit Orb, and the Spirit Orb triggered an Electro-Charged reaction at the start of the next round's Action Phase, the Talent Card's effect would function incorrectly.
+[2026-02-23 21:13:29] "Song of the Welkin Moon: Variation — Homeward, He Who Caught the Wind": Version "Luna V" Update Details (iInfoId=162806)
+    Affected Character Cards: Character Card "Ororon"'s Passive Skill effect; Character Card "Ifa"'s Talent Card "Tactical Warm Compress Bandaging"; Character Card "Mona"'s Talent Card "Prophecy of Submersion"; Character Card "Neuvillette"'s Talent Card "Heir to the Ancient Sea's Authority"; Character Card "Clorinde"'s Talent Card "Dark-Shattering Flame"; and Character Card "Sethos"'s Status "Thunder Convergence."
+[2026-04-07 14:59:46] "Song of the Welkin Moon: Rondo — Augured Homecoming" Version Luna VI Update Details (iInfoId=163454)
+    In combat, Watcher: Fallen Vigil will enter the Supreme Overseer state. While in this state, Watcher: Fallen Vigil will track the number of Pyro/Hydro/Electro/Cryo DMG instances it takes, respectively. When it has taken 3 instances of DMG from any of these elements, it will exit this state and record this element as a monitored target. If no element is monitored successfully, the record stays empty. For elements that are already being monitored, more instances of that elemental DMG must be dealt before it can be monitored again. After completing 2 instances of elemental monitoring, the Watcher: Fallen Vigil will prepare to unleash Phenomena's Delirium, releasing the previously monitored elements and summoning two corresponding Active Elemental Stars. If the element record is empty, it will instead summon Inert Elemental Stars, which are difficult to destroy. Break all Elemental Stars to interrupt the preparation of Phenomena's Delirium.
+[2026-04-07 14:59:46] "Song of the Welkin Moon: Rondo — Augured Homecoming" Version Luna VI Update Details (iInfoId=163454)
+    • All party members have their Elemental Mastery increased by 200.
+[2026-04-07 14:59:46] "Song of the Welkin Moon: Rondo — Augured Homecoming" Version Luna VI Update Details (iInfoId=163454)
+    Shield-Shattering Moon
+[2026-04-07 14:59:46] "Song of the Welkin Moon: Rondo — Augured Homecoming" Version Luna VI Update Details (iInfoId=163454)
+    1. Fixes an issue where, under certain circumstances, holding on "Nightmare's Burning Heart" Illuga's Elemental Skill would abnormally trigger the Tap effect instead.
+[2026-04-07 14:59:46] "Song of the Welkin Moon: Rondo — Augured Homecoming" Version Luna VI Update Details (iInfoId=163454)
+    1. Fixes an issue where, in the "Party Setup" screen, after selecting the character "Jahoda" and then switching to another character, the sound effect triggered with Jahoda would not be interrupted.
+[2026-05-19 14:56:37] "Song of the Welkin Moon: Andante — Truth Amongst the Pages of Purana" Version "Luna VII" Update Details (iInfoId=164256)
+    After completing Hexenzirkel-related quests, Prune will become a Hexerei character. While under the effect of "Tolling Rally," any Elemental Reaction triggered by a Hexerei character will increase Prune's own ATK. Furthermore, if the reaction triggered is a Swirl reaction, then that Hexerei character's ATK will be further increased.
+[2026-05-19 14:56:37] "Song of the Welkin Moon: Andante — Truth Amongst the Pages of Purana" Version "Luna VII" Update Details (iInfoId=164256)
+    This boss distorts the forces intended to sustain the living world to suppress those who interfere with its experiments, and manifests barriers to bind its opponents. Seek out the barrier's nodes and shatter the prison realm crafted by this self-proclaimed "enlightened" heretic.
+[2026-05-19 14:56:37] "Song of the Welkin Moon: Andante — Truth Amongst the Pages of Purana" Version "Luna VII" Update Details (iInfoId=164256)
+    2. Fixes an issue whereby, after an opponent affected by the Burning status is defeated, some Burning special effects will persist in the area under specific conditions.
+[2026-06-30 16:48:04] "Song of the Welkin Moon: Scherzo — Sunny Summer Fontinalia": Version "Luna VIII" Update Details (iInfoId=165076)
+    VII. Elemental Reaction
+[2026-06-30 16:48:04] "Song of the Welkin Moon: Scherzo — Sunny Summer Fontinalia": Version "Luna VIII" Update Details (iInfoId=165076)
+    In combat, the Precursor's Secret Source Matrix of Overseer Network uses Archaeolune Energy to initiate a Convergence Field and gathers Hydro to enhance its workings. Freeze it at this time and then use Shatter, Melt, and other Elemental Reactions to break up the ice and halt the Convergence Field's operation.
+[2026-06-30 16:48:04] "Song of the Welkin Moon: Scherzo — Sunny Summer Fontinalia": Version "Luna VIII" Update Details (iInfoId=165076)
+    Second Half: Characters' Electro-Charged DMG increased by 200% and Lunar-Charged DMG increased by 75%.
+[2026-06-30 16:48:04] "Song of the Welkin Moon: Scherzo — Sunny Summer Fontinalia": Version "Luna VIII" Update Details (iInfoId=165076)
+    2. Fixes an issue where the "Supreme Overseer" state of enemy "Watcher: Fallen Vigil" could be abnormally interrupted under certain circumstances.
+[2026-08-11 16:01:10] "Everwinter Without Mercy" Version 7.0 Update Details (iInfoId=165655)
+    Emberwell (Sword): Triggering an Elemental Reaction increases ATK, and triggering a Stellar Glimmer Reaction increases Stellar Glimmer DMG.
+[2026-08-11 16:01:10] "Everwinter Without Mercy" Version 7.0 Update Details (iInfoId=165655)
+    Blade of Atonement (Claymore): Triggering an Elemental Reaction increases Elemental Mastery, and triggering a Stellar Glimmer Reaction increases ATK.
+[2026-08-11 16:01:10] "Everwinter Without Mercy" Version 7.0 Update Details (iInfoId=165655)
+    Song of the Vigil (Polearm): Triggering an Elemental Reaction restores Elemental Energy, and triggering a Stellar Glimmer Reaction increases ATK.
+[2026-08-11 16:01:10] "Everwinter Without Mercy" Version 7.0 Update Details (iInfoId=165655)
+    Echoes of the Heart (Catalyst): Triggering an Elemental Reaction increases Elemental Mastery, and triggering a Stellar Glimmer Reaction increases Stellar Glimmer DMG.
+[2026-08-11 16:01:10] "Everwinter Without Mercy" Version 7.0 Update Details (iInfoId=165655)
+    Covenant of Frost and Snow (Bow): Increases Elemental Mastery when the equipping character uses an Elemental Skill.
+[2026-08-11 16:01:10] "Everwinter Without Mercy" Version 7.0 Update Details (iInfoId=165655)
+    Forged by the Golden Melody (Claymore): Successively grants bonuses to ATK, Elemental Mastery, and Stellar Glimmer DMG.
+[2026-08-11 16:01:10] "Everwinter Without Mercy" Version 7.0 Update Details (iInfoId=165655)
+    Clash of Kings (Catalyst): Increases ATK and Elemental Mastery when the equipping character uses an Elemental Skill.
+[2026-08-11 16:01:10] "Everwinter Without Mercy" Version 7.0 Update Details (iInfoId=165655)
+    Jade Vista (Bow): Grants either an Elemental Mastery or ATK bonus depending on whether other party members share the equipping character's Elemental Type.
+[2026-08-11 16:01:10] "Everwinter Without Mercy" Version 7.0 Update Details (iInfoId=165655)
+    V. Elemental Reaction
+[2026-08-11 16:01:10] "Everwinter Without Mercy" Version 7.0 Update Details (iInfoId=165655)
+    Use a variety of firearms and equipment to defeat opponents through Elemental Reactions in the Shadow Realm.
+[2026-08-11 16:01:10] "Everwinter Without Mercy" Version 7.0 Update Details (iInfoId=165655)
+    Second Half: Characters' Electro-Charged DMG increased by 200% and Lunar-Charged DMG increased by 75%.

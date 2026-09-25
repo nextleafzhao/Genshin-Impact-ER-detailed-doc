@@ -1,0 +1,310 @@
+\section{反应计算公式}
+
+\subsection{基础伤害区}
+
+\[
+\text{基础伤害} = \left( \begin{aligned}
+&\text{攻击力} \times \text{攻击倍率} \\
++\ &\text{生命值} \times \text{生命倍率} \\
++\ &\text{防御力} \times \text{防御倍率} \\
++\ &\text{元素精通} \times \text{精通倍率}
+\end{aligned} \right) + \text{基础伤害加成}
+\]
+
+\begin{itemize}
+  \item \textbf{倍率来源}：多数角色为攻击力倍率；阿贝多、荒泷一斗等偏防御力倍率；夜兰、芙宁娜等为生命值倍率；纳西妲、艾尔海森等为攻击＋精通双倍率。
+  \item \textbf{基础伤害加成}：申鹤（冰翎）、云堇（飞云旗阵）一类“固定值加成”，仅与施加者属性相关，不吃增伤乘区。
+  \item \textbf{特殊转化}：赛索斯（攻击＋精通）、神里绫人（攻击＋生命）等。
+\end{itemize}
+
+\subsection{各反应伤害公式}
+
+各反应伤害的乘区流程见图 \ref{fig:damage-zones}。
+
+\rxlabel{\rxAmp{增幅反应}}
+
+\[
+\text{伤害} = \text{基础伤害} \times (1 + \text{暴击率} \times \text{暴击伤害})
+\times \text{反应倍率} \times (1 + \text{精通加成} + \text{反应伤害加成})
+\times \text{防御区} \times \text{抗性区}
+\]
+
+\rxlabel{\rxTrans{剧变反应}}
+
+\[
+\text{伤害} = \text{等级系数} \times \text{反应倍率}
+\times (1 + \text{精通加成} + \text{反应伤害加成}) \times \text{抗性区}
+\]
+
+（不参与防御区与暴击区）
+
+\rxlabel{\rxCryst{结晶反应（护盾量）}}
+
+\[
+\text{盾量} = \text{等级系数} \times (1 + \text{精通加成}) \times \text{元素吸收} \times (1 + \text{护盾强效})
+\]
+
+\rxlabel{\rxCata{激化反应}}
+
+\[
+\text{伤害} = (\text{基础伤害} + \text{激化加成}) \times (1 + \text{暴击率} \times \text{暴击伤害})
+\times \text{防御区} \times \text{抗性区}
+\]
+
+\[
+\text{激化加成} = \text{等级系数} \times \text{超/蔓反应倍率} \times (1 + \text{精通加成} + \text{反应伤害加成})
+\]
+
+\rxlabel{\rxLunar{月曜反应}}
+
+\[
+\begin{aligned}
+\text{反应型伤害（月感电／月结晶）} &= \text{等级系数} \times \text{反应系数} \times (1 + \text{精通加成} + \text{月曜反应伤害加成}) \\
+&\quad \times \text{暴击区} \times \text{抗性区} \times \text{擢升} \\
+\text{直伤型伤害（月感电／月结晶）} &= \text{角色面板属性} \times \text{技能倍率} \times \text{反应系数} \\
+&\quad \times (1 + \text{角色天赋基础伤害加成}) \times (1 + \text{精通加成} + \text{月曜反应伤害加成}) \\
+&\quad \times \text{暴击区} \times \text{抗性区} \times \text{擢升} \\
+\text{直伤型伤害（月绽放）} &= \big[ \text{面板属性} \times \text{技能倍率} \times \text{独立乘区} \times (1 + \text{精通加成} \\
+&\quad + \text{月曜反应伤害加成}) + \text{额外提升} \big] \\
+&\quad \times \text{暴击区} \times \text{抗性区} \times \text{擢升}
+\end{aligned}
+\]
+
+\[
+\begin{aligned}
+\text{系数} &= \text{月感电 } 3 \quad / \quad \text{月结晶 } 1.6 \quad / \quad \text{月绽放：无} \\
+\text{反应型的最终伤害} &= 0.6\,D_{(1)} + 0.3\,D_{(2)} + 0.05\,D_{(3)} + 0.05\,D_{(4)} \\
+&\quad (D_{(n)} = \text{按贡献从高到低的单角色伤害；权重和为 } 1) \\
+\text{单角色等效系数} &= \text{系数} \times 0.6 \;\Rightarrow\; \text{月感电 } 1.8,\ \text{月结晶 } 0.96
+\end{aligned}
+\]
+
+\rxlabel{\rxStellar{星烁反应}}
+
+{\footnotesize
+\[
+\begin{aligned}
+\text{星超导（全部为直伤型）} &= \text{角色面板属性} \times \text{星超导倍率} \times \text{星烁基础系数} \\
+&\quad \times (1 + \text{角色天赋基础伤害加成}) \times (1 + \text{精通加成} + \text{星超导反应伤害加成}) \\
+&\quad \times \text{敌人冰/雷抗性区} \times \text{暴击区} \times \text{星超导擢升} \\[.4em]
+\text{星扩散（反应型）} &= \text{等级系数} \times \text{基础倍率} \times (1 + \text{角色天赋基础伤害加成}) \\
+&\quad \times (1 + \text{精通加成} + \text{星扩散反应伤害加成}) \times \text{暴击区} \times \text{抗性区} \times \text{擢升} \\
+\text{星扩散（直伤型）} &\quad \text{基础反应系数固定为 } 1
+\end{aligned}
+\]}
+
+\[
+\text{星烁基础系数} = 1.0 \to 2.0\text{：0 层为 }1.0\text{，1～12 层每层 }+0.05\text{，12 层达 }2.0
+\]
+
+\figDamageZones
+
+% 批注4：本节正文即 表5（长表）。若标题落在页底、表格整张翻到次页，读者要往回翻才知道
+% 表属于哪一节（同批注「放到下一页吧」）。留出标题+表头+数行的空间，避免标题孤行。
+\needspace{6\baselineskip}
+\subsection{月曜与星烁的乘区通则}
+
+两套体系与传统剧变的逐乘区对照见表 \ref{tab:zones}。
+
+% 批注4：本表原为 [H] 浮动表，整块不可分页，会把前一页顶出大片留白；
+% 改为 longtable（流内、可跨页），页脚来源说明仍紧随表后落在同一页。
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{2.7cm}>{\raggedright\arraybackslash}p{3.4cm}>{\raggedright\arraybackslash}p{4.3cm}>{\raggedright\arraybackslash}p{4.1cm}@{}}
+\caption{月曜与星烁的乘区通则}\label{tab:zones}\\
+\toprule
+\textbf{乘区} & \textbf{传统剧变} & \textbf{\rxLunar{月曜}} & \textbf{\rxStellar{星烁}} \\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\kaifont 表 5（续）：月曜与星烁的乘区通则}\\
+\toprule
+\textbf{乘区} & \textbf{传统剧变} & \textbf{\rxLunar{月曜}} & \textbf{\rxStellar{星烁}} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+等级系数 & $\surd$（0.25～3 倍率） & $\surd$ 反应型（90 级 1446.85）；直伤型 $\times$ & \rxStellar{星扩散}反应型 $\surd$；\rxStellar{星超导} $\times$（全直伤） \\
+\rowline
+角色面板（攻击/防御/精通） & $\times$ & $\surd$ 直伤型 & $\surd$ 直伤型 \\
+\rowline
+暴击区 & $\times$ & $\surd$ & $\surd$ \\
+\rowline
+精通区 & $\surd$ $1+\frac{16\text{EM}}{\text{EM}+2000}$ & $\surd$ $1+\frac{6\text{EM}}{\text{EM}+2000}$ & 同月曜：$1+\frac{6\text{EM}}{\text{EM}+2000}$ \\
+\rowline
+防御区 & $\times$ & $\times$ & $\times$ \\
+\rowline
+常规增伤（元素杯/通用增伤/技能类型增伤） & $\times$ & $\times$ & $\times$ \\
+\rowline
+专属增伤（“XX 反应伤害提升”） & $\surd$ 常规反应增伤 & $\surd$ 仅“月曜/\rxLunar{月感电}/\rxLunar{月绽放}/\rxLunar{月结晶}反应伤害提升” & $\surd$ 仅“星烁/\rxStellar{星超导}/\rxStellar{星扩散}反应伤害提升” \\
+\rowline
+减抗（按伤害元素结算） & $\surd$ & $\surd$ & $\surd$ \\
+\rowline
+元素暴击伤害加成（如九条裟罗／五郎／珐露珊 6 命） & $\surd$ & $\surd$ & $\surd$（元素\textbf{伤害}加成仍不生效） \\
+\rowline
+擢升（Elevation） & $\times$ & $\surd$ 目前仅来自限定五星命之座 & $\surd$ 同上 \\
+\end{longtable}
+}
+
+\srcfoot{［T1］KeqingMains《Lunar Reaction Guide》《Stellar Glimmer Reaction Guide》：两类反应“不受敌方防御（及减防）影响”、“不受常规元素/通用伤害加成影响”、“元素暴击加成（如九条裟罗 6 命）对相应反应伤害生效”。［T2］璐洛洛／电脑王阿达（\rxStellar{星超导}乘区归纳）、4399《奥黛塔全面解析》（\rxStellar{星超导}／\rxStellar{星扩散}结算公式）、巴哈姆特实测帖（\rxLunar{月结晶}公式复算，误差 < 0.02\%）。}
+
+\medskip
+\section{反应强度公式}
+
+各反应的反应强度系数见表 \ref{tab:intensity}。
+
+% 批注4：原为 [H] 整块表；在 longtable 化的 表5 之后，若本表放不下会直接撑破页面
+% （实测 Overfull \vbox 101pt），故一并改为 longtable（脚注标记与 \srctext 仍同页）。
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.9cm}>{\raggedright\arraybackslash}p{5.5cm}>{\raggedright\arraybackslash}p{7.1cm}@{}}
+\caption{各反应的反应强度系数}\label{tab:intensity}\\
+\toprule
+\textbf{类型} & \textbf{强度系数} & \textbf{说明} \\
+\midrule
+\endfirsthead
+\multicolumn{3}{@{}l}{\kaifont 表 6（续）：各反应的反应强度系数}\\
+\toprule
+\textbf{类型} & \textbf{强度系数} & \textbf{说明} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+增幅反应 & $1 + \frac{2.78 \times \text{元素精通}}{\text{元素精通} + 1400} + \text{反应伤害加成}$ & \\
+\rowline
+剧变反应 & $1 + \frac{16 \times \text{元素精通}}{\text{元素精通} + 2000} + \text{反应伤害加成}$ & \\
+\rowline
+激化反应 & $1 + \frac{5 \times \text{元素精通}}{\text{元素精通} + 1200} + \text{反应伤害加成}$ & \\
+\rowline
+\textbf{月曜反应} & $1 + \frac{6 \times \text{元素精通}}{\text{元素精通} + 2000} + \text{反应伤害加成}$ & 5.8 新增；斜率低于剧变，故高精通收益低 \\
+\rowline
+\textbf{星烁反应} & $1 + \frac{6 \times \text{元素精通}}{\text{元素精通} + 2000} + \text{反应伤害加成}$ & 与月曜同系数 \\
+\rowline
+结晶反应 & $1 + \frac{4.44 \times \text{元素精通}}{\text{元素精通} + 1400}$ & 无“反应伤害加成”项\footnotemark \\
+\end{longtable}
+}
+\srctext{［T2·实测拟合］幕陵《\rxLunar{月感电}机制解析》（游民星空）：以 10 个数据点对 A=6、B=2000 拟合，回归误差约 1‰，公式为 $1+\frac{6\text{EM}}{\text{EM}+2000}$；并验证“精通加成”与“反应伤害加成”位于同一乘区、相加计算。［T3］bwiki《元素反应》反应强度表与上述完全一致。}
+
+\medskip
+% 批注4：p7 上 表5／表6 两张长表排到页面下沿，其页脚来源说明是"表结束后才贡献"的脚注，
+% 实测把该页撑破（Overfull \vbox 98pt，注文落到距纸边 2pt）。`\needspace` 无效
+% （长表自己的 \output 已经把该页组装完毕），故本节强制另页起排。
+\clearpage
+\section{反应机制详解}
+
+\subsection{增幅反应}
+
+蒸发与融化各方向的触发条件与倍率见表 \ref{tab:vaporize}。
+
+\begin{table}[ht]
+\centering
+\small
+\caption{蒸发与融化的触发、倍率与归属}\label{tab:vaporize}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{1.6cm}>{\raggedright\arraybackslash}p{5.2cm}c>{\raggedright\arraybackslash}p{6.4cm}@{}}
+\toprule
+\textbf{反应} & \textbf{触发} & \textbf{倍率} & \textbf{归属} \\
+\midrule
+\rxAmp{蒸发} & \icon{水}水 → \icon{火}火 & 2.0 & 按水元素攻击者属性结算 \\
+\rowline
+ & \icon{火}火 → \icon{水}水 & 1.5 & 按火元素攻击者属性结算 \\
+\rowline
+\rxAmp{融化} & \icon{火}火 → \icon{冰}冰 & 2.0 & 按火元素攻击者属性结算 \\
+\rowline
+ & \icon{冰}冰 → \icon{火}火 & 1.5 & 按冰元素攻击者属性结算 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\indent\textbf{要点}：增幅反应只放大当次攻击，不产生独立伤害；吃攻击（或对应面板）、双暴、精通、增伤、\textbf{防御区}与抗性区。精通增益斜率 $2.78\text{EM}/(\text{EM}+1400)$，是四类旧反应中最陡的。
+
+\medskip
+\subsection{剧变反应}
+
+\subsubsection{超载}
+
+\begin{itemize}
+  \item \icon{火}火 + \icon{雷}雷：\textbf{2.75 倍}火元素伤害（5.2 起由 2.0 上调）
+  \item 范围爆炸（约 5 米），90 点钝击削韧，可击飞小体型敌人
+  \item 不参与防御区与暴击区
+\end{itemize}
+
+\subsubsection{超导}
+
+\begin{itemize}
+  \item \icon{冰}冰 + \icon{雷}雷：\textbf{1.5 倍}冰元素伤害（5.2 起由 0.5 上调）
+  \item 降低目标 \textbf{40\% 物理抗性}，持续 12 秒
+  \item \textbf{月之八（6.7）起可被转化为 \rxStellar{星超导}}：队伍中有桑多涅／奥黛塔／旅行者(冰)时，冰雷触发的超导被替换为\rxStellar{星超导}，生成「\term{星辉棱晶}」并展开「\term{极星辉域}」，物理抗性降低幅度同为 \textbf{40\%}，但额外提供冰/雷增伤与\rxStellar{星超导}基础系数提升（详见 \sref{sec:ssc}）
+\end{itemize}
+
+\subsubsection{冻结与碎冰}
+
+\begin{itemize}
+  \item \icon{冰}冰 + \icon{水}水：冻结目标（冻结元素量随时间衰减）
+  \item 冻结 + 钝击／岩伤：\textbf{3.0 倍}物理伤害（碎冰，5.2 起由 1.5 上调）
+  \item 冻结期间目标附着“冻元素”，可被火/雷触发融化与超导，也可被“碎冰”消耗
+\end{itemize}
+
+\subsubsection{感电}
+
+\begin{itemize}
+  \item \icon{水}水 + \icon{雷}雷：\textbf{2.0 倍}雷元素伤害（5.2 起由 1.2 上调）
+  \item 可传导至附近同样附着水元素的敌人；水/雷附着在反应期间共存并持续消耗
+  \item \textbf{5.8 起可被转化为 \rxLunar{月感电}}：队伍中有伊涅芙／菲林斯／哥伦比娅时，队伍触发的感电被替换为\rxLunar{月感电}，生成雷暴云（详见 \sref{sec:lc}）
+\end{itemize}
+
+\subsubsection{扩散}\label{sec:swirl}
+
+\begin{itemize}
+  \item \icon{风}风 + 火/水/雷/冰：\textbf{0.6 倍}对应元素伤害；范围约 6 米，可连锁
+  \item \textbf{扩散不存在跨元素的取源优先级}：扩散元素由\textbf{被击目标身上的附着}决定（多目标各扩各的），风元素量足够即扩——“风眼周围存在什么元素”的取舍属\textbf{染色}（见 \sref{sec:dye}）；只有\textbf{同一目标}多元素共存时才有“感电优先雷、冻结优先水”与能否双扩（双扩需风元素量大于雷／水附着量）的规则。\src{T1 KeqingMains《Transformative Reactions》}
+  \item 扩散本身不消耗目标元素以外的资源，但会将元素传播给附近敌人（这是“吹飞附着”与双扩散的机制基础）
+  \item \textbf{7.0 起可被转化为 \rxStellar{星扩散}}：队伍中有桑多涅／奥黛塔／旅行者(冰)时，风作用于冰附着目标会触发\rxStellar{星扩散}，改为生成「\term{星辉风旋}」，\textbf{且不再向周围传播冰元素}（详见 \sref{sec:ssw}）
+\end{itemize}
+
+\subsubsection{燃烧}
+
+\begin{itemize}
+  \item \icon{草}草 + \icon{火}火：\textbf{0.25 倍}火元素伤害
+  \item 每秒约 4 次伤害（范围约 1 米），燃烧期间火元素持续残留
+  \item 3.0 版本下调过燃烧的元素附着量
+\end{itemize}
+
+\subsubsection{绽放系列}
+
+\begin{itemize}
+  \item \textbf{绽放}：\icon{草}草 + \icon{水}水 → 生成\textbf{草原核}（6 秒后自爆，2.0 倍草元素伤害）
+  \item \textbf{超绽放}：草原核 + \icon{雷}雷 → 追踪弹（3.0 倍）
+  \item \textbf{烈绽放}：草原核 + \icon{火}火 → 范围爆炸（3.0 倍）
+  \item \textbf{丰穰之核}：妮露专属，范围增大至约 6.5 米，延时极短
+  \item \textbf{诳言之核}：奈芙尔专属（月之二），满辉状态下把草原核／丰穰之核转化而成，\textbf{不自爆、无法被超绽放/烈绽放引爆}，改为被奈芙尔重击／幻戏吸收、叠「\term{伪秘之帷}」（详见 \sref{sec:lb}）\srcmark
+  \item \textbf{自伤}：草原核爆炸会波及角色自身，仅造成对敌伤害的一小部分。原文档记为 5\%；月之一版本官方下调为“原先的 40\%”，社群 wiki 现记为约 2\% \src{T0 月之一更新说明｜T3 bwiki 现行文本}
+\end{itemize}
+\srctext{［T0/T2］月之二官方更新说明·奈芙尔段 ＋ bwiki 天赋原文「无法触发超绽放与烈绽放反应，也无法迸发」。}
+
+\subsubsection{绽放系列 vs 激化系列对比}
+
+两系列的逐项对比见表 \ref{tab:bloomquicken}。
+
+\begin{table}[ht]
+\centering
+\small
+\caption{绽放系列与激化系列对比}\label{tab:bloomquicken}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{2.1cm}>{\raggedright\arraybackslash}p{6.5cm}>{\raggedright\arraybackslash}p{6.3cm}@{}}
+\toprule
+\textbf{维度} & \textbf{绽放系列} & \textbf{激化系列} \\
+\midrule
+基础反应 & 绽放：水 + 草 → 生成草原核（单颗持续 6 秒，超时自爆） & 原激化：草 + 雷 → 赋予「\term{激元素}」（约 6～9.5 秒） \\
+\rowline
+进阶反应 & 超绽放：草原核 + 雷 → 追踪弹爆炸；烈绽放：草原核 + 火 → 范围爆炸 & 超激化：激化状态 + 雷 → 强化雷伤；蔓激化：激化状态 + 草 → 强化草伤 \\
+\rowline
+伤害类型 & 全为草元素伤害（剧变） & 超激化为雷伤、蔓激化为草伤（增幅式加成） \\
+\rowline
+伤害来源 & 归属引爆者（超绽放归雷角色、烈绽放归火角色）；原绽放自爆归生成者 & 归触发雷攻/草攻的角色 \\
+\rowline
+核心受益属性 & 引爆者/生成者的\textbf{等级 + 元素精通}（不吃双暴/攻击） & 触发者的\textbf{攻击 + 双暴 + 元素精通} \\
+\rowline
+特色 & 自伤风险；超绽放自动追踪；烈绽放大范围击飞；妮露特化瞬爆 & 激元素与其它元素共存；强化雷/草直伤；高频联动 \\
+\rowline
+\textbf{月版本新增分支} & \rxLunar{月绽放}（草水）→ 产草露、\rxLunar{月绽放}直伤可暴击；诳言之核转化为个人资源 & 无 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\medskip

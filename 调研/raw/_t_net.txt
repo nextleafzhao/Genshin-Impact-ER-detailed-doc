@@ -1,0 +1,20 @@
+# NET CAPTURE for https://genshin.hoyoverse.com/ja/news/detail/104570
+FILTER: content
+
+## REQUESTS (filtered)
+https://sg-public-api-static.hoyoverse.com/content_v2_user/app/a1b1f9d3315447cc/getContentList?iAppId=32&iChanId=395&iPageSize=6&iPage=1&sLangKey=ja-jp
+https://sg-public-api-static.hoyoverse.com/content_v2_user/app/a1b1f9d3315447cc/getContent?iAppId=32&iInfoId=104570&sLangKey=ja-jp&iAround=0
+https://sg-public-api-static.hoyoverse.com/content_v2_user/app/a1b1f9d3315447cc/getChildTree?iAppId=32&sLangKey=ja-jp&iChanId=395
+https://sg-public-api-static.hoyoverse.com/content_v2_user/app/a1b1f9d3315447cc/getContent?iAppId=32&iInfoId=104570&sLangKey=ja-jp&iAround=1&iChanId=397
+https://sg-public-api-static.hoyoverse.com/content_v2_user/app/a1b1f9d3315447cc/getContentList?iAppId=32&iChanId=415&iPageSize=1&iPage=1&sLangKey=ja-jp
+https://sg-public-api-static.hoyoverse.com/content_v2_user/app/a1b1f9d3315447cc/getContentList?iAppId=32&iChanId=390&iPageSize=4&iPage=1&sLangKey=ja-jp
+https://sg-public-api-static.hoyoverse.com/content_v2_user/app/a1b1f9d3315447cc/getContentList?iAppId=32&iChanId=422&iPageSize=1&iPage=1&sLangKey=ja-jp
+
+## RESPONSES (filtered)
+200 application/json https://sg-public-api-static.hoyoverse.com/content_v2_user/app/a1b1f9d3315447cc/getContentList?iAppId=32&iChanId=395&iPageSize=6&iPage=1&sLangKey=ja-jp
+200 application/json https://sg-public-api-static.hoyoverse.com/content_v2_user/app/a1b1f9d3315447cc/getContent?iAppId=32&iInfoId=104570&sLangKey=ja-jp&iAround=0
+200 application/json https://sg-public-api-static.hoyoverse.com/content_v2_user/app/a1b1f9d3315447cc/getChildTree?iAppId=32&sLangKey=ja-jp&iChanId=395
+200 application/json https://sg-public-api-static.hoyoverse.com/content_v2_user/app/a1b1f9d3315447cc/getContent?iAppId=32&iInfoId=104570&sLangKey=ja-jp&iAround=1&iChanId=397
+200 application/json https://sg-public-api-static.hoyoverse.com/content_v2_user/app/a1b1f9d3315447cc/getContentList?iAppId=32&iChanId=390&iPageSize=4&iPage=1&sLangKey=ja-jp
+200 application/json https://sg-public-api-static.hoyoverse.com/content_v2_user/app/a1b1f9d3315447cc/getContentList?iAppId=32&iChanId=415&iPageSize=1&iPage=1&sLangKey=ja-jp
+200 application/json https://sg-public-api-static.hoyoverse.com/content_v2_user/app/a1b1f9d3315447cc/getContentList?iAppId=32&iChanId=422&iPageSize=1&iPage=1&sLangKey=ja-jp

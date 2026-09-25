@@ -1,0 +1,26 @@
+SOURCE: bwiki api ask [[神之眼描述::+]]
+FETCHED: 2026-09-22
+
+{
+ "query": {
+  "printrequests": [
+   {
+    "label": "",
+    "key": "",
+    "redi": "",
+    "typeid": "_wpg",
+    "mode": 2
+   }
+  ],
+  "results": [],
+  "serializer": "SMW\\Serializers\\QueryResultSerializer",
+  "version": 2,
+  "meta": {
+   "hash": "8abf92b9a496fa12811f646f040f3025",
+   "count": 0,
+   "offset": 0,
+   "source": "",
+   "time": "0.000031"
+  }
+ }
+}

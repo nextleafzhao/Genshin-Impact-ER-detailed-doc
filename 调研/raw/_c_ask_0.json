@@ -1,0 +1,107 @@
+SOURCE: bwiki api ask [[羁绊属性::月兆]]
+FETCHED: 2026-09-22
+
+{
+ "query": {
+  "printrequests": [
+   {
+    "label": "",
+    "key": "",
+    "redi": "",
+    "typeid": "_wpg",
+    "mode": 2
+   }
+  ],
+  "results": {
+   "伊涅芙": {
+    "printouts": [],
+    "fulltext": "伊涅芙",
+    "fullurl": "https://wiki.biligame.com/ys/%E4%BC%8A%E6%B6%85%E8%8A%99",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": ""
+   },
+   "兹白": {
+    "printouts": [],
+    "fulltext": "兹白",
+    "fullurl": "https://wiki.biligame.com/ys/%E5%85%B9%E7%99%BD",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": "兹白"
+   },
+   "叶洛亚": {
+    "printouts": [],
+    "fulltext": "叶洛亚",
+    "fullurl": "https://wiki.biligame.com/ys/%E5%8F%B6%E6%B4%9B%E4%BA%9A",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": ""
+   },
+   "哥伦比娅": {
+    "printouts": [],
+    "fulltext": "哥伦比娅",
+    "fullurl": "https://wiki.biligame.com/ys/%E5%93%A5%E4%BC%A6%E6%AF%94%E5%A8%85",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": "哥伦比娅·希珀塞莱尼娅"
+   },
+   "奈芙尔": {
+    "printouts": [],
+    "fulltext": "奈芙尔",
+    "fullurl": "https://wiki.biligame.com/ys/%E5%A5%88%E8%8A%99%E5%B0%94",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": "奈芙尔"
+   },
+   "爱诺": {
+    "printouts": [],
+    "fulltext": "爱诺",
+    "fullurl": "https://wiki.biligame.com/ys/%E7%88%B1%E8%AF%BA",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": ""
+   },
+   "莉奈娅": {
+    "printouts": [],
+    "fulltext": "莉奈娅",
+    "fullurl": "https://wiki.biligame.com/ys/%E8%8E%89%E5%A5%88%E5%A8%85",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": ""
+   },
+   "菈乌玛": {
+    "printouts": [],
+    "fulltext": "菈乌玛",
+    "fullurl": "https://wiki.biligame.com/ys/%E8%8F%88%E4%B9%8C%E7%8E%9B",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": "菈乌玛"
+   },
+   "菲林斯": {
+    "printouts": [],
+    "fulltext": "菲林斯",
+    "fullurl": "https://wiki.biligame.com/ys/%E8%8F%B2%E6%9E%97%E6%96%AF",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": ""
+   },
+   "雅珂达": {
+    "printouts": [],
+    "fulltext": "雅珂达",
+    "fullurl": "https://wiki.biligame.com/ys/%E9%9B%85%E7%8F%82%E8%BE%BE",
+    "namespace": 0,
+    "exists": "1",
+    "displaytitle": ""
+   }
+  },
+  "serializer": "SMW\\Serializers\\QueryResultSerializer",
+  "version": 2,
+  "meta": {
+   "hash": "caedcdd938297a35a373511f51c97ec8",
+   "count": 10,
+   "offset": 0,
+   "source": "",
+   "time": "0.001042"
+  }
+ }
+}

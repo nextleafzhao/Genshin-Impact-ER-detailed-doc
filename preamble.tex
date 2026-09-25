@@ -1,0 +1,185 @@
+% !TEX program = xelatex
+% 元素反应机制详解（7.0 版）—— 共用导言区
+% 样式沿用原 Detailed.Explanation.of.Elemental.Reactions.tex（ctexart + 同名宏），并新增元素配色宏与图标宏。
+\documentclass[UTF8]{ctexart}
+\usepackage{geometry}
+\geometry{a4paper,left=1.5cm,right=1.5cm,top=1.5cm,bottom=1.5cm}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage[table]{xcolor}
+\usepackage{fixcmex}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{makecell}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{needspace}
+\usepackage{graphicx}
+\usepackage[normalem]{ulem}
+\usepackage[most]{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,shapes.geometric,calc,fit,backgrounds,decorations.pathreplacing}
+
+% ---------- 颜色：七元素 + 月 / 星 ----------
+\definecolor{elhydro}{HTML}{3E9BD0}     % 水
+\definecolor{elpyro}{HTML}{D8622B}      % 火
+\definecolor{elcryo}{HTML}{4FA8C8}      % 冰
+\definecolor{elelectro}{HTML}{9A5FC9}   % 雷
+\definecolor{elanemo}{HTML}{3FA98A}     % 风
+\definecolor{elgeo}{HTML}{C08A18}       % 岩
+\definecolor{eldendro}{HTML}{6FA81B}    % 草
+\definecolor{ellunar}{HTML}{5A6FD8}     % 月（月曜体系）
+\definecolor{elstellar}{HTML}{C2569E}   % 星（星烁体系）
+\definecolor{srcgray}{HTML}{6E6E6E}     % 引注灰
+\definecolor{termcolor}{HTML}{1F6F6B}   % 概念名词
+\definecolor{rxamp}{HTML}{C2611E}       % 增幅类
+\definecolor{rxtrans}{HTML}{1E6FA8}     % 剧变类
+\definecolor{rxcryst}{HTML}{8A6A1E}     % 结晶类
+\definecolor{rxcata}{HTML}{2F8B4C}      % 激化类
+\definecolor{rxlunar}{HTML}{4A5CC4}     % 月曜类
+\definecolor{rxstellar}{HTML}{A8559B}   % 星烁类
+
+% ---------- 元素名 / 图标 ----------
+\newcommand{\elcol}[1]{\csname elc@#1\endcsname}
+\expandafter\def\csname elc@水\endcsname{elhydro}
+\expandafter\def\csname elc@火\endcsname{elpyro}
+\expandafter\def\csname elc@冰\endcsname{elcryo}
+\expandafter\def\csname elc@雷\endcsname{elelectro}
+\expandafter\def\csname elc@风\endcsname{elanemo}
+\expandafter\def\csname elc@岩\endcsname{elgeo}
+\expandafter\def\csname elc@草\endcsname{eldendro}
+\expandafter\def\csname elc@月\endcsname{ellunar}
+\expandafter\def\csname elc@星\endcsname{elstellar}
+\expandafter\def\csname elc@物理\endcsname{srcgray}
+\expandafter\def\csname elc@岩元素\endcsname{elgeo}
+% 容错：未登记的元素键直接排原文/不插图，避免 \csname 报错
+\newcommand{\elname}[1]{\ifcsname elc@#1\endcsname\textcolor{\elcol{#1}}{#1}\else #1\fi}
+\newcommand{\element}[1]{\ifcsname elc@#1\endcsname\textcolor{\elcol{#1}}{[#1]}\else [#1]\fi}
+
+\newcommand{\iconfile}[1]{\csname iconf@#1\endcsname}
+\expandafter\def\csname iconf@水\endcsname{icons/water.png}
+\expandafter\def\csname iconf@火\endcsname{icons/fire.png}
+\expandafter\def\csname iconf@冰\endcsname{icons/ice.png}
+\expandafter\def\csname iconf@雷\endcsname{icons/electro.png}
+\expandafter\def\csname iconf@风\endcsname{icons/anemo.png}
+\expandafter\def\csname iconf@岩\endcsname{icons/geo.png}
+\expandafter\def\csname iconf@草\endcsname{icons/dendro.png}
+\newcommand{\icon}[1]{\ifcsname iconf@#1\endcsname\raisebox{-0.22ex}{\includegraphics[height=1.05em]{\iconfile{#1}}}\else\relax\fi}
+
+% ---------- 反应名 / 概念名词 / 引注 / 存疑 ----------
+\newcommand{\rxAmp}[1]{\textcolor{rxamp}{\textbf{#1}}}
+\newcommand{\rxTrans}[1]{\textcolor{rxtrans}{\textbf{#1}}}
+\newcommand{\rxCryst}[1]{\textcolor{rxcryst}{\textbf{#1}}}
+\newcommand{\rxCata}[1]{\textcolor{rxcata}{\textbf{#1}}}
+\newcommand{\rxLunar}[1]{\textcolor{rxlunar}{\textbf{#1}}}
+\newcommand{\rxStellar}[1]{\textcolor{rxstellar}{\textbf{#1}}}
+\newcommand{\term}[1]{\textcolor{termcolor}{\textbf{#1}}}
+\newcommand{\src}[1]{{\footnotesize\textcolor{srcgray}{［#1］}}}
+% 交叉引用：章节一律带 § 前缀（用户口径：行文交叉引用要规范），且 hyperref 下可点击
+\newcommand{\sref}[1]{\S\ref{#1}}
+\newcommand{\cunyi}{\textcolor{red}{\textbf{【存疑】}}}
+\newcommand{\thickline}{\Xhline{1.2pt}}
+
+% ---------- 版式微调（沿用原文档观感；标题实现由 titlesec 改为 ctexset） ----------
+% 变更原因：titlesec 与 hyperref 组合在分页处锚点不可靠（hyperref 手册 11.1.33 明言不支持），
+% 会造成目录点击「跳到前一页」；ctexset 是 ctex 原生实现，锚点与 hyperref 兼容。
+% 观感对齐原 titlesec 配置：格式 \normalfont\Large\bfseries、编号后 1em、前后距 1ex/0.5ex；
+% afterindent=false 复刻 titlespacing* 的「标题后首段不缩进」；fixskip=true 抑制额外间距。
+\ctexset{
+  section = {
+    format      = \normalfont\Large\bfseries,
+    aftername   = \hspace{1em},
+    beforeskip  = 2.2ex,
+    afterskip   = 1.4ex,
+    afterindent = true,
+    fixskip     = true,
+  },
+  subsection = {
+    format      = \normalfont\large\bfseries,
+    aftername   = \hspace{1em},
+    beforeskip  = 1.8ex,
+    afterskip   = 1.6ex,
+    afterindent = true,
+    fixskip     = true,
+  },
+  subsubsection = {
+    format      = \normalfont\small\bfseries,
+    aftername   = \hspace{1em},
+    beforeskip  = 1.4ex,
+    afterskip   = 1.2ex,
+    afterindent = true,
+    fixskip     = true,
+  },
+}
+\renewcommand{\arraystretch}{0.9}
+\setlength{\tabcolsep}{4pt}
+% 列表更紧凑（批注：相干内容行距太大）；一级列表整体缩进到正文首行缩进处
+% （批注：「这段属于【反应进程】，却没有缩进，反而比标签还往左」）
+\setlist{topsep=0.1ex,itemsep=0ex,parsep=0pt,partopsep=0pt}
+\setlist[itemize,1]{labelindent=2em,leftmargin=*}
+\setlist[enumerate,1]{labelindent=2em,leftmargin=*}
+% 图表标题字号小于正文（批注：图例的文字不能和正文一样）
+% 批注4：「图例标题、表的标题都要用正楷」→ 标题一律楷体（与来源区同一字体）
+\newCJKfontfamily\kaifont{simkai.ttf}
+\DeclareCaptionFont{kaicap}{\kaifont\let\textbf\relax}
+\captionsetup{font={small,kaicap}}
+% 公式块前后留白收紧，避免"相干内容行距太大"
+\AtBeginDocument{%
+  \setlength{\abovedisplayskip}{0.8ex plus 0.2ex minus 0.2ex}%
+  \setlength{\belowdisplayskip}{0.8ex plus 0.2ex minus 0.2ex}%
+  \setlength{\abovedisplayshortskip}{0.4ex}%
+  \setlength{\belowdisplayshortskip}{0.4ex}%
+}
+
+\xeCJKDeclareCharClass{CJK}{"2460 -> "24FF}
+% 说明：①②③④ 等带圈数字在 Latin Modern 中无字形，XeLaTeX 会静默丢字；
+% 交给中文字体渲染后 Missing character 归零。
+
+% ---------- 来源说明块 / 表格行线（第六轮批注口径）----------
+% 来源块：楷体、小于正文、上方一条灰横线（全局统一，不再与正文样式混用）
+% （楷体族 \kaifont 已在标题设置处定义，图表标题与本区共用）
+\newcommand{\srcrule}{\par\vspace{1.5ex}{\color{black!30}\hrule height 0.4pt}\vspace{0.35ex}}
+\newenvironment{srcnote}
+  {\par\srcrule\begingroup\kaifont\small\linespread{1.05}\selectfont
+   \let\textbf\relax           % 楷体无粗体字形，避免 font-shape 回退告警
+   \setlength{\parindent}{0pt}\setlength{\parskip}{0.2ex}}
+  {\par\endgroup\vspace{0.3ex}}
+% 注与来源说明：按批注「注不应写在正文中，应写在页脚」「来源区都是放到那里的」移到页脚。
+% 用法：表格内用 \srcmark（浮动体内不能放脚注正文），紧随 \end{table} 之后用 \srctext{...}。
+% \srcmark 用 \DeclareRobustCommand 包装：\footnotemark 是脆弱命令，直接写进 \caption 会报
+% 「Argument of \caption@ydblarg has an extra }」（实测）。
+\DeclareRobustCommand{\srcmark}{\footnotemark}
+\newcommand{\srctext}[1]{\footnotetext{{\kaifont\footnotesize\textcolor{srcgray}{\let\textbf\relax #1}}}}
+% 来源说明块：同样落在页脚，但不编号——批注4「这些应放在页末（页脚）……一条灰线就够了」。
+% 不编号还避开一个坑：\footnotetext 用的是“当前”脚注计数（它本身不 step counter），
+% 同一页若有两个 mark 与两段注文交错，两段注文会印出同一个号；来源块不带号即无此问题。
+\newcommand{\srcfoot}[1]{%
+  \begingroup
+  \renewcommand{\thefootnote}{}%
+  \footnotetext{{\kaifont\footnotesize\textcolor{srcgray}{\let\textbf\relax #1}}}%
+  \endgroup}
+% 表格行线：每行一条浅灰细线（0.3pt），不改变三线表的顶/底粗线
+\newcommand{\rowline}{\hline}
+% 公式块的小标签（如「增幅反应」）：批注4「放到下一页吧，放这里的话，下一页的内容开头
+% 看完之后，要往上翻一页才知道是属于增幅反应的公式」→ 标签与其后公式块不许被分页拆开。
+\newcommand{\rxlabel}[1]{\needspace{6\baselineskip}\indent\textbf{#1}}
+
+% ---------- 阅读性组件：结论框 / 公式框 / 存疑框 ----------
+\newtcolorbox{keybox}[1]{colback=ellunar!4!white,colframe=ellunar,title={#1},fonttitle=\bfseries,
+  boxrule=0.7pt,arc=1.5mm,left=3pt,right=3pt,top=2pt,bottom=2pt,breakable}
+\newtcolorbox{rxnewbox}[1]{colback=elstellar!4!white,colframe=elstellar,title={#1},fonttitle=\bfseries,
+  boxrule=0.7pt,arc=1.5mm,left=3pt,right=3pt,top=2pt,bottom=2pt,breakable}
+\newtcolorbox{warntbox}[1]{colback=red!3!white,colframe=red!55!black,title={#1},fonttitle=\bfseries,
+  boxrule=0.7pt,arc=1.5mm,left=3pt,right=3pt,top=2pt,bottom=2pt,breakable}
+\newtcolorbox{fmbox}{colback=black!3!white,colframe=black!35,boxrule=0.5pt,arc=1.5mm,
+  left=3pt,right=3pt,top=3pt,bottom=3pt,breakable}
+\newcommand{\hdr}[1]{\textbf{#1}}
+\newcommand{\rowhdr}{\rowcolor{black!8}}
+
+% ---------- 超链接：目录/书签可点击跳转（hidelinks 不改变现有观感） ----------
+\usepackage[hidelinks,bookmarksnumbered=true]{hyperref}
+\hypersetup{pdftitle={元素反应机制详解（7.0版）}}

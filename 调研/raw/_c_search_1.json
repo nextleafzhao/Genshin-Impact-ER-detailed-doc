@@ -1,0 +1,301 @@
+SOURCE: bwiki api search insource:"月之轮"
+FETCHED: 2026-09-22
+
+{
+ "batchcomplete": "",
+ "query": {
+  "searchinfo": {
+   "totalhits": 32
+  },
+  "search": [
+   {
+    "ns": 0,
+    "title": "伊涅芙",
+    "pageid": 144904,
+    "size": 40308,
+    "wordcount": 2475,
+    "snippet": "能与涅法海姆的祭礼用具存在关联…&lt;br&gt;\n…稍微用了一些手段，拿到了依然能运作的「<span class=\"searchmatch\">月之轮</span>」（涅法海姆的祭礼用具——更准确地说，那三位背叛者赐予她们追随者的、让那些人类与她们沟通的小玩具）…与王授予的智识相同，「<span class=\"searchmatch\">月之轮</span>」依靠更纯净的力量运行，而非受到僭主污染的元素力…&lt;br&gt;\n……&lt;br&gt;\n…进一步的",
+    "timestamp": "2026-07-15T04:50:45Z"
+   },
+   {
+    "ns": 0,
+    "title": "菈乌玛",
+    "pageid": 146381,
+    "size": 40657,
+    "wordcount": 2815,
+    "snippet": "角落，折了整整三大罐纸星星。\n|冒险笔记解锁条件=\n|其他=<span class=\"searchmatch\">月之轮</span>\n|其他故事=菈乌玛非常感谢<span class=\"searchmatch\">月之轮</span>的存在，也非常高兴自己能拥有一枚，但说实话，这东西让她着实有些困扰，因为她不记得自己是如何获得它的了。&lt;br&gt;\n莎莱卡奶奶说，她的这枚<span class=\"searchmatch\">月之轮</span>是从襁褓中掉出来的。虽然父母当时正被新生命的到来冲昏头脑，记",
+    "timestamp": "2026-08-26T14:29:43Z"
+   },
+   {
+    "ns": 0,
+    "title": "菲林斯",
+    "pageid": 146438,
+    "size": 49579,
+    "wordcount": 2758,
+    "snippet": "|出身=至冬\n|种族=妖精（灯之妖精）\n|介绍=挪德卡莱的「执灯人」，看守着北方小岛上的灯塔与墓地。一位言行举止极富修养的神秘绅士。\n|神之眼描述=<span class=\"searchmatch\">月之轮</span>\n|元素属性=雷\n|武器类型=长柄武器\n|命之座=夜行灯座\n|特殊料理=长夜燃火\n|性别=男\n|羁绊属性=月兆\n|TAG=减抗、擢升、元素反应基础伤",
+    "timestamp": "2026-08-26T14:30:59Z"
+   },
+   {
+    "ns": 0,
+    "title": "奈芙尔",
+    "pageid": 149327,
+    "size": 44578,
+    "wordcount": 2630,
+    "snippet": "使者努力压下了某些会掀起不必要风浪的念头，向奈芙尔道了谢，就此离开。&lt;br&gt;\n……&lt;br&gt;\n看着使者离去的背影，奈芙尔把抛掷向高空的「<span class=\"searchmatch\">月之轮</span>」握在手里。&lt;br&gt;\n在她和使者谈完话后，这枚「<span class=\"searchmatch\">月之轮</span>」出现在了使者带来的礼物盒底部，奈芙尔从珍珠和黄金里很快分辨出了这枚不凡之物——它绝无可能是由凡人铸就，自然也不可能包含在使者的礼物清单里。&lt;br&gt;",
+    "timestamp": "2026-08-26T14:34:12Z"
+   },
+   {
+    "ns": 0,
+    "title": "兹白",
+    "pageid": 156150,
+    "size": 35172,
+    "wordcount": 1761,
+    "snippet": "|英文名称=Zibai\n|稀有度=5星\n|所属=璃月\n|出身=\n|种族=仙人（天使）\n|介绍=璃月传说中的白马仙人，其名为兹白，璃月仙话中最神秘的一位。\n|神之眼描述=<span class=\"searchmatch\">月之轮</span>\n|元素属性=岩\n|武器类型=单手剑\n|命之座=白驹座\n|特殊料理=\n|性别=女\n|羁绊属性=月兆\n|TAG=自身增益、特殊元素附魔、特化反应、技能",
+    "timestamp": "2026-07-28T10:58:43Z"
+   },
+   {
+    "ns": 0,
+    "title": "莉奈娅",
+    "pageid": 161214,
+    "size": 42597,
+    "wordcount": 2297,
+    "snippet": "么。&lt;br/&gt;「好吧，看来你也很喜欢它。」莉奈娅笑着摸了摸露米的脑袋，拿起那枚散发着幽光的「<span class=\"searchmatch\">月之轮</span>」，在灯下细看，「那就留着吧，反正只要你不吃它，它就是个不错的装饰品。」&lt;br/&gt;这便是莉奈娅与她的「<span class=\"searchmatch\">月之轮</span>」的故事。&lt;br/&gt;没有什么惊天动地的誓言，也没有生离死别的觉悟。有的只是一只贪吃的霜精，一个",
+    "timestamp": "2026-09-20T00:23:31Z"
+   },
+   {
+    "ns": 0,
+    "title": "晨星与月的晓歌",
+    "pageid": 157452,
+    "size": 8497,
+    "wordcount": 2237,
+    "snippet": "灯。&lt;br&gt;\n她们将疯狂与灵感带回月下，那是「秩序」无法给出回答。&lt;br&gt;\n当晨星再度升起，自山巅归来的主祭带回了一枚小小的轮符。&lt;br&gt;\n这枚「<span class=\"searchmatch\">月之轮</span>」，便是三月与众民订下的新约…\n|空之杯描述=古时向空月奉献祭祀的信徒，在仪式最后的狂欢宴上遗失的酒杯。\n|空之杯故事=\n曾经有一个时代，牵引着原初天球的银轮，其数量依旧为三。&lt;br&gt;",
+    "timestamp": "2026-08-26T07:20:46Z"
+   },
+   {
+    "ns": 0,
+    "title": "龙族文明",
+    "pageid": 139704,
+    "size": 29607,
+    "wordcount": 7908,
+    "snippet": "天理到来四百余年后，人类受造诞生。&lt;ref name=&quot;日月前事&quot;&gt;[[白夜国馆藏#日月前事]]&lt;/ref&gt;\n&lt;/div&gt;\n&lt;div class=&quot;pane&quot;&gt;\n=====<span class=\"searchmatch\">月之轮</span>=====\n那时，高天所降下的律法尚未结集，人理的边界尚未划定。神的子民散布在新造的园囿与山谷，其数目不可胜数。天空的使者行走在蒙昧的人群当中，播散",
+    "timestamp": "2026-08-06T16:25:44Z"
+   },
+   {
+    "ns": 0,
+    "title": "逆焰",
+    "pageid": 148358,
+    "size": 56423,
+    "wordcount": 13994,
+    "snippet": "痕。在意识行将破碎之前，她终于触及了莉安歌埋藏的「最后密钥」——那无数回忆所承载的善意与羁绊，已经积蓄了足以击碎宿命的力量。诅咒应声碎裂，新生的「<span class=\"searchmatch\">月之轮</span>」绽放光芒，重铸了她破碎的古龙核心。伊涅芙挣脱枷锁，以真正的自由意志，宣告自己的新生。}}\n*希诺宁：…她看起来不属于任何一个国家\n*恰斯卡：…那对你来说，「家」是什么呢？",
+    "timestamp": "2026-06-10T19:45:02Z"
+   },
+   {
+    "ns": 0,
+    "title": "北陆图书馆",
+    "pageid": 7931,
+    "size": 104579,
+    "wordcount": 41067,
+    "snippet": "素力。每一位「神之眼」的拥有者，都是有资格成神的人，因此被称作「原神」，拥有登上天空岛的资格。前身为<span class=\"searchmatch\">月之轮</span>，虽然不知神之眼是否是对<span class=\"searchmatch\">月之轮</span>优化改造而成，但<span class=\"searchmatch\">月之轮</span>确实是先于神之眼出现的外置魔力器官。<span class=\"searchmatch\">月之轮</span>是天理透过三月的力量打造而成，发放给人类用以联系三月，与神之眼不同的是使用燃素而非元素力，但与神之眼相同，获取即是卖身于命运&lt;ref",
+    "timestamp": "2026-09-18T23:18:19Z"
+   },
+   {
+    "ns": 0,
+    "title": "璃月",
+    "pageid": 5314,
+    "size": 134874,
+    "wordcount": 34261,
+    "snippet": "name=&quot;碧落之珑&quot;/&gt;。「炸春鲜」是琅玕国的菜肴&lt;ref name=&quot;炸春鲜&quot;&gt;[[炸春鲜]]&lt;/ref&gt;。天使兹白受时间执政选为月使，获得<span class=\"searchmatch\">月之轮</span>&lt;ref name=&quot;兹白<span class=\"searchmatch\">月之轮</span>&quot;&gt;[[兹白]]角色故事-<span class=\"searchmatch\">月之轮</span>&lt;/ref&gt;，在月亮上与[[须弥#七贤僧|䴉之王图特]]等月使共事&lt;ref name=&quot;奔霄颂玉轮&quot;/&gt;。琅玕国有一",
+    "timestamp": "2026-09-19T02:11:02Z"
+   },
+   {
+    "ns": 0,
+    "title": "须弥",
+    "pageid": 8042,
+    "size": 100376,
+    "wordcount": 25460,
+    "snippet": "首的，之后还与赤王把酒言欢，与花神一同栽种绿植…&lt;ref name=&quot;奈芙尔角色故事<span class=\"searchmatch\">月之轮</span>&quot;&gt;[[奈芙尔]]角色故事 <span class=\"searchmatch\">月之轮</span>&lt;/ref&gt;但佞臣能言善骗，图特尤其爱讲谎话，可信度较低（不过[[奈芙尔]]角色故事 <span class=\"searchmatch\">月之轮</span>和[[奔霄颂玉轮]]第四幕提及有部分是真话，包括担任月使）。公羊之王被称为「众相之相",
+    "timestamp": "2026-09-18T13:49:12Z"
+   },
+   {
+    "ns": 0,
+    "title": "纳塔",
+    "pageid": 47295,
+    "size": 128989,
+    "wordcount": 34189,
+    "snippet": "在。而后与至高领主第三席“纺秘者”讨论后认为：神之眼的工作原理与涅法海姆的祭礼用具 “<span class=\"searchmatch\">月之轮</span>”类似。后来第八席还为莉安歌留下了一枚<span class=\"searchmatch\">月之轮</span>&lt;ref name=&quot;伊涅芙角色故事<span class=\"searchmatch\">月之轮</span>&quot;&gt;[[伊涅芙]]角色故事 <span class=\"searchmatch\">月之轮</span>&lt;/ref&gt;。&lt;br&gt;\n至高领主第五席“苦泉的賜生者”发起会议，议题为“对人类聚居点的无害化处理”，共识最终未达成&lt;ref",
+    "timestamp": "2026-08-12T05:28:27Z"
+   },
+   {
+    "ns": 0,
+    "title": "至冬",
+    "pageid": 8041,
+    "size": 310806,
+    "wordcount": 82799,
+    "snippet": "天理到来四百余年后，人类受造诞生。&lt;ref name=&quot;日月前事&quot;&gt;[[白夜国馆藏#日月前事]]&lt;/ref&gt;\n&lt;/div&gt;\n&lt;div class=&quot;pane&quot;&gt;\n=====<span class=\"searchmatch\">月之轮</span>=====\n那时，高天所降下的律法尚未结集，人理的边界尚未划定。神的子民散布在新造的园囿与山谷，其数目不可胜数。天空的使者行走在蒙昧的人群当中，播散",
+    "timestamp": "2026-09-22T06:09:00Z"
+   },
+   {
+    "ns": 0,
+    "title": "提瓦特编年史",
+    "pageid": 4972,
+    "size": 71473,
+    "wordcount": 17434,
+    "snippet": "并无冲突&lt;ref name=&quot;终北的夜行诗&quot;&gt;[[终北的夜行诗]]&lt;/ref&gt;。此事被龙族视为三月背叛龙族，之后法涅斯透过三月打造了神之眼的前身「<span class=\"searchmatch\">月之轮</span>」，与神之眼不同的是它使用燃素，发放给人类用来让人们联系月神，与神之眼相同获取后就是卖身于命运。&lt;br&gt;\n山川与河流落成，此时的山比天穹还高，大地比天空更广大&lt;ref",
+    "timestamp": "2026-09-14T16:41:28Z"
+   },
+   {
+    "ns": 0,
+    "title": "三月",
+    "pageid": 139701,
+    "size": 24762,
+    "wordcount": 6609,
+    "snippet": "主人法涅斯接管了三月&lt;ref&gt;[[日月前事]]&lt;/ref&gt;，并透过三月的力量打造神之眼的前身「<span class=\"searchmatch\">月之轮</span>」。三月女神起了分歧，有的认为应该效忠创造她们的旧主尼伯龙根，有的认为不应该追随沾染可怕深渊的牠。<span class=\"searchmatch\">月之轮</span>一事被龙族视为三月女神的背叛，尼伯龙根归来后，对三月管理权被夺十分愤怒，囚禁月神，将三月改造为对",
+    "timestamp": "2026-09-12T15:44:58Z"
+   },
+   {
+    "ns": 0,
+    "title": "挪德卡莱",
+    "pageid": 138110,
+    "size": 23281,
+    "wordcount": 5694,
+    "snippet": "新月神像的更多内容见[[七天神像]]。&lt;br&gt;\n挪德卡莱的角色佩戴类似神之眼的「<span class=\"searchmatch\">月之轮</span>」，<span class=\"searchmatch\">月之轮</span>由三月女神所造，用于赐予追随者们以便与之沟通。与燃素相同，<span class=\"searchmatch\">月之轮</span>依靠更纯净的力量运行，而非受到僭主污染的元素力。关于<span class=\"searchmatch\">月之轮</span>的更多内容见[[神之眼]]。&lt;br&gt;\n==势力==\n[[file:挪德卡莱势力.png|600px|居中]]",
+    "timestamp": "2026-09-18T15:04:46Z"
+   },
+   {
+    "ns": 0,
+    "title": "神之眼",
+    "pageid": 107933,
+    "size": 21375,
+    "wordcount": 4584,
+    "snippet": " 挪德卡莱&lt;br&gt;神之眼&lt;br&gt;&amp;<span class=\"searchmatch\">月之轮</span>\n| &lt;!-- [[文件:<span class=\"searchmatch\">月之轮</span>-火.png|70px|link=]] --&gt; || [[文件:<span class=\"searchmatch\">月之轮</span>-水.png|70px|link=]] || [[文件:<span class=\"searchmatch\">月之轮</span>-风.png|70px|link=]] || [[文件:<span class=\"searchmatch\">月之轮</span>-雷.png|70px|link=]]",
+    "timestamp": "2026-08-29T03:19:41Z"
+   },
+   {
+    "ns": 0,
+    "title": "伊斯塔露",
+    "pageid": 145313,
+    "size": 4797,
+    "wordcount": 1405,
+    "snippet": "龙的利剑，化作苍古的誓言与恋人的嗟叹&lt;ref&gt;[[风起之日]]&lt;/ref&gt;。\n*兹白被时之执政选为月使，并被其颁予<span class=\"searchmatch\">月之轮</span>&lt;ref name=&quot;兹白<span class=\"searchmatch\">月之轮</span>&quot;&gt;[[兹白]]角色故事-<span class=\"searchmatch\">月之轮</span>&lt;/ref&gt;。兹白因带领琅玕民得救违反天意而陨落。兹白的灵魂在陨落前被时之执政定格，以切割灵魂的仪式（割尸神）&lt;ref",
+    "timestamp": "2026-05-21T11:07:33Z"
+   },
+   {
+    "ns": 0,
+    "title": "龙蛇洞宫试炼记",
+    "pageid": 37506,
+    "size": 30630,
+    "wordcount": 7828,
+    "snippet": "|选项1=关于日月回轮…\n|剧情1=渊上：毕竟这里是地下嘛，并没有太阳。所以这里的人们建造了这个灯塔。&lt;br&gt;\n渊上：通过此处或者他处的机关，白夜国的统治者可以转动日<span class=\"searchmatch\">月之轮</span>，切换白夜和常夜。&lt;br&gt;\n渊上：在古代，大日御舆的名字叫做「许伯利翁」，亘古语言里的意思是太阳之本体。&lt;br&gt;\n渊上：很能理解他们。没有太阳的地下王国，确实一切都很艰难。",
+    "timestamp": "2025-10-09T09:28:16Z"
+   },
+   {
+    "ns": 0,
+    "title": "月之一版本「『空月之歌·呈示』雪浪与苍林之舞」更新专题",
+    "pageid": 149857,
+    "size": 48286,
+    "wordcount": 12726,
+    "snippet": "此外，挪德卡莱地区也将有新的钓鱼点和「旋曜玉帛」布设。&lt;br&gt;&lt;br&gt;\n\n===二、全新角色===\n{{图标|角色|菈乌玛}}&lt;br&gt;\n「永月的祀歌·菈乌玛(草)」（★5）&lt;br&gt;\n◇<span class=\"searchmatch\">月之轮</span>：草&lt;br&gt;\n◇武器：法器&lt;br&gt;\n◇被月光与森林祝福的圣女，一个诞生在「霜月之子」中的希望。&lt;br&gt;\n◆菈乌玛是一位能提供绽放相关反应增益，并使队",
+    "timestamp": "2026-05-22T10:46:02Z"
+   },
+   {
+    "ns": 0,
+    "title": "伊涅芙语音",
+    "pageid": 146423,
+    "size": 69929,
+    "wordcount": 12211,
+    "snippet": "완료. 안아드릴까요?\n}}\n{{角色/语音1\n|语音类型=关于「<span class=\"searchmatch\">月之轮</span>」·归宿\n|语音文件=player1-伊涅芙_关于「<span class=\"searchmatch\">月之轮</span>」·归宿\n|语音内容=如果没有这枚「<span class=\"searchmatch\">月之轮</span>」，捏碎核心后的我，应该再也回不来了…但即使是现在，排除「<span class=\"searchmatch\">月之轮</span>」的因素进行演算，思维模块还是会一次次推演出相同的决断——即使再也没有归宿，也要守护你们的归途。",
+    "timestamp": "2026-01-16T03:10:08Z"
+   },
+   {
+    "ns": 0,
+    "title": "菈乌玛语音",
+    "pageid": 149008,
+    "size": 45475,
+    "wordcount": 7497,
+    "snippet": "아래로도 자라나죠. 별과 심연에 끝이 없듯… 우리의 미래도 그러하길 바라요\n}}\n{{角色/语音1\n|语音类型=关于「<span class=\"searchmatch\">月之轮</span>」…\n|语音文件=player1-菈乌玛_关于「<span class=\"searchmatch\">月之轮</span>」…\n|语音内容=这是神明的慈悲，据称以愿望衡量。&lt;br&gt;为什么说「据称」？嗯…因为没有地方去确认啊。\n|语音内容日语=",
+    "timestamp": "2025-09-10T03:23:27Z"
+   },
+   {
+    "ns": 0,
+    "title": "奈芙尔语音",
+    "pageid": 152929,
+    "size": 66724,
+    "wordcount": 12064,
+    "snippet": "인물은 없었어\n}}\n{{角色/语音1\n|语音类型=关于「<span class=\"searchmatch\">月之轮</span>」…\n|语音文件=player1-奈芙尔_关于「<span class=\"searchmatch\">月之轮</span>」…\n|语音内容=或许是由于图特和「月亮」之间也有些关联，让我获得了这枚「<span class=\"searchmatch\">月之轮</span>」。但比起什么「神明的注视」，这枚「<span class=\"searchmatch\">月之轮</span>」总让我感觉是那个老骗子在背后盯着我，虽然明知道没什么根据，呵，但善骗者总是担心自己亦被欺骗。",
+    "timestamp": "2025-10-22T08:29:49Z"
+   },
+   {
+    "ns": 0,
+    "title": "莉奈娅语音",
+    "pageid": 162294,
+    "size": 57862,
+    "wordcount": 10301,
+    "snippet": "모험 이야기를 들려줄래? 대신… 골든 비글호에 네 자리를 하나 남겨줄게!\n}}\n{{角色/语音1\n|语音类型=关于「<span class=\"searchmatch\">月之轮</span>」…\n|语音文件=player1-莉奈娅_关于「<span class=\"searchmatch\">月之轮</span>」…\n|语音内容=悄悄告诉你，其实我不靠它也能使用力量…不过露米很喜欢它，可能因为它也是亮晶晶的，所以就留下当作装饰啦。",
+    "timestamp": "2026-04-09T14:51:30Z"
+   },
+   {
+    "ns": 0,
+    "title": "月之四版本「『空月之歌·终曲』如果在冬夜，一个旅人」更新专题",
+    "pageid": 157763,
+    "size": 37260,
+    "wordcount": 9701,
+    "snippet": "◇月兆·满辉：&lt;br&gt;\n「引力涟漪」会造成范围更大的水元素范围伤害。&lt;br&gt;\n&lt;br&gt;\n{{图标|角色|兹白}}\n「驹隙隐泉·兹白(岩)」（★5）&lt;br&gt;\n◇<span class=\"searchmatch\">月之轮</span>：岩&lt;br&gt;\n◇武器：单手剑&lt;br&gt;\n◇璃月传说中的白马仙人，其名为兹白，璃月仙话中最神秘的一位。&lt;br&gt;\n&lt;br&gt;\n◆兹白是一位可以使队伍触发月结",
+    "timestamp": "2026-05-22T10:44:39Z"
+   },
+   {
+    "ns": 0,
+    "title": "月之六版本「『空月之歌·旋舞』逢归的谶羽」更新专题",
+    "pageid": 162268,
+    "size": 25995,
+    "wordcount": 6496,
+    "snippet": "，请及时领取附件。}}\n==本次更新内容==\n===一、全新角色===\n{{图标|角色|莉奈娅}}\n「博闻异旅·莉奈娅(岩)」（★5）&lt;br&gt;\n◇<span class=\"searchmatch\">月之轮</span>：岩&lt;br&gt;\n◇武器：弓&lt;br&gt;\n◇冒险家协会挪德卡莱分会顾问，博物学家。&lt;br&gt;\n&lt;br&gt;\n◆莉奈娅是一位能使队伍能触发月结晶反应，兼具岩元素减抗",
+    "timestamp": "2026-05-22T10:43:27Z"
+   },
+   {
+    "ns": 0,
+    "title": "月之二版本「『空月之歌·复演』回望湮灭的月光」更新专题",
+    "pageid": 153485,
+    "size": 24457,
+    "wordcount": 6154,
+    "snippet": "br&gt;\n}}\n==本次更新内容==\n===一、全新角色===\n{{图标|角色|奈芙尔}}&lt;br&gt;\n「湮沙的秘闻·奈芙尔(草)」（★5）&lt;br&gt;\n◇<span class=\"searchmatch\">月之轮</span>：草&lt;br&gt;\n◇武器：法器&lt;br&gt;\n◇神通广大的「秘闻馆」之主。&lt;br&gt;\n◆奈芙尔是一位在技能中可以直接打出月绽放伤害，并且使队伍能触发月绽放反应的草元素输出型角色。&lt;br&gt;",
+    "timestamp": "2026-05-22T10:45:40Z"
+   },
+   {
+    "ns": 0,
+    "title": "兹白语音",
+    "pageid": 159523,
+    "size": 70609,
+    "wordcount": 12943,
+    "snippet": "오랫동안 머문 이 몸이 축복을 내린다면, 이보다 영험할 수는 없을 것이다\n}}\n{{角色/语音1\n|语音类型=关于「<span class=\"searchmatch\">月之轮</span>」…\n|语音文件=player1-兹白_关于「<span class=\"searchmatch\">月之轮</span>」…\n|语音内容=既获神力，如何运用，便存乎一心。我？既已身在璃月，自是以覆护璃月为先。\n|语音内容日语=神の力をどう使う",
+    "timestamp": "2026-02-26T22:07:46Z"
+   },
+   {
+    "ns": 0,
+    "title": "菲林斯语音",
+    "pageid": 150897,
+    "size": 60834,
+    "wordcount": 10681,
+    "snippet": "뒤에 존재하는 영혼은 모두 비슷하기 때문이라고 믿습니다\n}}\n{{角色/语音1\n|语音类型=关于「<span class=\"searchmatch\">月之轮</span>」…\n|语音文件=player1-菲林斯_关于「<span class=\"searchmatch\">月之轮</span>」…\n|语音内容=不，妖精不需要<span class=\"searchmatch\">月之轮</span>，妖精有妖精自己的方式。但它的造型不错，配这件黑色的大衣正好，还能替我的力量做个掩护…对于这些能够帮助我融入故土的幌子，我自是来者不拒的。",
+    "timestamp": "2026-01-15T23:48:42Z"
+   },
+   {
+    "ns": 0,
+    "title": "提瓦特编年史（公元纪）",
+    "pageid": 119263,
+    "size": 7151,
+    "wordcount": 2260,
+    "snippet": "量。尼伯龙根此时在世界外旅行没有参战：在古龙衰落后，三月由世界的新主人法涅斯接管，此事被龙族视为三月背叛龙类。天理透过三月的力量打造神之眼的前身「<span class=\"searchmatch\">月之轮</span>」。\n*公元41年     七龙王全向法涅斯俯首称臣。法涅斯剥夺七龙王的一部分力量，最初的胎海之心水龙王陨落，龙在枫丹地区的统治崩溃。原初的那一位大",
+    "timestamp": "2025-07-31T15:55:04Z"
+   },
+   {
+    "ns": 0,
+    "title": "伏笔回收",
+    "pageid": 145144,
+    "size": 59541,
+    "wordcount": 17456,
+    "snippet": "政终于亮相（非人形样貌）。\n#[[那维莱特]]立绘提及的希巴拉克、[[第一章]]提及的初代火神已逝得到填坑。\n#神之眼的设定得到补充，其存在前身「<span class=\"searchmatch\">月之轮</span>」。\n#其他国家不常有纳塔人出现的原因填坑，实为为了保护国家不被深渊侵犯与在外国不会受大灵庇护等因，纳塔人通常不会离开故乡。\n#[[第四章]]中那维莱特提及的龙的国度、人龙共存得到应证。",
+    "timestamp": "2026-09-20T10:50:59Z"
+   }
+  ]
+ }
+}

@@ -1,0 +1,197 @@
+\begin{quote}
+\indent\textbf{文档版本} v2026.09 ｜ \textbf{数据基准} 游戏 7.0 版本「无神怜爱的雪国」（2026-08-12 上线）\newline
+\indent\textbf{整理} 梅普露（UID:163618746）｜ \textbf{编排} 娜洛\newline
+\indent\textbf{上一版} 覆盖至 5.2 版本（2024 年末），本版新增 \textbf{5 个反应} 与 \textbf{2 套队伍系统}。
+\end{quote}
+
+\medskip
+
+\section{阅读约定}
+
+\begin{table}[ht]
+\centering
+\small
+\caption{阅读约定记号}\label{tab:notation}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{6.2cm}>{\raggedright\arraybackslash}p{9.3cm}@{}}
+\toprule
+\textbf{记号} & \textbf{含义} \\
+\midrule
+\rxAmp{增幅} \rxTrans{剧变} \rxCata{激化} \rxCryst{结晶} \rxLunar{月曜} \rxStellar{星烁} & 六类反应的反应名底纹，带着色 \\
+\rowline
+\elname{冰}、\elname{水} … & 元素名，带着色（含\elname{物理}） \\
+\rowline
+\term{月兆} & 游戏概念名词 \\
+\rowline
+\cunyi & 社区信源互相矛盾、尚不能定论之处 \\
+\rowline
+\src{来源} & 数值/机制的出处等级，见文末《参考资料与信源分级》（\sref{sec:srcgrade}） \\
+\rowline
+表 N／图 N & 交叉引用：图表全文统一编号，正文以“表 N／图 N”引用，可点击跳转（本表即 表 \ref{tab:notation}；例见 表 \ref{tab:classes}、图 \ref{fig:class-overview}） \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\medskip
+
+\begin{itemize}
+\item \textbf{元素量}（单位 U）：元素攻击施加给敌人的附着量以“元素量”计量，1U 为常见的弱附着、2U 为强附着；附着到敌人身上时还要乘一次 \textbf{0.8 附着税}（1U 的源实际只留下 0.8U）。元素量随时间衰减，触发反应时按固定比例消耗双方的元素量——本文写“各扣 0.4U”“施加 1U 冰附着”即指此单位。
+\item \textbf{ICD}（内置冷却，Internal Cooldown）：同一角色的同一攻击来源对同一目标的附着有次数上限，超过上限的命中不再附着、也不再触发反应；文中“全局 CD”“无全局 ICD”指该限制是否为所有触发者共用，各反应自身的伤害冷却见 \sref{sec:common}。\src{T1 KeqingMains 元素计量学}
+\end{itemize}
+
+\medskip
+
+\section{元素反应概述}
+
+\subsection{反应分类}
+
+新增三类月曜反应、两类星烁反应（六类的分类与伤害基准见 表 \ref{tab:classes}，总览见 图 \ref{fig:class-overview}）
+
+\begin{table}[ht]
+\centering
+\small
+\caption{六类反应分类与伤害基准}\label{tab:classes}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{2.3cm}>{\raggedright\arraybackslash}p{5.4cm}>{\raggedright\arraybackslash}p{3.0cm}>{\raggedright\arraybackslash}p{4.3cm}@{}}
+\toprule
+\textbf{类别} & \textbf{反应} & \textbf{触发要素} & \textbf{伤害基准} \\
+\midrule
+\rxAmp{增幅反应} & 蒸发、融化 & 火 $\leftrightarrow$ 水 / 火 $\leftrightarrow$ 冰 & 技能伤害 × 倍率 \\
+\rowline
+\rxTrans{剧变反应} & 超载、超导、感电、碎冰、扩散、燃烧、绽放、超绽放、烈绽放 & 见各条 & 独立等级系数 \\
+\rowline
+\rxCryst{结晶反应} & 结晶（水/火/雷/冰） & 岩 + 水/火/雷/冰 & 生成护盾，无伤害 \\
+\rowline
+\rxCata{激化反应} & 原激化、超激化、蔓激化 & 草 $\leftrightarrow$ 雷 & 基础伤害区加成 \\
+\rowline
+\rxLunar{月曜反应} & \textbf{\rxLunar{月感电}、\rxLunar{月绽放}、\rxLunar{月结晶}} & 由具备转化天赋的角色转化对应旧反应 & 等级系数（反应型）／角色面板（直伤型） \\
+\rowline
+\rxStellar{星烁反应} & \textbf{\rxStellar{星超导}、\rxStellar{星扩散}} & 由具备转化天赋的角色转化超导／扩散 & 等级系数（\rxStellar{星扩散}反应型）／角色面板（直伤型） \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\indent\textbf{六类反应之外的四条通则}：
+
+\begin{enumerate}
+\item \textbf{旧反应被“转化”，而不是新增元素}：月曜／星烁都是把已有的\rxTrans{感电}、\rxTrans{绽放}、\rxCryst{结晶}、\rxTrans{超导}、\rxTrans{扩散}，在满足条件时换名并换算法；被转化后\textbf{原反应不再单独结算}。
+\item \textbf{区分“反应”与“直伤”}：月曜与星烁都区分「反应伤害」（由反应本身/其衍生物结算）与「直伤」（角色天赋直接打出、被“视为”该反应伤害）。这是与旧体系最大的方法论差异。
+\item \textbf{全部可暴击}：月曜与星烁伤害 100\% 参与暴击结算，这一点打破了"剧变反应不吃双暴"的旧常识，也因此\textbf{不吃防御}，且不受减防影响。
+\item \textbf{不吃常规增伤}：元素伤害杯、通用增伤、技能类型增伤对月曜／星烁均无效，只有写明“月曜／\rxLunar{月感电}／\rxLunar{月结晶}／\rxLunar{月绽放}／\rxStellar{星超导}／\rxStellar{星扩散}／星烁反应伤害提升”的增益才生效。
+\end{enumerate}
+
+六类反应各自的代表反应与伤害基准见图 \ref{fig:class-overview}。
+
+\figClassOverview
+
+\subsubsection{反应谱系}
+
+图 \ref{fig:genealogy} 给出传统反应到月曜／星烁的转化关系（箭头颜色对应转化后的体系，框内小字为提供转化的角色）。
+
+\figGenealogy
+
+\subsection{反应倍率总览}
+
+各反应的倍率总览见表 \ref{tab:multipliers}。
+
+% 批注4：本表原为浮动表，被推到下一页，来源说明块便滞留在本页中部；且两张表夹在
+% 「月曜／星烁反应的元素量消耗」一条之中，读者看不到句子说完。改为 longtable（不浮动、
+% 可跨页），表与来源说明回到流内同一页，来源说明随 `\srctext` 落到该页页脚。
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{1.5cm}>{\raggedright\arraybackslash}p{5.3cm}>{\raggedright\arraybackslash}p{5.4cm}>{\raggedright\arraybackslash}p{3.0cm}@{}}
+\caption{各反应倍率总览}\label{tab:multipliers}\\
+\toprule
+\textbf{类型} & \textbf{反应名称} & \textbf{倍率} & \textbf{备注} \\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\kaifont 表 3（续）：各反应倍率总览}\\
+\toprule
+\textbf{类型} & \textbf{反应名称} & \textbf{倍率} & \textbf{备注} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+\rxAmp{增幅} & \icon{水}水 → \icon{火}火　蒸发 & \textbf{2.0} & \\
+\rowline
+ & \icon{火}火 → \icon{冰}冰　融化 & \textbf{2.0} & \\
+\rowline
+ & \icon{火}火 → \icon{水}水　蒸发 & \textbf{1.5} & \\
+\rowline
+ & \icon{冰}冰 → \icon{火}火　融化 & \textbf{1.5} & \\
+\rowline
+\rxTrans{剧变} & \icon{冰}冰 + \icon{雷}雷　超导 & \textbf{1.5} & 5.2 起由 0.5 上调 \\
+\rowline
+ & \icon{风}风 + 火/水/雷/冰　扩散 & \textbf{0.6} & \\
+\rowline
+ & \icon{水}水 + \icon{雷}雷　感电 & \textbf{2.0} & 5.2 起由 1.2 上调 \\
+\rowline
+ & 冻结 + \element{物理}　碎冰 & \textbf{3.0} & 5.2 起由 1.5 上调 \\
+\rowline
+ & \icon{雷}雷 + \icon{火}火　超载 & \textbf{2.75} & 5.2 起由 2.0 上调 \\
+\rowline
+ & \icon{草}草 + \icon{火}火　燃烧 & \textbf{0.25} & \\
+\rowline
+ & \icon{草}草 + \icon{水}水　绽放 & \textbf{2.0} & \\
+\rowline
+ & 绽放 + \icon{雷}雷　超绽放 / + \icon{火}火　烈绽放 & \textbf{3.0} & \\
+\rowline
+\rxCata{激化} & 激化 + \icon{草}草　蔓激化 & \textbf{1.25} & \\
+\rowline
+ & 激化 + \icon{雷}雷　超激化 & \textbf{1.15} & \\
+\rowline
+\rxLunar{月曜} & \icon{雷}雷 + \icon{水}水　\rxLunar{月感电} & \textbf{3}（系数，反应型／直伤型共用）｜反应型经贡献权重 ×0.6 → 等效 \textbf{1.8} & 5.8 新增；见 \sref{sec:lc} \\
+\rowline
+ & \icon{草}草 + \icon{水}水　\rxLunar{月绽放} & \textbf{无反应倍率} & 月之一新增；反应不造成伤害，改产草露 \\
+\rowline
+ & \icon{岩}岩 + \icon{水}水　\rxLunar{月结晶} & \textbf{1.6}（系数，反应型／直伤型共用）｜反应型经贡献权重 ×0.6 → 等效 \textbf{0.96} & 月之四新增 \\
+\rowline
+\rxStellar{星烁} & \icon{冰}冰 + \icon{雷}雷　\rxStellar{星超导} & \textbf{1.0 → 2.0} & 月之八新增；系数随「\term{极星辉域}」层数变化 \\
+\rowline
+ & \icon{风}风 + \icon{冰}冰　\rxStellar{星扩散} & \textbf{0.75}（风伤）／\textbf{2～3}（风旋爆炸） & 7.0 新增 \\
+\end{longtable}
+}
+\srcfoot{［来源 T0］官方更新说明：5.8、月之一、月之四、月之八、7.0 各版「元素反应」章节；月曜／星烁倍率同时见 ［T3］bwiki《元素反应》倍率表（Bwiki 表中的\rxLunar{月感电} 3／\rxLunar{月结晶} 1.6 即上文的“系数”，并非加权后的等效值；与 T1 KeqingMains 公式图一致）。}
+
+\subsection{元素克制与消耗比例}
+
+\subsubsection{“克制”关系}
+
+在元素反应中，许多反应会互相消耗元素量；单位元素量能消耗更多对方元素的一方，称为\textbf{克制方}。例：水$\leftrightarrow$火蒸发一次消耗比例为 1:2，即 1 份水可消耗 2 份火 → 水克制火。各反应的消耗比见表 \ref{tab:consumption}（比值写法为\textbf{消耗方 : 被消耗方}，即冒号前元素 1 份对冒号后元素几份）。
+
+{\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{5.5cm}c>{\raggedright\arraybackslash}p{7.8cm}@{}}
+\caption{各反应的元素消耗比例}\label{tab:consumption}\\
+\toprule
+\textbf{反应类型} & \textbf{消耗比} & \textbf{备注} \\
+\midrule
+\endfirsthead
+\multicolumn{3}{@{}l}{\kaifont 表 4（续）：各反应的元素消耗比例}\\
+\toprule
+\textbf{反应类型} & \textbf{消耗比} & \textbf{备注} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+蒸发、融化 & \textbf{水 : 火 = 2 : 1} & 强触发（水触火、火触冰）的单位修正为 \textbf{2 倍}：2 份水消耗 1 份火 \\
+\rowline
+蒸发、融化（弱触发） & \textbf{水 : 火 = 1 : 0.5} & 弱触发（火触水、冰触火）的单位修正为 \textbf{0.5 倍}：1 份水消耗 0.5 份火 \\
+\rowline
+超载、超导、感电 & \textbf{1 : 1} & 1 倍单位修正，两侧等量消耗；感电每跳从水、雷两条元素量上\textbf{各扣 0.4U} \\
+\rowline
+原绽放 & \textbf{水 : 草 = 2 : 1} & 水为“弱”元素，但消耗方向为水消耗草：2 份水消耗 1 份草 \\
+\rowline
+扩散 & \textbf{风 : 目标元素 = 2 : 1} & 风触发方为 \textbf{0.5 倍}单位修正：2 份风消耗 1 份对方元素（目标元素被“吹飞”） \\
+\end{longtable}
+}
+\srcfoot{［T1］KeqingMains《Elemental Gauge Theory》《Transformative Reactions》：超载·超导为 1 倍单位修正，增幅强触发 2 倍／弱触发 0.5 倍，\textbf{风与岩触发一律 0.5 倍}（1U 风 → 消耗 0.5U，故 2 份风消耗 1 份对方元素），感电每跳各扣 0.4U，绽放消耗比为（水:草）2:1。\textbf{燃烧与冻结不列消耗比}：燃烧是持续施加火附着的状态（0.25 秒一跳、每跳施加 1U 火附着，可被扑灭），非两侧互耗；冻结的冻元素量另有算法且两源不一，见 \sref{sec:open}。}
+
+\subsubsection{染色与扩散的元素选择}\label{sec:dye}
+
+\textbf{染色}（元素吸收／元素转化）判定的是\textbf{风眼周围存在什么元素}（含环境元素），故有“多元素共存时取谁”的优先级表 \textbf{火 > 水 > 雷 > 冰}（\textbf{风主特例}：冰 > 火 > 水 > 雷）；\textbf{扩散}不用这张表，它判定的是被击目标身上的附着，细则见 \sref{sec:swirl}。\src{T1 KeqingMains｜《Transformative Reactions》}
+
+\subsubsection{\rxLunar{月曜} 与 \rxStellar{星烁} 的转化条件}\label{sec:convert}
+
+\begin{itemize}
+\item 转化的对象是\textbf{反应本身}，而非元素：队伍中存在具备转化天赋的角色时，满足条件的旧反应被替换为其变体。
+\item \textbf{\rxStellar{星超导}}：冰、雷元素均可作后手；生成「\term{星辉棱晶}」与「\term{极星辉域}」需要在冰／雷附着成立时发生。\src{T1 KeqingMains《Stellar Glimmer Reaction Guide》}
+\item \textbf{\rxStellar{星扩散}}：与常规扩散不同，\textbf{\rxStellar{星扩散}不向周围敌人传播冰元素}；改为风旋爆炸时向范围内施加 1U 冰附着。\src{T1 KeqingMains《Stellar Glimmer Reaction Guide》}
+\item 月曜／星烁反应的\textbf{元素量消耗}：\rxLunar{月感电}每 2 秒一跳，每跳从水／雷元素量上各扣 \textbf{0.4U}；\rxLunar{月结晶}“无全局 ICD”带来的多段触发元素量细节，各源描述粒度不一，本文仅记录结论。
+\end{itemize}

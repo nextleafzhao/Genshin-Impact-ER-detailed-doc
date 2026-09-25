@@ -1,0 +1,20 @@
+ENDPOINT FAIL en/element :: HTTP Error 404: Not Found
+ENDPOINT FAIL chs/element :: HTTP Error 404: Not Found
+ENDPOINT FAIL en/reaction :: HTTP Error 404: Not Found
+ENDPOINT FAIL chs/reaction :: HTTP Error 404: Not Found
+ENDPOINT FAIL en/wiki :: HTTP Error 404: Not Found
+ENDPOINT FAIL chs/wiki :: HTTP Error 404: Not Found
+ENDPOINT FAIL en/manual :: HTTP Error 404: Not Found
+ENDPOINT FAIL chs/manual :: HTTP Error 404: Not Found
+ENDPOINT OK en/weapon len=51558
+ENDPOINT OK chs/weapon len=49439
+ENDPOINT OK en/reliquary len=27807
+ENDPOINT OK chs/reliquary len=15896
+ENDPOINT OK en/monster len=82906
+ENDPOINT OK chs/monster len=74797
+ENDPOINT OK en/material len=148155
+ENDPOINT OK chs/material len=136516
+ENDPOINT FAIL en/animal :: HTTP Error 404: Not Found
+ENDPOINT FAIL chs/animal :: HTTP Error 404: Not Found
+ENDPOINT OK en/book len=78685
+ENDPOINT OK chs/book len=68045

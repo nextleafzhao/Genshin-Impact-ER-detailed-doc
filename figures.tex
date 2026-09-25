@@ -1,0 +1,121 @@
+% 正式图表集：六类总览 / 反应谱系（原 mermaid 图改画）/ 伤害乘区流程 / 风旋等级系数
+% 由 main .tex 以 \input{figures} 引入；正文用 \figXXX 调用。
+
+% ---------- 图 1：六类元素反应总览 ----------
+\newcommand{\figClassOverview}{%
+\begin{figure}[t]
+\centering
+\begin{tikzpicture}[
+  card/.style={rectangle,rounded corners=1.5mm,draw=##1!70!black,thick,fill=##1!6,
+    text width=3.6cm,inner sep=4pt,align=left,font=\footnotesize},
+  wide/.style={rectangle,rounded corners=1.5mm,draw=##1!70!black,thick,fill=##1!6,
+    text width=7.3cm,inner sep=4pt,align=left,font=\footnotesize},
+  band/.style={font=\footnotesize\bfseries,black!65}
+]
+\node[card=rxamp] (amp) at (0,0) {{\rxAmp{增幅}}\\[1pt]\rxAmp{蒸发}、\rxAmp{融化}\\[1pt]{\scriptsize 基于技能伤害 $\times$ 反应倍率}};
+\node[card=rxtrans,right=4mm of amp] (tr) {{\rxTrans{剧变}}\\[1pt]\rxTrans{超载}、\rxTrans{超导}、\rxTrans{感电}、\rxTrans{碎冰}、\\\rxTrans{扩散}、\rxTrans{燃烧}、\rxTrans{绽放系}\\[1pt]{\scriptsize 独立等级系数，不吃双暴}};
+\node[card=rxcryst,right=4mm of tr] (cr) {{\rxCryst{结晶}}\\[1pt]\rxCryst{结晶（岩$+$水/火/雷/冰）}\\[1pt]{\scriptsize 生成晶片与护盾}};
+\node[card=rxcata,right=4mm of cr] (ca) {{\rxCata{激化}}\\[1pt]\rxCata{原激化}、\rxCata{超激化}、\rxCata{蔓激化}\\[1pt]{\scriptsize 追加伤害，可暴击}};
+\node[band,above=2mm of amp.north west,anchor=south west] {原有 16 种反应（含冻结）——四类};
+\node[wide=rxlunar,below=10mm of amp.south west,anchor=north west] (lu) {{\rxLunar{月曜}}\\[1pt]\rxLunar{月感电}（\icon{水}+\icon{雷}）、\rxLunar{月绽放}（\icon{草}+\icon{水}）、\rxLunar{月结晶}（\icon{岩}+\icon{水}）\\[1pt]{\scriptsize 视为月曜反应；吃元素精通，反应型另吃等级系数；可暴击}};
+\node[wide=rxstellar,right=4mm of lu] (st) {{\rxStellar{星烁}}\\[1pt]\rxStellar{星超导}（\icon{冰}+\icon{雷}）、\rxStellar{星扩散}（\icon{风}+\icon{冰}）\\[1pt]{\scriptsize 有独立的层数/等级系数机制}};
+\node[band,above=2mm of lu.north west,anchor=south west] {本文档新增 5 种反应——两类};
+\end{tikzpicture}
+\caption{六类元素反应总览。“原有 16 种反应”＝四卡所列 15 种＋\rxTrans{冻结}（冻结本身不造成伤害，故按表 \ref{tab:classes} 口径列于剧变之外）}
+\label{fig:class-overview}
+\end{figure}}
+
+% ---------- 图 2：反应谱系（原 mermaid graph LR 改画） ----------
+\newcommand{\figGenealogy}{%
+\begin{figure}[t]
+\centering
+\begin{tikzpicture}[
+  tr/.style={rectangle,rounded corners=1mm,draw=black!45,fill=##1!8,text width=3.6cm,
+    inner sep=3pt,align=center,font=\scriptsize},
+  nx/.style={rectangle,rounded corners=1mm,draw=black!45,fill=##1!8,text width=3.0cm,
+    inner sep=3pt,align=center,font=\scriptsize},
+  head/.style={font=\scriptsize\bfseries,black!65},
+  ar/.style={-{Stealth[length=4pt]},thick}
+]
+% 列标题
+\node[head] at (0,2.3) {传统反应};
+\node[head] at (5.9,2.3) {挪德卡莱 · 月曜体系};
+\node[head] at (10.4,2.3) {至冬 · 星烁体系};
+% 传统反应（左列）
+\node[tr=rxamp] (A1) at (0,0) {\rxAmp{蒸发}·\rxAmp{融化}};
+\node[tr=rxtrans] (A2) at (0,-1.3) {\rxTrans{超载}·\rxTrans{超导}·\rxTrans{感电}·\\\rxTrans{碎冰}·\rxTrans{扩散}·\rxTrans{燃烧}};
+\node[tr=rxtrans] (A3) at (0,-2.6) {\rxTrans{绽放} $\to$ \rxTrans{超绽放}·\rxTrans{烈绽放}};
+\node[tr=rxcryst] (A4) at (0,-3.9) {\rxCryst{结晶}};
+\node[tr=rxcata] (A5) at (0,-5.2) {\rxCata{原激化} $\to$ \rxCata{超激化}·\rxCata{蔓激化}};
+% 月系统（中列，与 A2/A3/A4 同行）
+\node[nx=rxlunar] (B1) at (5.9,-1.3) {\rxLunar{月感电}\\[0.5pt]{\tiny 伊涅芙、菲林斯、哥伦比娅}};
+\node[nx=rxlunar] (B2) at (5.9,-2.6) {\rxLunar{月绽放}\\[0.5pt]{\tiny 菈乌玛、奈芙尔、哥伦比娅}};
+\node[nx=rxlunar] (B3) at (5.9,-3.9) {\rxLunar{月结晶}\\[0.5pt]{\tiny 兹白、莉奈娅、哥伦比娅}};
+% 星系统（右列，与来源行平齐）
+\node[nx=rxstellar] (C1) at (10.4,-1.3) {\rxStellar{星超导}\\[0.5pt]{\tiny 桑多涅、奥黛塔、旅行者(冰)}};
+\node[nx=rxstellar] (C2) at (10.4,-2.6) {\rxStellar{星扩散}\\[0.5pt]{\tiny 桑多涅、奥黛塔、旅行者(冰)}};
+% 月曜转化（短横箭头，与星烁航线交叉最少）
+\draw[ar,rxlunar] (A2.east) -- (B1.west);
+\draw[ar,rxlunar] (A3.east) -- (B2.west);
+\draw[ar,rxlunar] (A4.east) -- (B3.west);
+% 星烁转化之一：星超导来自“超导（冰雷）”——经左侧通道上行，从图表顶部绕行（完全不压框）
+\node[head,font=\tiny] at (5.9,0.86) {冰雷超导 $\to$ 星超导};
+\draw[ar,rxstellar] (A2.east) -- (2.4,-1.3) -- (2.4,1.0) -- (7.6,1.0) -- (7.6,-1.3) -- (C1.west);
+% 星烁转化之二：星扩散只来自“冰扩散（风 + 冰）”——经同一通道下行，从图表底部绕行
+\node[head,font=\tiny] at (5.9,0.58) {冰扩散（风 + 冰）$\to$ 星扩散};
+\draw[ar,rxstellar] (A2.east) -- (3.35,-1.3) -- (3.35,-4.6) -- (7.6,-4.6) -- (7.6,-2.6) -- (C2.west);
+\end{tikzpicture}
+\caption{反应谱系：传统反应到月曜／星烁的转化关系，箭头颜色对应转化后的体系；框内小字为提供转化的角色。星扩散只由冰扩散（风 + 冰）转化而来，风与水／火／雷的扩散不受影响}
+\label{fig:genealogy}
+\end{figure}}
+
+% ---------- 图 3：反应伤害乘区流程 ----------
+\newcommand{\figDamageZones}{%
+\begin{figure}[ht]
+\centering
+\begin{tikzpicture}[
+  b/.style={rectangle,rounded corners=1mm,draw=black!45,fill=##1!7,inner sep=2.5pt,
+    font=\scriptsize,align=center,text width=2.45cm},
+  ar/.style={-{Stealth[length=4pt]},draw=black!60,thick},
+  side/.style={font=\scriptsize,black!65,align=left}
+]
+\node[b=black] (base) {基础伤害\\\scriptsize（攻击/生命/防御/精通 $\times$ 对应倍率）};
+\node[b=rxamp,right=5mm of base] (mult) {反应倍率\\\scriptsize 增幅 1.5 / 2.0，剧变 0.25--3.0};
+\node[b=rxtrans,right=5mm of mult] (em) {精通区\\\scriptsize $1+16\,\text{精通}/(\text{精通}+2000)$};
+\node[b=elcryo,right=5mm of em] (def) {防御区\\\scriptsize 增幅/激化参与，剧变、月曜与星烁不参与};
+\node[b=elelectro,right=5mm of def] (res) {抗性区\\\scriptsize 抗性 $<$0 / 0--75\% / $\ge$75\% 三段};
+\foreach \a/\b in {base/mult,mult/em,em/def,def/res} \draw[ar] (\a) -- (\b);
+\node[side,below=3mm of base.south,anchor=north west,text width=3.6cm] {增幅/激化：乘双暴；\\剧变：不吃双暴；月曜/星烁：全部可暴击};
+\node[side,below=3mm of def.south,anchor=north west,text width=4.6cm] {剧变反应不吃防御区\\月结晶“直伤”另按防御倍率计算};
+\end{tikzpicture}
+\caption{反应伤害乘区流程（剧变型与增幅型的分岔）}
+\label{fig:damage-zones}
+\end{figure}}
+
+% ---------- 图 4：星辉风旋等级系数模型 ----------
+\newcommand{\figVortexModel}{%
+\begin{figure}[ht]
+\centering
+\begin{tikzpicture}[
+  n/.style={circle,draw=black!60,fill=black!5,minimum size=6mm,inner sep=0pt,font=\footnotesize},
+  ar/.style={-{Stealth[length=4pt]},draw=black!60},
+  lab/.style={font=\footnotesize,black!75}
+]
+\node[n] (n1) at (0,0) {1};
+\node[n] (n2) at (1.4,0) {2};
+\node[n] (n3) at (2.8,0) {3};
+\node[n] (n4) at (4.2,0) {4};
+\node[n] (n5) at (5.6,0) {5};
+\node[n] (n6) at (7.0,0) {6};
+\foreach \a/\b in {n1/n2,n2/n3,n3/n4,n4/n5,n5/n6} \draw[ar] (\a) -- (\b);
+\node[lab,above=4mm of n1.north,anchor=south] {第 1 次冰—风接触生成风旋};
+\draw[decorate,decoration={brace,amplitude=4pt},black!50] ([yshift=-4mm]n1.south) -- ([yshift=-4mm]n2.south)
+  node[midway,below=3pt,lab,anchor=north] {小风旋：星烁系数 2};
+\draw[decorate,decoration={brace,amplitude=4pt},black!50] ([yshift=-4mm]n3.south) -- ([yshift=-4mm]n6.south)
+  node[midway,below=3pt,lab,anchor=north] {大风旋：体积变大、星烁系数 3};
+\draw[ar] (n6.north) -- ++(0,4mm) node[above,lab,anchor=south] {达 6 立即引爆};
+\node[lab,below=13mm of n1.south,anchor=west,text width=13cm] {① 第 1 次冰—风接触生成风旋（等级系数 1）；② 此后每次接触 $+1$；③ 达 6 立即引爆；④ 否则最晚 3 秒自动引爆。};
+\end{tikzpicture}
+\caption{星辉风旋的等级系数模型}
+\label{fig:vortex}
+\end{figure}}

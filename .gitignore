@@ -1,0 +1,16 @@
+# 不跟踪：远程仓库推送说明（含 ssh 远端地址）
+远程仓库推送说明.md
+
+# LaTeX 编译产物（PDF 保留进仓）
+*.aux
+*.toc
+*.out
+*.log
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.xdv
+
+# 隐私清理备份与临时脚本
+_backup_privacy/
+_*.py

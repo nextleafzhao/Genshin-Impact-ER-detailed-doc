@@ -1,0 +1,14 @@
+SOURCE: https://genshin-impact.fandom.com/wiki/Nefer
+FETCHED: 2026-09-22
+RENDERED BY: headless Edge (CDP)
+
+嗯… 无法访问此页面
+
+genshin-impact.fandom.com 响应时间太长
+
+请尝试：
+
+检查连接
+检查代理和防火墙
+ERR_CONNECTION_TIMED_OUT
+刷新

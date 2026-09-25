@@ -1,0 +1,56 @@
+
+### Linnea / constellation[5]  CHS名=黄金猎犬之梦  |  EN名=Golden Beagle's Dream
+  CHS> \n\n月兆·满辉：队伍中附近的角色造成的月结晶反应伤害擢升{/LINK}25%。
+  EN > \n\nMoonsign: Ascendant Gleam: Lunar-Crystallize Reaction DMG dealt by nearby party members is elevated{/LINK} by 25%.
+
+### Ineffa / constellation[5]  CHS名=献予你的明晨  |  EN名=A Dawning Morn for You
+  CHS> 伊涅芙处于「载流复合」效果影响下时，附近的雷暴云对敌人进行雷击后，伊涅芙将对当前场上自己的角色周围的敌人造成相当于伊涅芙攻击力135%的雷元素范围伤害，该伤害视为月感电反应造成的伤害，上述效果每3.5秒至多触发一次。
+  EN > When Ineffa is affected by the Carrier Flow Composite effect, she will deal AoE Electro DMG equal to 135% of her ATK to opponents in the current active character's vicinity after nearby thunderclouds release bursts of lightning at opponents.
+
+### Sandrone / constellation[5]  CHS名=水仙梦醒，且望晨光  |  EN名=Narcissus Wakes, Her Eyes Upon the Dawn
+  CHS> \n此外，桑多涅造成的所有星烁反应伤害擢升{/LINK}20%。
+  EN > \nAdditionally, all Stellar Glimmer reaction DMG dealt by Sandrone is elevated{/LINK} by 20%.
+
+### Nefer / constellation[5]  CHS名=决胜于逆转之时  |  EN名=Victory Flows from the Turning of Tides
+  CHS> \n\n月兆·满辉 \n奈芙尔造成的月绽放反应伤害擢升{/LINK}15%。
+  EN > \n\nMoonsign: Ascendant Gleam\nNefer's Lunar-Bloom DMG is elevated{/LINK} by 15%.
+
+### Columbina / constellation[0]  CHS名=遍照花海，隐入群山  |  EN名=Radiance Over Blossoms and Peaks
+  CHS> \n\n队伍中附近的所有角色造成的月曜反应伤害擢升{/LINK}1.5%。
+  EN > \n\nAll nearby party members' Lunar Reaction DMG is elevated{/LINK} by 1.
+
+### Columbina / constellation[1]  CHS名=为夜增辉，与君遥伴  |  EN名=Not in Lone Splendor
+  CHS> \n\n队伍中附近的所有角色造成的月曜反应伤害擢升{/LINK}7%。
+  EN > \n\nAll nearby party members' Lunar Reaction DMG is elevated{/LINK} by 7%.
+
+### Columbina / constellation[2]  CHS名=柔光凝露，梦湖起波  |  EN名=Dreamlike Glow Across Tranquil Waters
+  CHS> \n\n队伍中附近的所有角色造成的月曜反应伤害擢升{/LINK}1.5%。
+  EN > \n\nAll nearby party members' Lunar Reaction DMG is elevated{/LINK} by 1.
+
+### Columbina / constellation[3]  CHS名=花岚云翳，山岩树影  |  EN名=Cloudveiled Ridges in Floral Mists
+  CHS> \n\n队伍中附近的所有角色造成的月曜反应伤害擢升{/LINK}1.5%。
+  EN > \n\nAll nearby party members' Lunar Reaction DMG is elevated{/LINK} by 1.
+
+### Columbina / constellation[4]  CHS名=万籁俱寂，唯闻君唱  |  EN名=Silence Tending One Lone Song
+  CHS> \n\n队伍中附近的所有角色造成的月曜反应伤害擢升{/LINK}1.5%。
+  EN > \n\nAll nearby party members' Lunar Reaction DMG is elevated{/LINK} by 1.
+
+### Columbina / constellation[5]  CHS名=夜昏且暗，且随月光  |  EN名=Through Darkness Led by Moonlight
+  CHS> \n\n队伍中附近的所有角色造成的月曜反应伤害擢升{/LINK}7%。
+  EN > \n\nAll nearby party members' Lunar Reaction DMG is elevated{/LINK} by 7%.
+
+### Columbina / talent[5]  CHS名=新月自己的法则  |  EN名=Law of the New Moon
+  CHS> 处于月之领域{/LINK}中的角色触发月曜反应时，将分别获得以下效果：\n·月感电反应：雷暴云对符合条件的目标进行雷击时，有33%概率额外进行一次雷击；\n·月绽放反应：触发月绽放反应时，将为队伍提供一枚特殊的山月草露{/LINK}，每18秒至多通过这种方式为队伍提供3枚山月草露；\n·月结晶反应：触发月笼谐奏时，每枚月笼有33%概率额外进行一次攻击。
+  EN > When characters within the Lunar Domain{/LINK} trigger Lunar reactions, they will gain the following effects respectively: \n· Lunar-Charged: When the Thundercloud performs lightning strike(s) against a valid target, it has a 33% chance to perform an additional lightning strike.
+
+
+===== 月兆祝赐 talent-name table =====
+  Lauma      CHS=月兆祝赐·千籁恩宠                    EN=Moonsign Benediction: Nature's Chorus
+  Nefer      CHS=月兆祝赐·廊下暮影                    EN=Moonsign Benediction: Dusklit Eaves
+  Aino       CHS=月兆祝赐·力极演算                    EN=Moonsign Benediction: Force Limit Analysis
+  Columbina  CHS=月兆祝赐·借汝月光                    EN=Moonsign Benediction: Moonlight, Lent Unto You
+  Zibai      CHS=月兆祝赐·浮明若流                    EN=Moonsign Benediction: The Coursing Sun and Moon
+  Illuga     CHS=月兆祝赐·凌冬不凋                    EN=Moonsign Benediction: Unwithering in Winter
+  Linnea     CHS=月兆祝赐·栖地考察                    EN=Moonsign Benediction: Habitat Survey
+  Ineffa     CHS=月兆祝赐·象拟中继                    EN=Moonsign Benediction: Assemblage Hub
+  Flins      CHS=月兆祝赐·旧世潜藏                    EN=Moonsign Benediction: Old World Secrets

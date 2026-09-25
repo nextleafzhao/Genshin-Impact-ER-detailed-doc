@@ -1,0 +1,228 @@
+
+======================================================================
+##### Lauma
+======================================================================
+
+--- TALENTS (id -> [EN] / [CHS]) ---
+
+--- EFFECTS DICTIONARY (id -> EN / CHS) ---
+  N11190001
+    EN : Frostgrove Sanctuary
+    CHS: 霜林圣域
+    ENdesc: A magical array that protects the Moonchanters and can be summoned by using the Elemental Skill <color=#FFD780FF>Runo: Dawnless Rest of Karsikko</color>.\nThe Frostgrove Sanctuary will follow the active character, dealing a single instance of <color=#99FF88FF>AoE Dendro DMG</color> to opponents with
+  N11190002
+    EN : Moon Song
+    CHS: 月咏
+    ENdesc: A melody used to weave together hymns. When an Elemental Burst is used, or for a period of time after an Elemental Burst has been used, it can be converted into Pale Hymn stacks that increase the DMG from Bloom, Hyperbloom, Burgeon, and Lunar-Bloom reactions.\nWhen Lauma consumes Verdant Dew to perf
+  N11190003
+    EN : Pale Hymn
+    CHS: 苍色祷歌
+    ENdesc: A hymn passed down by generations of Moonchanters that increases the DMG dealt by Bloom, Hyperbloom, Burgeon, and Lunar-Bloom reactions.\n\nLauma can gain Pale Hymn stacks in the following ways:\n· When using her Elemental Burst <color=#FFD780FF>Runo: All Hearts Become the Beating Moon</color>.\n· W
+  N11190007
+    EN : Elevation
+    CHS: 擢升
+    ENdesc: Special DMG Boost effect. It is calculated independently of other DMG Boost effects.
+  N11190008
+    EN : Verdant Dew
+    CHS: 草露
+    ENdesc: When party members trigger Lunar-Bloom reactions, the party will receive such a resource.\nYour party will receive 1 Verdant Dew every 2.5s for 2.5s after triggering a Lunar-Bloom reaction. Your party can have up to 3 Verdant Dew. If you trigger another Lunar-Bloom reaction during this time, the dur
+
+======================================================================
+##### Nefer
+======================================================================
+
+--- TALENTS (id -> [EN] / [CHS]) ---
+
+--- EFFECTS DICTIONARY (id -> EN / CHS) ---
+  N11190007
+    EN : Elevation
+    CHS: 擢升
+    ENdesc: Special DMG Boost effect. It is calculated independently of other DMG Boost effects.
+  N11190008
+    EN : Verdant Dew
+    CHS: 草露
+    ENdesc: When party members trigger Lunar-Bloom reactions, the party will receive such a resource.\nYour party will receive 1 Verdant Dew every 2.5s for 2.5s after triggering a Lunar-Bloom reaction. Your party can have up to 3 Verdant Dew. If you trigger another Lunar-Bloom reaction during this time, the dur
+  N11220001
+    EN : Shadow Dance
+    CHS: 影舞
+    ENdesc: After using the Elemental Skill <color=#FFD780FF>Senet Strategy: Dance of a Thousand Nights</color>, Nefer will enter this state.\nWhile in the Shadow Dance state, if you have at least 1 Verdant Dew, Nefer's Charged Attacks will be replaced with the special Charged Attack Phantasm Performance.\nNefe
+  N11220002
+    EN : Phantasm Performance
+    CHS: 幻戏
+    ENdesc: When in the Shadow Dance state caused by her Elemental Skill <color=#FFD780FF>Senet Strategy: Dance of a Thousand Nights</color>, if you have at least 1 Verdant Dew, Nefer's Charged Attacks will be replaced with the special Charged Attack Phantasm Performance, which will not consume Stamina.\nNefer 
+  N11220003
+    EN : Veil of Falsehood
+    CHS: 伪秘之帷
+    ENdesc: After absorbing Seeds of Deceit via the Ascension Talent A Wager of Moonlight, Nefer gains this effect, thereby increasing the DMG dealt by her Phantasm Performance.\nEach stack of Veil of Falsehood increases the DMG dealt by Nefer's Phantasm Performance by {PARAM#P1222101|6S100}%. The initial maxim
+
+======================================================================
+##### Aino
+======================================================================
+
+--- TALENTS (id -> [EN] / [CHS]) ---
+
+======================================================================
+##### Nilou
+======================================================================
+
+--- TALENTS (id -> [EN] / [CHS]) ---
+
+======================================================================
+##### Sandrone
+======================================================================
+
+--- TALENTS (id -> [EN] / [CHS]) ---
+
+--- EFFECTS DICTIONARY (id -> EN / CHS) ---
+  N11190007
+    EN : Elevation
+    CHS: 擢升
+    ENdesc: Special DMG Boost effect. It is calculated independently of other DMG Boost effects.
+  N11330001
+    EN : Decoding
+    CHS: 解算
+    ENdesc: Fagio will switch to this mode when using a Charged Attack.\nWhen in this mode, Fagio will engage any opponents ahead with a sweeping fire attack, as well as fire condensed beams at intervals, dealing <color=#99FFFFFF>AoE Cryo DMG</color>.\n<color=#FFD780FF>Radiance: Stellar Glimmer</color>: The con
+  N11330002
+    EN : Decoding Power
+    CHS: 解算功率
+    ENdesc: When in <color=#FFD780FF>Decoding</color> mode, Fagio's <color=#FFD780FF>Decoding Power</color> will continuously increase. When its Decoding Power reaches the maximum, Fagio will be unable to maintain or re-enter Decoding mode.
+  N11330003
+    EN : Polestar Field
+    CHS: 极星辉域
+    ENdesc: When Stellar-Conduct is triggered, the surrounding area will transform into a <color=#FFD780FF>Polestar Field</color> for a short period of time, and when inside a Polestar Field, certain characters will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state, which grants various skill b
+  N11500004
+    EN : Radiance: Stellar Glimmer
+    CHS: 辉映·星烁
+    ENdesc: <color=#FFD780FF>Radiance: Stellar-Conduct</color> and <color=#FFD780FF>Radiance: Stellar Swirl</color> are both considered <color=#FFD780FF>Radiance: Stellar Glimmer</color> states.\nCharacters can only be affected by one Radiance state at any one time, and where more than one state can be triggere
+
+======================================================================
+##### Odette
+======================================================================
+
+--- TALENTS (id -> [EN] / [CHS]) ---
+
+--- EFFECTS DICTIONARY (id -> EN / CHS) ---
+  N11190007
+    EN : Elevation
+    CHS: 擢升
+    ENdesc: Special DMG Boost effect. It is calculated independently of other DMG Boost effects.
+  N11330003
+    EN : Polestar Field
+    CHS: 极星辉域
+    ENdesc: When Stellar-Conduct is triggered, the surrounding area will transform into a <color=#FFD780FF>Polestar Field</color> for a short period of time, and when inside a Polestar Field, certain characters will enter the <color=#FFD780FF>Radiance: Stellar-Conduct</color> state, which grants various skill b
+  N11500001
+    EN : Solo Dance Double
+    CHS: 独舞倒影
+    ENdesc: A psychic double of Odette's that dances a duet with her. May be summoned to the field through her Elemental Skill or Elemental Burst.\nAlternates between the <color=#FFD780FF>Plume</color> and <color=#FFD780FF>Wing</color> dance moves to periodically attack nearby opponents, dealing <color=#99FFFFF
+  N11500002
+    EN : Adagio: Coda at Dawn's Tolling
+    CHS: 柔板·破晓终奏
+    ENdesc: Odette's special Elemental Skill, which deals to nearby opponents <color=#99FFFFFF>AoE Cryo DMG</color> over time. Then, when the dance duet ends, she deals another instance of <color=#99FFFFFF>AoE Cryo DMG</color> that is considered Stellar-Conduct DMG. During the dance duet, Odette can control the
+  N11500003
+    EN : Marvelous Splendor
+    CHS: 华彩
+    ENdesc: After unlocking the Ascension Talent "Spring Rite of the Chosen One," Odette will obtain a special effect when she summons her <color=#FFD780FF>Solo Dance Double</color>.\nEvery stack of <color=#FFD780FF>Marvelous Splendor</color> active increases the character's Stellar Glimmer DMG by 15%. This las
+  N11500004
+    EN : Radiance: Stellar Glimmer
+    CHS: 辉映·星烁
+    ENdesc: <color=#FFD780FF>Radiance: Stellar-Conduct</color> and <color=#FFD780FF>Radiance: Stellar Swirl</color> are both considered <color=#FFD780FF>Radiance: Stellar Glimmer</color> states.\nCharacters can only be affected by one Radiance state at any one time, and where more than one state can be triggere
+
+======================================================================
+##### Columbina
+======================================================================
+
+--- TALENTS (id -> [EN] / [CHS]) ---
+
+--- EFFECTS DICTIONARY (id -> EN / CHS) ---
+  N11190007
+    EN : Elevation
+    CHS: 擢升
+    ENdesc: Special DMG Boost effect. It is calculated independently of other DMG Boost effects.
+  N11190008
+    EN : Verdant Dew
+    CHS: 草露
+    ENdesc: When party members trigger Lunar-Bloom reactions, the party will receive such a resource.\nYour party will receive 1 Verdant Dew every 2.5s for 2.5s after triggering a Lunar-Bloom reaction. Your party can have up to 3 Verdant Dew. If you trigger another Lunar-Bloom reaction during this time, the dur
+  N11250001
+    EN : Gravity Ripple
+    CHS: 引力涟漪
+    ENdesc: After unleashing Elemental Skill <color=#FFD780FF>Eternal Tides</color>, Columbina will summon <color=#FFD780FF>Gravity Ripple</color>.\nGravity Ripple will follow the current active character on the field, while continuously dealing <color=#80C0FFFF>AoE Hydro DMG</color> to surrounding opponents.\n
+  N11250002
+    EN : Lunar Domain
+    CHS: 月之领域
+    ENdesc: The domain that Columbina summons after unleashing the Elemental Burst <color=#FFD780FF>Moonlit Melancholy</color>.\nWhen current active characters are within the <color=#FFD780FF>Lunar Domain</color>, Lunar Reaction DMG inflicted by all party members will increase.
+  N11250003
+    EN : Moonridge Dew
+    CHS: 山月草露
+    ENdesc: A special Verdant Dew resource provided by Columbina's Passive Talent, <color=#FFD780FF>Law of the New Moon</color>. Its maximum capacity and duration are calculated separately from Verdant Dew.\nWhen the party's Verdant Dew is expended, <color=#FFD780FF>Moonridge Dew</color> will be consumed instea
+
+======================================================================
+##### Zibai
+======================================================================
+
+--- TALENTS (id -> [EN] / [CHS]) ---
+
+--- EFFECTS DICTIONARY (id -> EN / CHS) ---
+  N11190007
+    EN : Elevation
+    CHS: 擢升
+    ENdesc: Special DMG Boost effect. It is calculated independently of other DMG Boost effects.
+  N11260001
+    EN : Lunar Phase Shift
+    CHS: 月转时隙
+    ENdesc: After using the Elemental Skill <color=#FFD780FF>Heaven and Earth Made Manifest</color>, Zibai will change to this mode. This mode lasts at most {PARAM#P1263201|4S1}s and has the following properties:\n· Normal and Charged Attacks are converted into <color=#FFE699FF>Geo DMG</color> that cannot be ov
+
+======================================================================
+##### Illuga
+======================================================================
+
+--- TALENTS (id -> [EN] / [CHS]) ---
+
+--- EFFECTS DICTIONARY (id -> EN / CHS) ---
+  N11270001
+    EN : Nightingale's Song
+    CHS: 「夜莺之歌」
+    ENdesc: The effect gained after Illuga unleashes his Elemental Burst <color=#FFD780FF>Shadowless Reflection</color>. It can increase the <color=#FFE699FF>Geo DMG</color> inflicted by current active characters.
+
+======================================================================
+##### Linnea
+======================================================================
+
+--- TALENTS (id -> [EN] / [CHS]) ---
+
+--- EFFECTS DICTIONARY (id -> EN / CHS) ---
+  N11190007
+    EN : Elevation
+    CHS: 擢升
+    ENdesc: Special DMG Boost effect. It is calculated independently of other DMG Boost effects.
+  N11300001
+    EN : Lumi: Strike Forms
+    CHS: 露米·出击形态
+    ENdesc: Lumi has three different Strike Forms.\n\n<color=#FFD780FF>Super Power Form</color>\nLumi will use <color=#FFD780FF>Pound-Pound Pummeler</color> to attack nearby opponents continuously. Every attack will deal 2 instances of <color=#FFE699FF>AoE Geo DMG</color>.\nIf there are Moondrifts nearby, Lumi 
+
+======================================================================
+##### Ineffa
+======================================================================
+
+--- TALENTS (id -> [EN] / [CHS]) ---
+
+--- EFFECTS DICTIONARY (id -> EN / CHS) ---
+  N11160001
+    EN : Birgitta
+    CHS: 薇尔琪塔
+    ENdesc: Ineffa's assistant and companion in battle, she can be summoned to the battlefield via Elemental Skill or Elemental Burst.\nIf there are opponents nearby, Birgitta will quickly move close to an opponent and unleash Discharge attacks every 2s, dealing <color=#FFACFFFF>AoE Electro DMG</color>.\nOnly o
+
+======================================================================
+##### Flins
+======================================================================
+
+--- TALENTS (id -> [EN] / [CHS]) ---
+
+--- EFFECTS DICTIONARY (id -> EN / CHS) ---
+  N11190007
+    EN : Elevation
+    CHS: 擢升
+    ENdesc: Special DMG Boost effect. It is calculated independently of other DMG Boost effects.
+  N11200001
+    EN : Thunderous Symphony
+    CHS: 雷霆交响
+    ENdesc: Consume less Elemental Energy to unleash a special Elemental Burst. Flins deals a single instance of <color=#FFACFFFF>AoE Electro DMG</color>. This DMG is considered Lunar-Charged DMG.\n<color=#FFD780FF>Moonsign: Ascendant Gleam</color>: If there are thunderclouds nearby, Flins will deal 1 additiona
