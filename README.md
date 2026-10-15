@@ -69,6 +69,17 @@ xelatex 元素反应机制详解-7.0版初稿.tex
 5. **提交信息**建议使用中文，格式 `partN: 简述`，例如 `part4: 补充星烁反应加权公式推导`。
 6. 若使用git管理，**不要提交** `*.aux / *.out / *.toc / *.log / *.synctex.gz`；建议在仓库根加 `.gitignore`。
 
+## 参与贡献
+
+欢迎提 Issue 和 Pull Request，流程如下：
+
+1. **Fork** 本仓库
+2. 克隆你的 fork
+3. 新建分支
+4. 提交改动
+5. 推送到你的 fork
+6. 打开 fork 页面，点 **Contribute → Open Pull Request**。或 `gh pr create --base main` (装有GitHub CLI时)
+
 ## 常见问题
 
 - **编译报字体缺失**：确认 preamble 中 `fontset` 与操作系统匹配。
