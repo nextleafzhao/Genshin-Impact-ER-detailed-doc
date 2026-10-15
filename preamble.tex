@@ -42,6 +42,14 @@
 \definecolor{rxcata}{HTML}{2F8B4C}      % 激化类
 \definecolor{rxlunar}{HTML}{4A5CC4}     % 月曜类
 \definecolor{rxstellar}{HTML}{A8559B}   % 星烁类
+% 反应名配色：取 bwiki《模板:颜色》各反应渐变描边/元素色（LaTeX 不做渐变，取可读的元素身份色）
+\definecolor{rxlc}{HTML}{9245E6}       % 月感电（bwiki 雷元素色）
+\definecolor{rxlb}{HTML}{619E7F}       % 月绽放（bwiki 草元素色）
+\definecolor{rxlcrys}{HTML}{A99847}    % 月结晶（bwiki 岩元素色）
+\definecolor{rxssc}{HTML}{8784E0}      % 星超导（bwiki 独特蓝紫，非冰）
+\definecolor{rxssw}{HTML}{2BC5A2}      % 星扩散（bwiki 风元素色）
+\definecolor{bwikiDesc}{HTML}{BA7920}   % bwiki 描述色（月兆/辉映/伪秘之帷/擢升等）
+\definecolor{prism}{HTML}{6D8DFB}        % 星辉棱晶（游戏内偏白蓝色）
 
 % ---------- 元素名 / 图标 ----------
 \newcommand{\elcol}[1]{\csname elc@#1\endcsname}
@@ -77,6 +85,19 @@
 \newcommand{\rxCata}[1]{\textcolor{rxcata}{\textbf{#1}}}
 \newcommand{\rxLunar}[1]{\textcolor{rxlunar}{\textbf{#1}}}
 \newcommand{\rxStellar}[1]{\textcolor{rxstellar}{\textbf{#1}}}
+% 反应名着色宏：元素色填充 + 同色浅投影（模拟游戏内反应名高光）；体系名（月曜／星烁）用 \rxLunar／\rxStellar
+\newcommand{\rxLC}[1]{\leavevmode\rlap{\kern0.4pt\lower0.4pt\hbox{\textcolor{rxlc!30}{\textbf{#1}}}}\textcolor{rxlc}{\textbf{#1}}}
+\newcommand{\rxLB}[1]{\leavevmode\rlap{\kern0.4pt\lower0.4pt\hbox{\textcolor{rxlb!30}{\textbf{#1}}}}\textcolor{rxlb}{\textbf{#1}}}
+\newcommand{\rxLCrys}[1]{\leavevmode\rlap{\kern0.4pt\lower0.4pt\hbox{\textcolor{rxlcrys!30}{\textbf{#1}}}}\textcolor{rxlcrys}{\textbf{#1}}}
+\newcommand{\rxSSC}[1]{\leavevmode\rlap{\kern0.4pt\lower0.4pt\hbox{\textcolor{rxssc!30}{\textbf{#1}}}}\textcolor{rxssc}{\textbf{#1}}}
+\newcommand{\rxSSW}[1]{\leavevmode\rlap{\kern0.4pt\lower0.4pt\hbox{\textcolor{rxssw!30}{\textbf{#1}}}}\textcolor{rxssw}{\textbf{#1}}}
+% 概念名词着色宏：按 bwiki 配色；bwiki 未着色的术语用 \term（teal）
+\newcommand{\termDesc}[1]{\textcolor{bwikiDesc}{\textbf{#1}}}    % bwiki 描述色
+\newcommand{\termElectro}[1]{\textcolor{rxlc}{\textbf{#1}}}      % bwiki 雷色（复用 rxlc）
+\newcommand{\termDendro}[1]{\textcolor{rxlb}{\textbf{#1}}}      % bwiki 草色（复用 rxlb）
+\newcommand{\termAnemo}[1]{\textcolor{rxssw}{\textbf{#1}}}      % bwiki 风色（复用 rxssw）
+\newcommand{\termGeo}[1]{\textcolor{rxlcrys}{\textbf{#1}}}     % bwiki 岩色（复用 rxlcrys）
+\newcommand{\termPrism}[1]{\textcolor{prism}{\textbf{#1}}}     % 星辉棱晶
 \newcommand{\term}[1]{\textcolor{termcolor}{\textbf{#1}}}
 \newcommand{\src}[1]{{\footnotesize\textcolor{srcgray}{［#1］}}}
 % 交叉引用：章节一律带 § 前缀（用户口径：行文交叉引用要规范），且 hyperref 下可点击

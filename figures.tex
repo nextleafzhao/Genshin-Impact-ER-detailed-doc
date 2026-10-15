@@ -17,8 +17,8 @@
 \node[card=rxcryst,right=4mm of tr] (cr) {{\rxCryst{结晶}}\\[1pt]\rxCryst{结晶（岩$+$水/火/雷/冰）}\\[1pt]{\scriptsize 生成晶片与护盾}};
 \node[card=rxcata,right=4mm of cr] (ca) {{\rxCata{激化}}\\[1pt]\rxCata{原激化}、\rxCata{超激化}、\rxCata{蔓激化}\\[1pt]{\scriptsize 追加伤害，可暴击}};
 \node[band,above=2mm of amp.north west,anchor=south west] {原有 16 种反应（含冻结）——四类};
-\node[wide=rxlunar,below=10mm of amp.south west,anchor=north west] (lu) {{\rxLunar{月曜}}\\[1pt]\rxLunar{月感电}（\icon{水}+\icon{雷}）、\rxLunar{月绽放}（\icon{草}+\icon{水}）、\rxLunar{月结晶}（\icon{岩}+\icon{水}）\\[1pt]{\scriptsize 视为月曜反应；吃元素精通，反应型另吃等级系数；可暴击}};
-\node[wide=rxstellar,right=4mm of lu] (st) {{\rxStellar{星烁}}\\[1pt]\rxStellar{星超导}（\icon{冰}+\icon{雷}）、\rxStellar{星扩散}（\icon{风}+\icon{冰}）\\[1pt]{\scriptsize 有独立的层数/等级系数机制}};
+\node[wide=rxlunar,below=10mm of amp.south west,anchor=north west] (lu) {{\rxLunar{月曜}}\\[1pt]\rxLC{月感电}（\icon{水}+\icon{雷}）、\rxLB{月绽放}（\icon{草}+\icon{水}）、\rxLCrys{月结晶}（\icon{岩}+\icon{水}）\\[1pt]{\scriptsize 视为月曜反应；吃元素精通，反应型另吃等级系数；可暴击}};
+\node[wide=rxstellar,right=4mm of lu] (st) {{\rxStellar{星烁}}\\[1pt]\rxSSC{星超导}（\icon{冰}+\icon{雷}）、\rxSSW{星扩散}（\icon{风}+\icon{冰}）\\[1pt]{\scriptsize 有独立的层数/等级系数机制}};
 \node[band,above=2mm of lu.north west,anchor=south west] {本文档新增 5 种反应——两类};
 \end{tikzpicture}
 \caption{六类元素反应总览。“原有 16 种反应”＝四卡所列 15 种＋\rxTrans{冻结}（冻结本身不造成伤害，故按表 \ref{tab:classes} 口径列于剧变之外）}
@@ -48,12 +48,12 @@
 \node[tr=rxcryst] (A4) at (0,-3.9) {\rxCryst{结晶}};
 \node[tr=rxcata] (A5) at (0,-5.2) {\rxCata{原激化} $\to$ \rxCata{超激化}·\rxCata{蔓激化}};
 % 月系统（中列，与 A2/A3/A4 同行）
-\node[nx=rxlunar] (B1) at (5.9,-1.3) {\rxLunar{月感电}\\[0.5pt]{\tiny 伊涅芙、菲林斯、哥伦比娅}};
-\node[nx=rxlunar] (B2) at (5.9,-2.6) {\rxLunar{月绽放}\\[0.5pt]{\tiny 菈乌玛、奈芙尔、哥伦比娅}};
-\node[nx=rxlunar] (B3) at (5.9,-3.9) {\rxLunar{月结晶}\\[0.5pt]{\tiny 兹白、莉奈娅、哥伦比娅}};
+\node[nx=rxlunar] (B1) at (5.9,-1.3) {\rxLC{月感电}\\[0.5pt]{\tiny 伊涅芙、菲林斯、哥伦比娅}};
+\node[nx=rxlunar] (B2) at (5.9,-2.6) {\rxLB{月绽放}\\[0.5pt]{\tiny 菈乌玛、奈芙尔、哥伦比娅}};
+\node[nx=rxlunar] (B3) at (5.9,-3.9) {\rxLCrys{月结晶}\\[0.5pt]{\tiny 兹白、莉奈娅、哥伦比娅}};
 % 星系统（右列，与来源行平齐）
-\node[nx=rxstellar] (C1) at (10.4,-1.3) {\rxStellar{星超导}\\[0.5pt]{\tiny 桑多涅、奥黛塔、旅行者(冰)}};
-\node[nx=rxstellar] (C2) at (10.4,-2.6) {\rxStellar{星扩散}\\[0.5pt]{\tiny 桑多涅、奥黛塔、旅行者(冰)}};
+\node[nx=rxstellar] (C1) at (10.4,-1.3) {\rxSSC{星超导}\\[0.5pt]{\tiny 桑多涅、奥黛塔、旅行者(冰)}};
+\node[nx=rxstellar] (C2) at (10.4,-2.6) {\rxSSW{星扩散}\\[0.5pt]{\tiny 桑多涅、奥黛塔、旅行者(冰)}};
 % 月曜转化（短横箭头，与星烁航线交叉最少）
 \draw[ar,rxlunar] (A2.east) -- (B1.west);
 \draw[ar,rxlunar] (A3.east) -- (B2.west);

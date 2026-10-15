@@ -20,7 +20,7 @@
 \rowline
 \elname{冰}、\elname{水} … & 元素名，带着色（含\elname{物理}） \\
 \rowline
-\term{月兆} & 游戏概念名词 \\
+\termDesc{月兆} & 游戏概念名词 \\
 \rowline
 \cunyi & 社区信源互相矛盾、尚不能定论之处 \\
 \rowline
@@ -62,9 +62,9 @@
 \rowline
 \rxCata{激化反应} & 原激化、超激化、蔓激化 & 草 $\leftrightarrow$ 雷 & 基础伤害区加成 \\
 \rowline
-\rxLunar{月曜反应} & \textbf{\rxLunar{月感电}、\rxLunar{月绽放}、\rxLunar{月结晶}} & 由具备转化天赋的角色转化对应旧反应 & 等级系数（反应型）／角色面板（直伤型） \\
+\rxLunar{月曜反应} & \textbf{\rxLC{月感电}、\rxLB{月绽放}、\rxLCrys{月结晶}} & 由具备转化天赋的角色转化对应旧反应 & 等级系数（反应型）／角色面板（直伤型） \\
 \rowline
-\rxStellar{星烁反应} & \textbf{\rxStellar{星超导}、\rxStellar{星扩散}} & 由具备转化天赋的角色转化超导／扩散 & 等级系数（\rxStellar{星扩散}反应型）／角色面板（直伤型） \\
+\rxStellar{星烁反应} & \textbf{\rxSSC{星超导}、\rxSSW{星扩散}} & 由具备转化天赋的角色转化超导／扩散 & 等级系数（\rxSSW{星扩散}反应型）／角色面板（直伤型） \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -75,7 +75,7 @@
 \item \textbf{旧反应被“转化”，而不是新增元素}：月曜／星烁都是把已有的\rxTrans{感电}、\rxTrans{绽放}、\rxCryst{结晶}、\rxTrans{超导}、\rxTrans{扩散}，在满足条件时换名并换算法；被转化后\textbf{原反应不再单独结算}。
 \item \textbf{区分“反应”与“直伤”}：月曜与星烁都区分「反应伤害」（由反应本身/其衍生物结算）与「直伤」（角色天赋直接打出、被“视为”该反应伤害）。这是与旧体系最大的方法论差异。
 \item \textbf{全部可暴击}：月曜与星烁伤害 100\% 参与暴击结算，这一点打破了"剧变反应不吃双暴"的旧常识，也因此\textbf{不吃防御}，且不受减防影响。
-\item \textbf{不吃常规增伤}：元素伤害杯、通用增伤、技能类型增伤对月曜／星烁均无效，只有写明“月曜／\rxLunar{月感电}／\rxLunar{月结晶}／\rxLunar{月绽放}／\rxStellar{星超导}／\rxStellar{星扩散}／星烁反应伤害提升”的增益才生效。
+\item \textbf{不吃常规增伤}：元素伤害杯、通用增伤、技能类型增伤对月曜／星烁均无效，只有写明“月曜／\rxLC{月感电}／\rxLCrys{月结晶}／\rxLB{月绽放}／\rxSSC{星超导}／\rxSSW{星扩散}／星烁反应伤害提升”的增益才生效。
 \end{enumerate}
 
 六类反应各自的代表反应与伤害基准见图 \ref{fig:class-overview}。
@@ -137,18 +137,18 @@
 \rowline
  & 激化 + \icon{雷}雷　超激化 & \textbf{1.15} & \\
 \rowline
-\rxLunar{月曜} & \icon{雷}雷 + \icon{水}水　\rxLunar{月感电} & \textbf{3}（系数，反应型／直伤型共用）｜反应型经贡献权重 ×0.6 → 等效 \textbf{1.8} & 5.8 新增；见 \sref{sec:lc} \\
+\rxLunar{月曜} & \icon{雷}雷 + \icon{水}水　\rxLC{月感电} & \textbf{3}（系数，反应型／直伤型共用）｜反应型经贡献权重 ×0.6 → 等效 \textbf{1.8} & 5.8 新增；见 \sref{sec:lc} \\
 \rowline
- & \icon{草}草 + \icon{水}水　\rxLunar{月绽放} & \textbf{无反应倍率} & 月之一新增；反应不造成伤害，改产草露 \\
+ & \icon{草}草 + \icon{水}水　\rxLB{月绽放} & \textbf{无反应倍率} & 月之一新增；反应不造成伤害，改产草露 \\
 \rowline
- & \icon{岩}岩 + \icon{水}水　\rxLunar{月结晶} & \textbf{1.6}（系数，反应型／直伤型共用）｜反应型经贡献权重 ×0.6 → 等效 \textbf{0.96} & 月之四新增 \\
+ & \icon{岩}岩 + \icon{水}水　\rxLCrys{月结晶} & \textbf{1.6}（系数，反应型／直伤型共用）｜反应型经贡献权重 ×0.6 → 等效 \textbf{0.96} & 月之四新增 \\
 \rowline
-\rxStellar{星烁} & \icon{冰}冰 + \icon{雷}雷　\rxStellar{星超导} & \textbf{1.0 → 2.0} & 月之八新增；系数随「\term{极星辉域}」层数变化 \\
+\rxStellar{星烁} & \icon{冰}冰 + \icon{雷}雷　\rxSSC{星超导} & \textbf{1.0 → 2.0} & 月之八新增；系数随「\termElectro{极星辉域}」层数变化 \\
 \rowline
- & \icon{风}风 + \icon{冰}冰　\rxStellar{星扩散} & \textbf{0.75}（风伤）／\textbf{2～3}（风旋爆炸） & 7.0 新增 \\
+ & \icon{风}风 + \icon{冰}冰　\rxSSW{星扩散} & \textbf{0.75}（风伤）／\textbf{2～3}（风旋爆炸） & 7.0 新增 \\
 \end{longtable}
 }
-\srcfoot{［来源 T0］官方更新说明：5.8、月之一、月之四、月之八、7.0 各版「元素反应」章节；月曜／星烁倍率同时见 ［T3］bwiki《元素反应》倍率表（Bwiki 表中的\rxLunar{月感电} 3／\rxLunar{月结晶} 1.6 即上文的“系数”，并非加权后的等效值；与 T1 KeqingMains 公式图一致）。}
+\srcfoot{［来源 T0］官方更新说明：5.8、月之一、月之四、月之八、7.0 各版「元素反应」章节；月曜／星烁倍率同时见 ［T3］bwiki《元素反应》倍率表（Bwiki 表中的\rxLC{月感电} 3／\rxLCrys{月结晶} 1.6 即上文的“系数”，并非加权后的等效值；与 T1 KeqingMains 公式图一致）。}
 
 \subsection{元素克制与消耗比例}
 
@@ -191,7 +191,7 @@
 
 \begin{itemize}
 \item 转化的对象是\textbf{反应本身}，而非元素：队伍中存在具备转化天赋的角色时，满足条件的旧反应被替换为其变体。
-\item \textbf{\rxStellar{星超导}}：冰、雷元素均可作后手；生成「\term{星辉棱晶}」与「\term{极星辉域}」需要在冰／雷附着成立时发生。\src{T1 KeqingMains《Stellar Glimmer Reaction Guide》}
-\item \textbf{\rxStellar{星扩散}}：与常规扩散不同，\textbf{\rxStellar{星扩散}不向周围敌人传播冰元素}；改为风旋爆炸时向范围内施加 1U 冰附着。\src{T1 KeqingMains《Stellar Glimmer Reaction Guide》}
-\item 月曜／星烁反应的\textbf{元素量消耗}：\rxLunar{月感电}每 2 秒一跳，每跳从水／雷元素量上各扣 \textbf{0.4U}；\rxLunar{月结晶}“无全局 ICD”带来的多段触发元素量细节，各源描述粒度不一，本文仅记录结论。
+\item \textbf{\rxSSC{星超导}}：冰、雷元素均可作后手；生成「\termPrism{星辉棱晶}」与「\termElectro{极星辉域}」需要在冰／雷附着成立时发生。\src{T1 KeqingMains《Stellar Glimmer Reaction Guide》}
+\item \textbf{\rxSSW{星扩散}}：与常规扩散不同，\textbf{\rxSSW{星扩散}不向周围敌人传播冰元素}；改为风旋爆炸时向范围内施加 1U 冰附着。\src{T1 KeqingMains《Stellar Glimmer Reaction Guide》}
+\item 月曜／星烁反应的\textbf{元素量消耗}：\rxLC{月感电}每 2 秒一跳，每跳从水／雷元素量上各扣 \textbf{0.4U}；\rxLCrys{月结晶}“无全局 ICD”带来的多段触发元素量细节，各源描述粒度不一，本文仅记录结论。
 \end{itemize}

@@ -4,18 +4,18 @@
 与月曜不同，星烁反应\textbf{全部伤害都来自“视为星烁反应伤害”的技能与天赋}：星超导反应本身\textbf{完全无伤害}，星扩散反应则保留一次即时风伤。
 \end{quote}
 
-\subsubsection{\rxStellar{星超导}（Stellar-Conduct）}\label{sec:ssc}
+\subsubsection{\rxSSC{星超导}（Stellar-Conduct）}\label{sec:ssc}
 
 星超导的实装版本、开启者与反应／直伤形态见表 \ref{tab:ssc}。
 
 \indent\textbf{官方定义} \src{T0 · 月之八更新说明「七、元素反应」}
 
 \begin{quote}
-冰雷元素可在特定条件下触发「\rxStellar{星超导}」反应，创造「\term{星辉棱晶}」，并将其附近的区域短暂变为「\term{极星辉域}」。处于「\term{极星辉域}」中：所有角色将会获得冰元素与雷元素伤害加成；敌人被冰元素或雷元素攻击命中时，「\term{极星辉域}」会冻存这些溢散的元素力，并每隔 4 秒将冻存的元素力全部释放，进一步提升上述伤害加成，并使星超导反应的基础反应系数提升，持续 4 秒；此外，敌人的物理抗性将会降低。处于「\term{极星辉域}」中，部分角色还会获得额外的「辉映·\rxStellar{星超导}」效果，使部分天赋与技能的效果获得强化。部分角色可以通过自身的天赋特性，对敌人造成星超导反应伤害，该伤害可以触发暴击。
+冰雷元素可在特定条件下触发「\rxSSC{星超导}」反应，创造「\termPrism{星辉棱晶}」，并将其附近的区域短暂变为「\termElectro{极星辉域}」。处于「\termElectro{极星辉域}」中：所有角色将会获得冰元素与雷元素伤害加成；敌人被冰元素或雷元素攻击命中时，「\termElectro{极星辉域}」会冻存这些溢散的元素力，并每隔 4 秒将冻存的元素力全部释放，进一步提升上述伤害加成，并使星超导反应的基础反应系数提升，持续 4 秒；此外，敌人的物理抗性将会降低。处于「\termElectro{极星辉域}」中，部分角色还会获得额外的「辉映·\rxSSC{星超导}」效果，使部分天赋与技能的效果获得强化。部分角色可以通过自身的天赋特性，对敌人造成星超导反应伤害，该伤害可以触发暴击。
 \end{quote}
 
 \begin{table}[ht]\centering\small
-\caption{\rxStellar{星超导}反应概况}\label{tab:ssc}
+\caption{\rxSSC{星超导}反应概况}\label{tab:ssc}
 \begin{tabular}{@{}>{\raggedright\arraybackslash}p{2.5cm}>{\raggedright\arraybackslash}p{12.5cm}@{}}
 \toprule
 \textbf{项目} & \textbf{内容} \\
@@ -30,7 +30,7 @@
 \rowline
 反应伤害 & \textbf{无}（反应只生成棱晶与极星辉域） \\
 \rowline
-直伤形态 & 桑多涅／奥黛塔等的“视为\rxStellar{星超导}反应伤害”技能 \\
+直伤形态 & 桑多涅／奥黛塔等的“视为\rxSSC{星超导}反应伤害”技能 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -38,12 +38,12 @@
 \indent\textbf{极星辉域与层数} \src{T2 4399《奥黛塔全面解析》｜T1 KeqingMains｜T3 bwiki}
 
 \begin{itemize}
-\item 触发\rxStellar{星超导}时生成「\term{星辉棱晶}」并以其为中心展开「\term{极星辉域}」，\textbf{持续 6 秒}，重复触发即刷新（领域不移动；敌人离开后重新触发会以新目标为中心展开）。
+\item 触发\rxSSC{星超导}时生成「\termPrism{星辉棱晶}」并以其为中心展开「\termElectro{极星辉域}」，\textbf{持续 6 秒}，重复触发即刷新（领域不移动；敌人离开后重新触发会以新目标为中心展开）。
 \item 领域展开时开始\textbf{冻存}范围内的冰／雷附着，\textbf{仅记录元素“附着”次数而非伤害次数}，上限 \textbf{12 层}；每 \textbf{4 秒}释放一次并给出持续 \textbf{4 秒}的增益。生成领域的首次附着不计入；离开领域会清空层数。
 \item \textbf{对群时辉域的记层规则}：
   \begin{itemize}
   \item \textbf{一次攻击即使同时命中多个敌人、分别施加冰／雷附着，也只累计 1 层}。\src{T1 KeqingMains｜meropide（两源一致）}
-  \item \textbf{扩散反应产生的冰／雷附着同样能计 1 层}；\textbf{「双判」视为两次攻击，可计 2 层}（如八重神子对大体型敌人的一次重击双判）；\textbf{「辉映·\rxStellar{星超导}」标志消失会重置层数与计时，且 4 秒内重新获得也不继承}。\src{T1 meropide}
+  \item \textbf{扩散反应产生的冰／雷附着同样能计 1 层}；\textbf{「双判」视为两次攻击，可计 2 层}（如八重神子对大体型敌人的一次重击双判）；\textbf{「辉映·\rxSSC{星超导}」标志消失会重置层数与计时，且 4 秒内重新获得也不继承}。\src{T1 meropide}
   \end{itemize}
 \item 冻存层数对应的星烁基础系数与冰／雷增伤（见表 \ref{tab:frozenstacks}）：
 \begin{table}[ht]\centering\small
@@ -53,17 +53,17 @@
 \toprule
 \textbf{冻存层数} & \textbf{0} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
 \midrule
-\rxStellar{星超导}的星烁基础系数 & 1.00 & 1.45 & 1.50 & 1.55 & 1.60 & 1.65 & 1.70 & 1.75 & 1.80 & 1.85 & 1.90 & 1.95 & 2.00 \\
+\rxSSC{星超导}的星烁基础系数 & 1.00 & 1.45 & 1.50 & 1.55 & 1.60 & 1.65 & 1.70 & 1.75 & 1.80 & 1.85 & 1.90 & 1.95 & 2.00 \\
 \rowline
 冰／雷元素伤害加成 & 20\% & 29\% & 30\% & 31\% & 32\% & 33\% & 34\% & 35\% & 36\% & 37\% & 38\% & 39\% & 40\% \\
 \bottomrule
 \end{tabular}
 \end{table}
 \item 此外，领域内敌人\textbf{物理抗性 -40\%}（0 层即有），与超导的减物抗效果同幅。
-\item 领域内部分角色获得「辉映·\rxStellar{星超导}」：使特定天赋/技能效果强化；当多个“辉映”可同时触发时，\textbf{辉映·\rxStellar{星超导}优先}。
+\item 领域内部分角色获得「辉映·\rxSSC{星超导}」：使特定天赋/技能效果强化；当多个“辉映”可同时触发时，\textbf{辉映·\rxSSC{星超导}优先}。
 \end{itemize}
 
-\indent\textbf{\rxStellar{星超导}伤害结算} \src{T2 · 4399 解析文（含逐层实测表）}
+\indent\textbf{\rxSSC{星超导}伤害结算} \src{T2 · 4399 解析文（含逐层实测表）}
 
 \[
 \begin{aligned}
@@ -78,18 +78,18 @@
 \item \textbf{擢升}：目前仅来自限定五星命之座（如桑多涅 6 命的“所有星烁反应伤害擢升 20\%”、奥黛塔 6 命在「华彩」下的星烁反应伤害擢升 25\%）。
 \end{itemize}
 
-\subsubsection{\rxStellar{星扩散}（Stellar Swirl）}\label{sec:ssw}
+\subsubsection{\rxSSW{星扩散}（Stellar Swirl）}\label{sec:ssw}
 
 星扩散的实装版本、开启者与反应／直伤形态见表 \ref{tab:ssw}。
 
 \indent\textbf{官方定义} \src{T0 · 7.0 更新说明「五、元素反应」}
 
 \begin{quote}
-风冰元素可在特定条件下触发「\rxStellar{星扩散}」反应，对目标造成一次风元素伤害并创造「\term{星辉风旋}」。一定范围内至多存在一个「\term{星辉风旋}」。「\term{星辉风旋}」将在持续一段时间后引爆，造成一次冰元素范围伤害。附近触发一定次数的「\rxStellar{星扩散}」反应后，「\term{星辉风旋}」将提升等级，爆炸时范围更大、伤害更高；触发更多次时，「\term{星辉风旋}」还会提前引爆。上述伤害均可触发暴击。「\term{星辉风旋}」爆炸后，还会短暂地赋予附近角色一次高跳能力。此外，触发星扩散反应时，附近部分角色还会获得「辉映·\rxStellar{星扩散}」效果，强化部分天赋与技能效果。部分角色还可通过天赋特性，对敌人造成星扩散反应伤害，该伤害可以触发暴击。
+风冰元素可在特定条件下触发「\rxSSW{星扩散}」反应，对目标造成一次风元素伤害并创造「\termAnemo{星辉风旋}」。一定范围内至多存在一个「\termAnemo{星辉风旋}」。「\termAnemo{星辉风旋}」将在持续一段时间后引爆，造成一次冰元素范围伤害。附近触发一定次数的「\rxSSW{星扩散}」反应后，「\termAnemo{星辉风旋}」将提升等级，爆炸时范围更大、伤害更高；触发更多次时，「\termAnemo{星辉风旋}」还会提前引爆。上述伤害均可触发暴击。「\termAnemo{星辉风旋}」爆炸后，还会短暂地赋予附近角色一次高跳能力。此外，触发星扩散反应时，附近部分角色还会获得「辉映·\rxSSW{星扩散}」效果，强化部分天赋与技能效果。部分角色还可通过天赋特性，对敌人造成星扩散反应伤害，该伤害可以触发暴击。
 \end{quote}
 
 \begin{table}[ht]\centering\small
-\caption{\rxStellar{星扩散}反应概况}\label{tab:ssw}
+\caption{\rxSSW{星扩散}反应概况}\label{tab:ssw}
 \begin{tabular}{@{}>{\raggedright\arraybackslash}p{2.5cm}>{\raggedright\arraybackslash}p{12.5cm}@{}}
 \toprule
 \textbf{项目} & \textbf{内容} \\
@@ -100,11 +100,11 @@
 \rowline
 开启者 & 桑多涅、奥黛塔、旅行者(冰)（三条「星耀祝礼」天赋同句转化冰元素扩散；官方 7.0 条目点名后两者） \\
 \rowline
-受益者 & 梦见月瑞希：经「\term{魔女的谕示}」可打出\rxStellar{星扩散}风直伤，但本身不能开启星扩散反应 \\
+受益者 & 梦见月瑞希：经「\term{魔女的谕示}」可打出\rxSSW{星扩散}风直伤，但本身不能开启星扩散反应 \\
 \rowline
 反应伤害 & 触发瞬间一次风元素伤害 + 星辉风旋引爆的冰元素范围伤害 \\
 \rowline
-直伤形态 & 桑多涅、奥黛塔战技、梦见月瑞希天赋等“视为\rxStellar{星扩散}反应伤害”的攻击（基础反应系数固定为 1） \\
+直伤形态 & 桑多涅、奥黛塔战技、梦见月瑞希天赋等“视为\rxSSW{星扩散}反应伤害”的攻击（基础反应系数固定为 1） \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -114,19 +114,19 @@
 \figVortexModel
 
 \begin{itemize}
-\item 队伍中编入具有星烁转化天赋的角色时，风元素作用于\textbf{冰附着}目标即触发\rxStellar{星扩散}：立即造成一次风元素伤害（\textbf{固定 0.75 倍}，不吃天赋倍率），并生成「\term{星辉风旋}」。
+\item 队伍中编入具有星烁转化天赋的角色时，风元素作用于\textbf{冰附着}目标即触发\rxSSW{星扩散}：立即造成一次风元素伤害（\textbf{固定 0.75 倍}，不吃天赋倍率），并生成「\termAnemo{星辉风旋}」。
 \item 场上\textbf{至多 1 枚}风旋，存在约 \textbf{3 秒}后自行引爆，造成一次冰元素范围伤害并施加 1U 冰附着。
-\item 升级与提前引爆：附近每触发 1 次\rxStellar{星扩散}都会记录——\textbf{1～2 次}升为小风旋（爆炸倍率 \textbf{2}）、\textbf{3～6 次}升为大风旋（爆炸倍率 \textbf{3}）；第 6 次触发时风旋\textbf{提前引爆}（该次只扩大范围、不进一步提升倍率）。
-\item 与常规扩散的关键差异：\textbf{\rxStellar{星扩散}不向周围敌人传播冰元素}，改为在爆炸时施加 1U 冰附着——这让单体冰附着更密集、也让”\rxStellar{星扩散}队伍“不再依赖扩散传播。
+\item 升级与提前引爆：附近每触发 1 次\rxSSW{星扩散}都会记录——\textbf{1～2 次}升为小风旋（爆炸倍率 \textbf{2}）、\textbf{3～6 次}升为大风旋（爆炸倍率 \textbf{3}）；第 6 次触发时风旋\textbf{提前引爆}（该次只扩大范围、不进一步提升倍率）。
+\item 与常规扩散的关键差异：\textbf{\rxSSW{星扩散}不向周围敌人传播冰元素}，改为在爆炸时施加 1U 冰附着——这让单体冰附着更密集、也让”\rxSSW{星扩散}队伍“不再依赖扩散传播。
 \item 风旋爆炸后，附近角色获得一次高跳能力（每枚风旋一次），持续约 6 秒。
 \item \textbf{风旋等级系数}：每个风旋有独立的\textbf{风旋等级系数}，下限 1、上限 6。
   \begin{itemize}
   \item 每次风冰接触：场上无风旋 → 生成风旋、风旋等级系数记为 \textbf{1}；场上已有风旋 → 风旋等级系数 \textbf{+1}。
   \item \textbf{风旋等级系数达到 6 时立即引爆}（不再等 3 秒）；否则\textbf{最晚在生成后 3 秒}自动爆炸。
-  \item 爆炸冰伤（反应\rxStellar{星扩散}·冰）的星烁基础系数\textbf{只可能是 2 或 3}：风旋等级系数 \textbf{1～2 → 系数 2（小风旋）}；风旋等级系数 \textbf{$\geq$3 → 体积变大、系数 3（大风旋）}。\src{T1 meropide｜T2 4399｜T1 KeqingMains（三源一致）}
+  \item 爆炸冰伤（反应\rxSSW{星扩散}·冰）的星烁基础系数\textbf{只可能是 2 或 3}：风旋等级系数 \textbf{1～2 → 系数 2（小风旋）}；风旋等级系数 \textbf{$\geq$3 → 体积变大、系数 3（大风旋）}。\src{T1 meropide｜T2 4399｜T1 KeqingMains（三源一致）}
   \end{itemize}
 \item \textbf{高跳时长}：风旋爆炸的冲击波命中己方角色后，使该角色在未来 \textbf{6 秒}内跳跃能力提高，\textbf{角色完成一次跳跃后该效果消失}。\src{T1 meropide｜T2 4399 一致}
-\item \textbf{对群计数（\rxStellar{星扩散}与\rxStellar{星超导}不同）}：\rxStellar{星扩散}的\textbf{风旋等级系数}在对群时\textbf{按目标累加}——「一次风元素附着同时命中 X 个目标并分别触发反应\rxStellar{星扩散}·风，则风旋等级系数增加 \textbf{X 层}」（连部分可被附着的召唤物也算额外目标）；但\textbf{反应\rxStellar{星扩散}·风对单个敌人在极短时间内只能造成一次伤害}。\src{T1 meropide｜T1 KeqingMains}
+\item \textbf{对群计数（\rxSSW{星扩散}与\rxSSC{星超导}不同）}：\rxSSW{星扩散}的\textbf{风旋等级系数}在对群时\textbf{按目标累加}——「一次风元素附着同时命中 X 个目标并分别触发反应\rxSSW{星扩散}·风，则风旋等级系数增加 \textbf{X 层}」（连部分可被附着的召唤物也算额外目标）；但\textbf{反应\rxSSW{星扩散}·风对单个敌人在极短时间内只能造成一次伤害}。\src{T1 meropide｜T1 KeqingMains}
 \end{itemize}
 
 \indent\textbf{伤害结算} \src{T2}
@@ -142,17 +142,17 @@
 \begin{itemize}
 \item \textbf{剧变等级系数}：反应型星扩散取常规剧变等级系数（90 级 = 1446.85）。
 \item 多角色加权：所有施加冰／风附着的参与者共同分配，占比 \textbf{0.6 / 0.3 / 0.05 / 0.05…}（等价于 KQM 表述的 1、1/2、1/12 归一化）。
-\item 由于只有\textbf{风元素角色}能触发\rxStellar{星扩散}，7.0 套装「血红之证」的\rxStellar{星扩散}增伤/暴击加成\textbf{只有风位触发者能吃到}；冰角色（奥黛塔、桑多涅）主要受益路径是直伤\rxStellar{星扩散} \src{T2}。
-\item \textbf{翠绿之影（风套）4 件套已更新}：在原有”扩散反应造成的伤害提升 60\%"之外，新增"\textbf{\rxStellar{星扩散}反应造成的伤害提升 20\%}"，并在触发\rxStellar{星扩散}时额外降低敌人 \textbf{40\% 冰元素抗性} \src{T2/T3 · bwiki 现行文本｜gachabase 数据}。
+\item 由于只有\textbf{风元素角色}能触发\rxSSW{星扩散}，7.0 套装「血红之证」的\rxSSW{星扩散}增伤/暴击加成\textbf{只有风位触发者能吃到}；冰角色（奥黛塔、桑多涅）主要受益路径是直伤\rxSSW{星扩散} \src{T2}。
+\item \textbf{翠绿之影（风套）4 件套已更新}：在原有”扩散反应造成的伤害提升 60\%"之外，新增"\textbf{\rxSSW{星扩散}反应造成的伤害提升 20\%}"，并在触发\rxSSW{星扩散}时额外降低敌人 \textbf{40\% 冰元素抗性} \src{T2/T3 · bwiki 现行文本｜gachabase 数据}。
 \end{itemize}
 
 \indent\textbf{两段伤害的减抗与加成规则} \src{T2}
 
 \begin{itemize}
-\item \rxStellar{星扩散}分\textbf{风伤段}与\textbf{冰伤段}：风位角色（梦见月瑞希、珐露珊等）打出的是风伤\rxStellar{星扩散}，冰位角色（奥黛塔、桑多涅）打出的是冰伤\rxStellar{星扩散}；\textbf{伤害数字颜色可直接判别}（风绿／冰蓝）。
+\item \rxSSW{星扩散}分\textbf{风伤段}与\textbf{冰伤段}：风位角色（梦见月瑞希、珐露珊等）打出的是风伤\rxSSW{星扩散}，冰位角色（奥黛塔、桑多涅）打出的是冰伤\rxSSW{星扩散}；\textbf{伤害数字颜色可直接判别}（风绿／冰蓝）。
 \item \textbf{减抗按“伤害元素”结算}：风伤段吃风元素抗性降低（如珐露珊元素爆发的 30\%），冰伤段吃冰元素抗性降低。
-\item \textbf{元素暴击伤害加成生效，元素伤害加成不生效}：珐露珊 6 命的 40\% 风元素暴击伤害对风伤\rxStellar{星扩散}生效，而她的风元素伤害加成（元素爆发天赋 10 级时为 32.4\%）不生效——与月曜同理（元素暴击加成属于已有乘区，元素／通用伤害加成不属于）。
-\item 实战佐证：梦见月瑞希队伍的伤害大头是其天赋（1000\%）与 1 命（400\%）的\textbf{风伤\rxStellar{星扩散}直伤}，因此带珐露珊（充能＋暴伤）优于砂糖（帖内前提为珐露珊 6 命；未满 6 命时其结论倾向砂糖）。
+\item \textbf{元素暴击伤害加成生效，元素伤害加成不生效}：珐露珊 6 命的 40\% 风元素暴击伤害对风伤\rxSSW{星扩散}生效，而她的风元素伤害加成（元素爆发天赋 10 级时为 32.4\%）不生效——与月曜同理（元素暴击加成属于已有乘区，元素／通用伤害加成不属于）。
+\item 实战佐证：梦见月瑞希队伍的伤害大头是其天赋（1000\%）与 1 命（400\%）的\textbf{风伤\rxSSW{星扩散}直伤}，因此带珐露珊（充能＋暴伤）优于砂糖（帖内前提为珐露珊 6 命；未满 6 命时其结论倾向砂糖）。
 \end{itemize}
 
 \medskip

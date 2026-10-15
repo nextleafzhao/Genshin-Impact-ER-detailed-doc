@@ -122,7 +122,7 @@
 \endhead
 \bottomrule
 \endlastfoot
-等级系数 & $\surd$（0.25～3 倍率） & $\surd$ 反应型（90 级 1446.85）；直伤型 $\times$ & \rxStellar{星扩散}反应型 $\surd$；\rxStellar{星超导} $\times$（全直伤） \\
+等级系数 & $\surd$（0.25～3 倍率） & $\surd$ 反应型（90 级 1446.85）；直伤型 $\times$ & \rxSSW{星扩散}反应型 $\surd$；\rxSSC{星超导} $\times$（全直伤） \\
 \rowline
 角色面板（攻击/防御/精通） & $\times$ & $\surd$ 直伤型 & $\surd$ 直伤型 \\
 \rowline
@@ -134,7 +134,7 @@
 \rowline
 常规增伤（元素杯/通用增伤/技能类型增伤） & $\times$ & $\times$ & $\times$ \\
 \rowline
-专属增伤（“XX 反应伤害提升”） & $\surd$ 常规反应增伤 & $\surd$ 仅“月曜/\rxLunar{月感电}/\rxLunar{月绽放}/\rxLunar{月结晶}反应伤害提升” & $\surd$ 仅“星烁/\rxStellar{星超导}/\rxStellar{星扩散}反应伤害提升” \\
+专属增伤（“XX 反应伤害提升”） & $\surd$ 常规反应增伤 & $\surd$ 仅“月曜/\rxLC{月感电}/\rxLB{月绽放}/\rxLCrys{月结晶}反应伤害提升” & $\surd$ 仅“星烁/\rxSSC{星超导}/\rxSSW{星扩散}反应伤害提升” \\
 \rowline
 减抗（按伤害元素结算） & $\surd$ & $\surd$ & $\surd$ \\
 \rowline
@@ -144,7 +144,7 @@
 \end{longtable}
 }
 
-\srcfoot{［T1］KeqingMains《Lunar Reaction Guide》《Stellar Glimmer Reaction Guide》：两类反应“不受敌方防御（及减防）影响”、“不受常规元素/通用伤害加成影响”、“元素暴击加成（如九条裟罗 6 命）对相应反应伤害生效”。［T2］璐洛洛／电脑王阿达（\rxStellar{星超导}乘区归纳）、4399《奥黛塔全面解析》（\rxStellar{星超导}／\rxStellar{星扩散}结算公式）、巴哈姆特实测帖（\rxLunar{月结晶}公式复算，误差 < 0.02\%）。}
+\srcfoot{［T1］KeqingMains《Lunar Reaction Guide》《Stellar Glimmer Reaction Guide》：两类反应“不受敌方防御（及减防）影响”、“不受常规元素/通用伤害加成影响”、“元素暴击加成（如九条裟罗 6 命）对相应反应伤害生效”。［T2］璐洛洛／电脑王阿达（\rxSSC{星超导}乘区归纳）、4399《奥黛塔全面解析》（\rxSSC{星超导}／\rxSSW{星扩散}结算公式）、巴哈姆特实测帖（\rxLCrys{月结晶}公式复算，误差 < 0.02\%）。}
 
 \medskip
 \section{反应强度公式}
@@ -180,7 +180,7 @@
 结晶反应 & $1 + \frac{4.44 \times \text{元素精通}}{\text{元素精通} + 1400}$ & 无“反应伤害加成”项\footnotemark \\
 \end{longtable}
 }
-\srctext{［T2·实测拟合］幕陵《\rxLunar{月感电}机制解析》（游民星空）：以 10 个数据点对 A=6、B=2000 拟合，回归误差约 1‰，公式为 $1+\frac{6\text{EM}}{\text{EM}+2000}$；并验证“精通加成”与“反应伤害加成”位于同一乘区、相加计算。［T3］bwiki《元素反应》反应强度表与上述完全一致。}
+\srctext{［T2·实测拟合］幕陵《\rxLC{月感电}机制解析》（游民星空）：以 10 个数据点对 A=6、B=2000 拟合，回归误差约 1‰，公式为 $1+\frac{6\text{EM}}{\text{EM}+2000}$；并验证“精通加成”与“反应伤害加成”位于同一乘区、相加计算。［T3］bwiki《元素反应》反应强度表与上述完全一致。}
 
 \medskip
 % 批注4：p7 上 表5／表6 两张长表排到页面下沿，其页脚来源说明是"表结束后才贡献"的脚注，
@@ -230,7 +230,7 @@
 \begin{itemize}
   \item \icon{冰}冰 + \icon{雷}雷：\textbf{1.5 倍}冰元素伤害（5.2 起由 0.5 上调）
   \item 降低目标 \textbf{40\% 物理抗性}，持续 12 秒
-  \item \textbf{月之八（6.7）起可被转化为 \rxStellar{星超导}}：队伍中有桑多涅／奥黛塔／旅行者(冰)时，冰雷触发的超导被替换为\rxStellar{星超导}，生成「\term{星辉棱晶}」并展开「\term{极星辉域}」，物理抗性降低幅度同为 \textbf{40\%}，但额外提供冰/雷增伤与\rxStellar{星超导}基础系数提升（详见 \sref{sec:ssc}）
+  \item \textbf{月之八（6.7）起可被转化为 \rxSSC{星超导}}：队伍中有桑多涅／奥黛塔／旅行者(冰)时，冰雷触发的超导被替换为\rxSSC{星超导}，生成「\termPrism{星辉棱晶}」并展开「\termElectro{极星辉域}」，物理抗性降低幅度同为 \textbf{40\%}，但额外提供冰/雷增伤与\rxSSC{星超导}基础系数提升（详见 \sref{sec:ssc}）
 \end{itemize}
 
 \subsubsection{冻结与碎冰}
@@ -246,7 +246,7 @@
 \begin{itemize}
   \item \icon{水}水 + \icon{雷}雷：\textbf{2.0 倍}雷元素伤害（5.2 起由 1.2 上调）
   \item 可传导至附近同样附着水元素的敌人；水/雷附着在反应期间共存并持续消耗
-  \item \textbf{5.8 起可被转化为 \rxLunar{月感电}}：队伍中有伊涅芙／菲林斯／哥伦比娅时，队伍触发的感电被替换为\rxLunar{月感电}，生成雷暴云（详见 \sref{sec:lc}）
+  \item \textbf{5.8 起可被转化为 \rxLC{月感电}}：队伍中有伊涅芙／菲林斯／哥伦比娅时，队伍触发的感电被替换为\rxLC{月感电}，生成雷暴云（详见 \sref{sec:lc}）
 \end{itemize}
 
 \subsubsection{扩散}\label{sec:swirl}
@@ -255,7 +255,7 @@
   \item \icon{风}风 + 火/水/雷/冰：\textbf{0.6 倍}对应元素伤害；范围约 6 米，可连锁
   \item \textbf{扩散不存在跨元素的取源优先级}：扩散元素由\textbf{被击目标身上的附着}决定（多目标各扩各的），风元素量足够即扩——“风眼周围存在什么元素”的取舍属\textbf{染色}（见 \sref{sec:dye}）；只有\textbf{同一目标}多元素共存时才有“感电优先雷、冻结优先水”与能否双扩（双扩需风元素量大于雷／水附着量）的规则。\src{T1 KeqingMains《Transformative Reactions》}
   \item 扩散本身不消耗目标元素以外的资源，但会将元素传播给附近敌人（这是“吹飞附着”与双扩散的机制基础）
-  \item \textbf{7.0 起可被转化为 \rxStellar{星扩散}}：队伍中有桑多涅／奥黛塔／旅行者(冰)时，风作用于冰附着目标会触发\rxStellar{星扩散}，改为生成「\term{星辉风旋}」，\textbf{且不再向周围传播冰元素}（详见 \sref{sec:ssw}）
+  \item \textbf{7.0 起可被转化为 \rxSSW{星扩散}}：队伍中有桑多涅／奥黛塔／旅行者(冰)时，风作用于冰附着目标会触发\rxSSW{星扩散}，改为生成「\termAnemo{星辉风旋}」，\textbf{且不再向周围传播冰元素}（详见 \sref{sec:ssw}）
 \end{itemize}
 
 \subsubsection{燃烧}
@@ -273,7 +273,7 @@
   \item \textbf{超绽放}：草原核 + \icon{雷}雷 → 追踪弹（3.0 倍）
   \item \textbf{烈绽放}：草原核 + \icon{火}火 → 范围爆炸（3.0 倍）
   \item \textbf{丰穰之核}：妮露专属，范围增大至约 6.5 米，延时极短
-  \item \textbf{诳言之核}：奈芙尔专属（月之二），满辉状态下把草原核／丰穰之核转化而成，\textbf{不自爆、无法被超绽放/烈绽放引爆}，改为被奈芙尔重击／幻戏吸收、叠「\term{伪秘之帷}」（详见 \sref{sec:lb}）\srcmark
+  \item \textbf{诳言之核}：奈芙尔专属（月之二），满辉状态下把草原核／丰穰之核转化而成，\textbf{不自爆、无法被超绽放/烈绽放引爆}，改为被奈芙尔重击／幻戏吸收、叠「\termDesc{伪秘之帷}」（详见 \sref{sec:lb}）\srcmark
   \item \textbf{自伤}：草原核爆炸会波及角色自身，仅造成对敌伤害的一小部分。原文档记为 5\%；月之一版本官方下调为“原先的 40\%”，社群 wiki 现记为约 2\% \src{T0 月之一更新说明｜T3 bwiki 现行文本}
 \end{itemize}
 \srctext{［T0/T2］月之二官方更新说明·奈芙尔段 ＋ bwiki 天赋原文「无法触发超绽放与烈绽放反应，也无法迸发」。}
@@ -290,7 +290,7 @@
 \toprule
 \textbf{维度} & \textbf{绽放系列} & \textbf{激化系列} \\
 \midrule
-基础反应 & 绽放：水 + 草 → 生成草原核（单颗持续 6 秒，超时自爆） & 原激化：草 + 雷 → 赋予「\term{激元素}」（约 6～9.5 秒） \\
+基础反应 & 绽放：水 + 草 → 生成草原核（单颗持续 6 秒，超时自爆） & 原激化：草 + 雷 → 赋予「\termElectro{激元素}」（约 6～9.5 秒） \\
 \rowline
 进阶反应 & 超绽放：草原核 + 雷 → 追踪弹爆炸；烈绽放：草原核 + 火 → 范围爆炸 & 超激化：激化状态 + 雷 → 强化雷伤；蔓激化：激化状态 + 草 → 强化草伤 \\
 \rowline
@@ -302,7 +302,7 @@
 \rowline
 特色 & 自伤风险；超绽放自动追踪；烈绽放大范围击飞；妮露特化瞬爆 & 激元素与其它元素共存；强化雷/草直伤；高频联动 \\
 \rowline
-\textbf{月版本新增分支} & \rxLunar{月绽放}（草水）→ 产草露、\rxLunar{月绽放}直伤可暴击；诳言之核转化为个人资源 & 无 \\
+\textbf{月版本新增分支} & \rxLB{月绽放}（草水）→ 产草露、\rxLB{月绽放}直伤可暴击；诳言之核转化为个人资源 & 无 \\
 \bottomrule
 \end{tabular}
 \end{table}

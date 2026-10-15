@@ -7,7 +7,7 @@
 \toprule
 \textbf{反应} & \textbf{触发} & \textbf{加成} & \textbf{追加伤害} \\
 \midrule
-\rxCata{原激化} & \icon{草}草 + \icon{雷}雷 & 无 & 施加约 6～9.5 秒的「\term{激元素}」 \\
+\rxCata{原激化} & \icon{草}草 + \icon{雷}雷 & 无 & 施加约 6～9.5 秒的「\termElectro{激元素}」 \\
 \rowline
 \rxCata{超激化} & 激化状态 + \icon{雷}雷 & \textbf{1.15} & 追加雷伤，可暴击 \\
 \rowline
@@ -29,9 +29,9 @@
 \item \icon{岩}岩 + \icon{水}水/\icon{火}火/\icon{雷}雷/\icon{冰}冰：生成对应元素晶片，拾取获得元素护盾（15 秒）
 \item 对\textbf{同元素}伤害有 250\% 吸收量；内置 CD 1 秒（\textbf{全局} CD）
 \item 盾量 = 等级系数 × (1 + 精通加成) × 元素吸收 × (1 + 护盾强效)
-\item \textbf{月之四（6.3）起可被转化为 \rxLunar{月结晶}}：队伍中有哥伦比娅／兹白／莉奈娅时，岩触水被替换为\rxLunar{月结晶}，生成三枚「\term{月笼}」，每三次触发引发「\term{月笼谐奏}」（详见 \sref{sec:lcrys}）
-\item \textbf{月之四起，岩元素共鸣}（双岩）\textbf{已把\rxLunar{月结晶}纳入判定}：不再需要持有护盾即可享受共鸣的增伤与岩抗降低 \src{T1 KeqingMains}
-\item \rxLunar{月结晶}\textbf{没有全局 CD}（区别于结晶的 1 秒），因此可在雷水共存（感电/\rxLunar{月感电}）状态下实现“双结晶”；需要常规结晶触发的机制（如娜维娅的护弹层数）也可由\rxLunar{月结晶}触发
+\item \textbf{月之四（6.3）起可被转化为 \rxLCrys{月结晶}}：队伍中有哥伦比娅／兹白／莉奈娅时，岩触水被替换为\rxLCrys{月结晶}，生成三枚「\termGeo{月笼}」，每三次触发引发「\termGeo{月笼谐奏}」（详见 \sref{sec:lcrys}）
+\item \textbf{月之四起，岩元素共鸣}（双岩）\textbf{已把\rxLCrys{月结晶}纳入判定}：不再需要持有护盾即可享受共鸣的增伤与岩抗降低 \src{T1 KeqingMains}
+\item \rxLCrys{月结晶}\textbf{没有全局 CD}（区别于结晶的 1 秒），因此可在雷水共存（感电/\rxLC{月感电}）状态下实现“双结晶”；需要常规结晶触发的机制（如娜维娅的护弹层数）也可由\rxLCrys{月结晶}触发
 \end{itemize}
 
 \medskip
@@ -39,20 +39,20 @@
 \subsection{\rxLunar{月曜反应}}
 
 \begin{quote}
-月曜反应由 \textbf{5.8}（\rxLunar{月感电}）、\textbf{月之一}（\rxLunar{月绽放}）、\textbf{月之四}（\rxLunar{月结晶}）三次更新引入，由\textbf{具备转化天赋}的角色把\textbf{已有的}感电／绽放／结晶“转化”而来。三类月曜反应共享同一套规则：伤害\textbf{可暴击}、\textbf{不吃防御}、\textbf{不吃常规增伤}，只吃面板、双暴、元素精通与专属的“月曜反应伤害提升”，并拥有旧反应所没有的 \textbf{擢升} 乘区。各版本与开启者见 表 \ref{tab:lc}、表 \ref{tab:lb}、表 \ref{tab:lcrys}。
+月曜反应由 \textbf{5.8}（\rxLC{月感电}）、\textbf{月之一}（\rxLB{月绽放}）、\textbf{月之四}（\rxLCrys{月结晶}）三次更新引入，由\textbf{具备转化天赋}的角色把\textbf{已有的}感电／绽放／结晶“转化”而来。三类月曜反应共享同一套规则：伤害\textbf{可暴击}、\textbf{不吃防御}、\textbf{不吃常规增伤}，只吃面板、双暴、元素精通与专属的“月曜反应伤害提升”，并拥有旧反应所没有的 \textbf{擢升} 乘区。各版本与开启者见 表 \ref{tab:lc}、表 \ref{tab:lb}、表 \ref{tab:lcrys}。
 \end{quote}
 
-\subsubsection{\rxLunar{月感电}（Lunar-Charged）}\label{sec:lc}
+\subsubsection{\rxLC{月感电}（Lunar-Charged）}\label{sec:lc}
 
 月感电的转化对象、开启者与伤害形态见表 \ref{tab:lc}。
 
 \indent\textbf{官方定义} \src{T0 · 5.8 更新说明「六、元素反应」}
 
 \begin{quote}
-「\elname{雷}元素」触及「\elname{水}元素」时，若满足特定条件，会引发特殊的「\rxLunar{月感电}」反应，形成雷暴云，持续对周围同时附着「\elname{雷}元素」与「\elname{水}元素」的目标进行雷击，造成雷元素伤害。该伤害可以触发暴击，且造成的伤害取决于所有在反应中施加元素的角色。
+「\elname{雷}元素」触及「\elname{水}元素」时，若满足特定条件，会引发特殊的「\rxLC{月感电}」反应，形成雷暴云，持续对周围同时附着「\elname{雷}元素」与「\elname{水}元素」的目标进行雷击，造成雷元素伤害。该伤害可以触发暴击，且造成的伤害取决于所有在反应中施加元素的角色。
 \end{quote}
 
-\begin{table}[ht]\centering\small\caption{\rxLunar{月感电}（Lunar-Charged）要素一览}\label{tab:lc}
+\begin{table}[ht]\centering\small\caption{\rxLC{月感电}（Lunar-Charged）要素一览}\label{tab:lc}
 \begin{tabular}{@{}>{\raggedright\arraybackslash}p{2.5cm}>{\raggedright\arraybackslash}p{13cm}@{}}
 \toprule
 \textbf{项目} & \textbf{内容} \\
@@ -70,22 +70,22 @@
 \end{tabular}
 \end{table}
 
-\indent\textbf{反应进程} \src{T2 · 幕陵《原神》\rxLunar{月感电}机制解析}
+\indent\textbf{反应进程} \src{T2 · 幕陵《原神》\rxLC{月感电}机制解析}
 
 \begin{enumerate}
-\item \textbf{发生}：队伍中角色对敌方施加水／雷附着时，以该敌为中心生成雷暴云（部分情况下缓慢跟随移动）。\textbf{伊涅芙在队时，队伍只能触发\rxLunar{月感电}，不再触发普通感电。}
+\item \textbf{发生}：队伍中角色对敌方施加水／雷附着时，以该敌为中心生成雷暴云（部分情况下缓慢跟随移动）。\textbf{伊涅芙在队时，队伍只能触发\rxLC{月感电}，不再触发普通感电。}
 \item \textbf{出伤}：雷暴云附近存在\textbf{同时附着雷与水}的目标时，该目标每 \textbf{2 秒}受一次雷击。多个雷暴云可共存。
 \item \textbf{结束}：锚定目标的水／雷附着消失、雷暴云消散且场上无其他雷暴云时，进程结束；\textbf{实测雷暴云最短存续 6 秒}。
 \end{enumerate}
 
-\indent\textbf{附着与消耗} \src{T1 KeqingMains 月曜指南与元素计量学｜T2 幕陵\rxLunar{月感电}实测}
+\indent\textbf{附着与消耗} \src{T1 KeqingMains 月曜指南与元素计量学｜T2 幕陵\rxLC{月感电}实测}
 
 \begin{itemize}
-\item 每次雷击从目标的\textbf{水、雷两条元素量上各扣 0.4U}（与常规感电的每跳 0.4U 同值）；差别在节奏——感电每 1 秒一跳、\rxLunar{月感电}每 2 秒一跳，故同样的元素量能支撑的\textbf{时间约为感电的两倍}（消耗速率只有感电的一半）。
+\item 每次雷击从目标的\textbf{水、雷两条元素量上各扣 0.4U}（与常规感电的每跳 0.4U 同值）；差别在节奏——感电每 1 秒一跳、\rxLC{月感电}每 2 秒一跳，故同样的元素量能支撑的\textbf{时间约为感电的两倍}（消耗速率只有感电的一半）。
 \item 实测表述为 \textbf{0.8U 的水／雷附着约可支撑 2 次雷击}（约 2～4 秒的出伤窗口）。
 \item 雷击\textbf{不施加元素附着}，因此不会自我维持、也不会与后续元素产生额外反应。
 \item 同一目标存在最低 2 秒的受击间隔。
-\item \rxLunar{月感电}\textbf{不锁面板}：精通与双暴按\textbf{实时状态}结算。这\textbf{与其它剧变反应一致}——自 \textbf{1.4 版本} 起剧变反应的精通取消快照（“快照”即本文所说的“锁面板”：伤害在生成瞬间锁定当时的角色面板，其后面板变化不再影响该次伤害），\textbf{即使技能本身是快照型，其反应精通仍实时更新}（感电、超载、超导、扩散、碎冰、结晶皆然）。\srcmark
+\item \rxLC{月感电}\textbf{不锁面板}：精通与双暴按\textbf{实时状态}结算。这\textbf{与其它剧变反应一致}——自 \textbf{1.4 版本} 起剧变反应的精通取消快照（“快照”即本文所说的“锁面板”：伤害在生成瞬间锁定当时的角色面板，其后面板变化不再影响该次伤害），\textbf{即使技能本身是快照型，其反应精通仍实时更新}（感电、超载、超导、扩散、碎冰、结晶皆然）。\srcmark
 \end{itemize}
 \srctext{［T1］KeqingMains《Snapshot \& Dynamic》原文：「Transformative Reactions do not snapshot EM as of patch 1.4. Even if a Skill snapshots, their EM will update real time」，示例：奥兹直伤不变（920）而超载伤害随砂糖给出的精通提升；中文来源同口径：早期增幅与剧变都有快照，后取消剧变快照、按当前精通实时变化。}
 
@@ -105,22 +105,22 @@
 \begin{itemize}
 \item \textbf{系数 3 在反应型与直伤型中共用}，两者真正的差别在基础区：反应型用「等级系数」，直伤型用「面板属性 × 技能倍率」；反应型最后一步再按贡献权重（最高者 0.6）加权。
 \item \textbf{多角色加权}：所有在本次反应中施加过水／雷附着的角色\textbf{各自独立结算一次}，再按贡献由高到低加权相加——\textbf{0.6／0.3／0.05／0.05}（权重和为 1）；若单角色伤害已折入最高贡献者的 0.6（即按等效系数 1.8 结算），同一算法的比例写作 \textbf{1、1/2、1/12}。暴击与否由\textbf{最高贡献者那一次}的结算决定。实测样例（幕陵）：三人同时参与时反应总伤 10613，按 1、1/2、1/12 反推得单角色贡献丽莎 7096／八重神子 6264／珊瑚宫心海 4620。
-\item \textbf{量级参考}（5.8 时期的实测，非当前版本上限）：单次反应\rxLunar{月感电}平均 3 万以下、角色\rxLunar{月感电}约 3.7 万，折算 DPS 提升约 1.5 万以下——作者幕陵据此判断“以反应\rxLunar{月感电}为输出核心收益有限，伊涅芙应作插件/副 C 使用”，并指出反应\rxLunar{月感电}对精通投入的收益衰减明显 \src{T2 · 2025-07-31，5.8 版本口径}。
+\item \textbf{量级参考}（5.8 时期的实测，非当前版本上限）：单次反应\rxLC{月感电}平均 3 万以下、角色\rxLC{月感电}约 3.7 万，折算 DPS 提升约 1.5 万以下——作者幕陵据此判断“以反应\rxLC{月感电}为输出核心收益有限，伊涅芙应作插件/副 C 使用”，并指出反应\rxLC{月感电}对精通投入的收益衰减明显 \src{T2 · 2025-07-31，5.8 版本口径}。
 \end{itemize}
 
 \medskip
 
-\subsubsection{\rxLunar{月绽放}（Lunar-Bloom）}\label{sec:lb}
+\subsubsection{\rxLB{月绽放}（Lunar-Bloom）}\label{sec:lb}
 
 月绽放的转化对象、开启者与伤害形态见表 \ref{tab:lb}。
 
 \indent\textbf{官方定义} \src{T0 · 月之一更新说明「六、元素反应」}
 
 \begin{quote}
-「\elname{草}元素」触及「\elname{水}元素」时，若满足特定条件，会引发特殊的「\rxLunar{月绽放}」反应，在原本的绽放反应效果之上，还会为队伍提供珍贵的「\term{草露}」资源。部分角色可以通过消耗「\term{草露}」，或通过自身的天赋特性，对敌人造成月绽放反应伤害，该伤害可以触发暴击。
+「\elname{草}元素」触及「\elname{水}元素」时，若满足特定条件，会引发特殊的「\rxLB{月绽放}」反应，在原本的绽放反应效果之上，还会为队伍提供珍贵的「\termDendro{草露}」资源。部分角色可以通过消耗「\termDendro{草露}」，或通过自身的天赋特性，对敌人造成月绽放反应伤害，该伤害可以触发暴击。
 \end{quote}
 
-\begin{table}[ht]\centering\small\caption{\rxLunar{月绽放}（Lunar-Bloom）要素一览}\label{tab:lb}
+\begin{table}[ht]\centering\small\caption{\rxLB{月绽放}（Lunar-Bloom）要素一览}\label{tab:lb}
 \begin{tabular}{@{}>{\raggedright\arraybackslash}p{2.5cm}>{\raggedright\arraybackslash}p{13cm}@{}}
 \toprule
 \textbf{项目} & \textbf{内容} \\
@@ -131,9 +131,9 @@
 \rowline
 开启者 & 菈乌玛、奈芙尔、哥伦比娅 \\
 \rowline
-反应伤害 & \textbf{无}（\rxLunar{月绽放}反应本身不造成伤害，只额外产出草露） \\
+反应伤害 & \textbf{无}（\rxLB{月绽放}反应本身不造成伤害，只额外产出草露） \\
 \rowline
-直伤形态 & 菈乌玛长按战技、奈芙尔特殊重击等“视为\rxLunar{月绽放}反应伤害”的攻击 \\
+直伤形态 & 菈乌玛长按战技、奈芙尔特殊重击等“视为\rxLB{月绽放}反应伤害”的攻击 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -141,11 +141,11 @@
 \indent\textbf{草露（Verdant Dew）} \src{T1 KeqingMains｜T2 17173/TapTap 攻略}
 
 \begin{itemize}
-\item 队伍触发一次\rxLunar{月绽放}后，\textbf{2.5 秒}填充 1 枚草露（上限 \textbf{3 枚}，属队伍资源，跨深渊房间保留）。
-\item 单次攻击同时触发多目标的\rxLunar{月绽放}，只产 1 枚。
+\item 队伍触发一次\rxLB{月绽放}后，\textbf{2.5 秒}填充 1 枚草露（上限 \textbf{3 枚}，属队伍资源，跨深渊房间保留）。
+\item 单次攻击同时触发多目标的\rxLB{月绽放}，只产 1 枚。
 \item 两次触发间隔短于 2.5 秒时，后续填充顺延（0 秒、2 秒各触发一次 → 到第 5 秒才有 2 枚）。
-\item \textbf{帧率影响}：60 FPS 下 1 次\rxLunar{月绽放} = 1 枚；120 FPS 下约 0.97 枚；30 FPS 影响不明显。
-\item 菈乌玛的长按元素战技\textbf{消耗当前全部草露}（每次最多消耗 \textbf{3 枚}）：10 级时长按一段造成 \textbf{284.5\%} 草元素伤害；长按二段的\rxLunar{月绽放}伤害按\textbf{每枚草露 273.6\%}（10 级）结算，满 3 枚即 \textbf{820.8\%}（该合计为 3 × 273.6\% 的核算值，17173 攻略亦直接写作 820.8\%），并展开「霜林圣域」。\src{T2 bwiki 菈乌玛角色页技能表｜17173 攻略}
+\item \textbf{帧率影响}：60 FPS 下 1 次\rxLB{月绽放} = 1 枚；120 FPS 下约 0.97 枚；30 FPS 影响不明显。
+\item 菈乌玛的长按元素战技\textbf{消耗当前全部草露}（每次最多消耗 \textbf{3 枚}）：10 级时长按一段造成 \textbf{284.5\%} 草元素伤害；长按二段的\rxLB{月绽放}伤害按\textbf{每枚草露 273.6\%}（10 级）结算，满 3 枚即 \textbf{820.8\%}（该合计为 3 × 273.6\% 的核算值，17173 攻略亦直接写作 820.8\%），并展开「霜林圣域」。\src{T2 bwiki 菈乌玛角色页技能表｜17173 攻略}
 \end{itemize}
 
 \indent\textbf{月兆对绽放系列的加成}（见表 \ref{tab:moonsignbloom}；\src{T0} 官方列出机制，\src{T2} 给出具体数值）
@@ -157,7 +157,7 @@
 \midrule
 月兆·初辉 & 绽放／超绽放／烈绽放伤害的\textbf{双暴固定} & \textbf{15\% 暴击率 ／ 100\% 暴击伤害} \src{T2 菈乌玛天赋原文} \\
 \rowline
-月兆·满辉 & \textbf{\rxLunar{月绽放}}伤害的双暴额外提升 & \textbf{+10\% 暴击率 ／ +20\% 暴击伤害} \src{T2 菈乌玛天赋原文} \\
+月兆·满辉 & \textbf{\rxLB{月绽放}}伤害的双暴额外提升 & \textbf{+10\% 暴击率 ／ +20\% 暴击伤害} \src{T2 菈乌玛天赋原文} \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -165,7 +165,7 @@
 上表（表 \ref{tab:moonsignbloom}）数值出自菈乌玛天赋「奉向霜夜的明光」原文，官方更新说明对此只作定性表述。两种加成\textbf{无法叠加}（官方原文：「不同月兆等级提供的强化效果无法叠加」；满辉时是否另行适用初辉效果存在社区异说，见 \sref{sec:open}）。初辉的固定暴击率可与纳西妲 2 命叠加，但暴击伤害固定为 100\%。
 
 \begin{itemize}
-\item 直伤\rxLunar{月绽放}公式（10 级菈乌玛为例）：
+\item 直伤\rxLB{月绽放}公式（10 级菈乌玛为例）：
 \end{itemize}
 
 \[
@@ -177,25 +177,25 @@
 \]
 
 
-其中“独立乘区”来自角色天赋提供的基础伤害加成（如菈乌玛「苍色祷歌」为额外提升项）。直伤\rxLunar{月绽放}\textbf{与攻击力/防御力/等级系数无关}，全部数值只吃精通、双暴、专属增伤与擢升 \src{T2 · 17173}。
+其中“独立乘区”来自角色天赋提供的基础伤害加成（如菈乌玛「苍色祷歌」为额外提升项）。直伤\rxLB{月绽放}\textbf{与攻击力/防御力/等级系数无关}，全部数值只吃精通、双暴、专属增伤与擢升 \src{T2 · 17173}。
 
 \indent\textbf{奈芙尔与\term{诳言之核}} \src{T1 KeqingMains｜T2 bwiki 奈芙尔角色页}
 
-满辉状态下，奈芙尔把场上的草原核／丰穰之核转变为\term{诳言之核}：\textbf{无法触发超绽放与烈绽放，也无法自爆}。她以重击／幻戏吸收诳言之核并叠起\term{伪秘之帷}，用于强化自身的「幻戏」与元素爆发，即把绽放的自伤风险换成了个人资源——这是\rxLunar{月绽放}体系区别于常规绽放的核心差异。
+满辉状态下，奈芙尔把场上的草原核／丰穰之核转变为\term{诳言之核}：\textbf{无法触发超绽放与烈绽放，也无法自爆}。她以重击／幻戏吸收诳言之核并叠起\termDesc{伪秘之帷}，用于强化自身的「幻戏」与元素爆发，即把绽放的自伤风险换成了个人资源——这是\rxLB{月绽放}体系区别于常规绽放的核心差异。
 
 \medskip
 
-\subsubsection{\rxLunar{月结晶}（Lunar-Crystallize）}\label{sec:lcrys}
+\subsubsection{\rxLCrys{月结晶}（Lunar-Crystallize）}\label{sec:lcrys}
 
 月结晶的转化对象、开启者与伤害形态见表 \ref{tab:lcrys}。
 
 \indent\textbf{官方定义} \src{T0 · 月之四更新说明「七、元素反应」}
 
 \begin{quote}
-「\elname{岩}元素」触及「\elname{水}元素」时，若满足特定条件，会引发特殊的「\rxLunar{月结晶}」反应，在目标附近生成三枚月笼。每触发三次月结晶反应，便会引发月笼谐奏，对附近的敌人造成岩元素伤害。该伤害可以触发暴击，且造成的伤害取决于所有在反应中施加元素的角色。
+「\elname{岩}元素」触及「\elname{水}元素」时，若满足特定条件，会引发特殊的「\rxLCrys{月结晶}」反应，在目标附近生成三枚月笼。每触发三次月结晶反应，便会引发月笼谐奏，对附近的敌人造成岩元素伤害。该伤害可以触发暴击，且造成的伤害取决于所有在反应中施加元素的角色。
 \end{quote}
 
-\begin{table}[ht]\centering\small\caption{\rxLunar{月结晶}（Lunar-Crystallize）要素一览}\label{tab:lcrys}
+\begin{table}[ht]\centering\small\caption{\rxLCrys{月结晶}（Lunar-Crystallize）要素一览}\label{tab:lcrys}
 \begin{tabular}{@{}>{\raggedright\arraybackslash}p{2.5cm}>{\raggedright\arraybackslash}p{13cm}@{}}
 \toprule
 \textbf{项目} & \textbf{内容} \\
@@ -208,7 +208,7 @@
 \rowline
 反应伤害 & 月笼谐奏（岩元素伤害，可暴击） \\
 \rowline
-直伤形态 & 兹白的「灵驹飞踏」等“视为\rxLunar{月结晶}反应伤害”的攻击 \\
+直伤形态 & 兹白的「灵驹飞踏」等“视为\rxLCrys{月结晶}反应伤害”的攻击 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -216,13 +216,13 @@
 \indent\textbf{月笼与月笼谐奏} \src{T1 KeqingMains｜T2 实测算例}
 
 \begin{itemize}
-\item 每次\rxLunar{月结晶}生成 3 枚「\term{月笼}」（视作一个岩元素造物，但每枚可独立与其他岩造物共鸣）。
-\item 每 \textbf{3 次}\rxLunar{月结晶}反应触发一次「\term{月笼谐奏}」，对周围造成岩元素伤害。
-\item \textbf{没有全局内置 CD}（常规结晶为 1 秒），因此在雷水共存（感电／\rxLunar{月感电}）环境下可出现“双结晶”：岩先消耗雷触发\rxLunar{月结晶}，再与水触发常规结晶。
-\item \rxLunar{月结晶}同样可触发现有依赖结晶的机制（如娜维娅的护弹层数）；不加水的常规结晶碎片仍可拾取获得护盾。
+\item 每次\rxLCrys{月结晶}生成 3 枚「\termGeo{月笼}」（视作一个岩元素造物，但每枚可独立与其他岩造物共鸣）。
+\item 每 \textbf{3 次}\rxLCrys{月结晶}反应触发一次「\termGeo{月笼谐奏}」，对周围造成岩元素伤害。
+\item \textbf{没有全局内置 CD}（常规结晶为 1 秒），因此在雷水共存（感电／\rxLC{月感电}）环境下可出现“双结晶”：岩先消耗雷触发\rxLCrys{月结晶}，再与水触发常规结晶。
+\item \rxLCrys{月结晶}同样可触发现有依赖结晶的机制（如娜维娅的护弹层数）；不加水的常规结晶碎片仍可拾取获得护盾。
 \end{itemize}
 
-\indent\textbf{直伤\rxLunar{月结晶}公式}（\src{T2 · 巴哈姆特实测复算，误差 < 0.02\%}）
+\indent\textbf{直伤\rxLCrys{月结晶}公式}（\src{T2 · 巴哈姆特实测复算，误差 < 0.02\%}）
 
 \[
 \begin{aligned}
@@ -234,13 +234,13 @@
 
 
 \begin{itemize}
-\item \textbf{系数固定 1.6}，任何直伤\rxLunar{月结晶}都会自动乘上该倍率（与\rxLunar{月感电}直伤的 3 对应）。
+\item \textbf{系数固定 1.6}，任何直伤\rxLCrys{月结晶}都会自动乘上该倍率（与\rxLC{月感电}直伤的 3 对应）。
 \item “天赋基础提升”为角色天赋提供的独立乘区（兹白天赋 1 为 14\%、哥伦比娅天赋 1 为 7\%，二者相加 21\%）。
 \item \textbf{元素精通与“月反应增伤”位于同一乘区、相加计算}；固定值加成（如申鹤类“羽毛”）不吃增伤乘区。
 \item 实测算例：兹白 10 级「灵驹飞踏」第二段（倍率 253.7\%）在五郎／哥伦比娅／叶洛亚增益下，计算值 682240.679 与实测伤害差距 \textbf{< 0.02\%}。
 \end{itemize}
 
-\indent\textbf{反应\rxLunar{月结晶}的系数}
+\indent\textbf{反应\rxLCrys{月结晶}的系数}
 
 \[
 \text{反应月结晶（月笼谐奏）} = \text{等级系数} \times \text{反应系数} \times \Big(1 + \frac{6\text{EM}}{\text{EM}+2000} + \text{反应提升}\Big) \times \text{暴击区} \times \text{抗性区} \times \text{擢升}
@@ -249,12 +249,12 @@
 \indent\textbf{反应系数 1.6 与 0.96 的关系}：两者\textbf{描述同一机制}，差别只在于取值所在的步骤——
 
 \begin{itemize}
-\item KeqingMains 的公式图写明：\textbf{单角色}反应\rxLunar{月结晶} $= 1.6 \times \text{等级系数} \times \cdots$；\textbf{最终伤害} $= \text{最高者} \times 0.6 + \text{次高} \times 0.3 + \text{第三} \times 0.05 + \text{第四} \times 0.05$。
+\item KeqingMains 的公式图写明：\textbf{单角色}反应\rxLCrys{月结晶} $= 1.6 \times \text{等级系数} \times \cdots$；\textbf{最终伤害} $= \text{最高者} \times 0.6 + \text{次高} \times 0.3 + \text{第三} \times 0.05 + \text{第四} \times 0.05$。
 \item 中文来源常引用的 \textbf{0.96 = 1.6 × 0.6}，即“套用最高贡献者权重之后”的等效系数。\src{T1｜出处说明见 \sref{sec:notes}}
-\item 同一套算法在\rxLunar{月感电}上可验证：KQM 公式图同为 \textbf{3 × 等级系数}、权重同为 0.6 → 等效 \textbf{1.8}，与幕陵逐乘区拟合的 1.8（17173 所载为同文转载）完全吻合。
+\item 同一套算法在\rxLC{月感电}上可验证：KQM 公式图同为 \textbf{3 × 等级系数}、权重同为 0.6 → 等效 \textbf{1.8}，与幕陵逐乘区拟合的 1.8（17173 所载为同文转载）完全吻合。
 \item 因此 \textbf{1.6／0.96} 与 \textbf{3／1.8} 是两套等价口径（单角色系数 vs 加权后等效值），\textbf{并非互相冲突的两种机制} \src{T1/T2}。
 \end{itemize}
 
-\indent\textbf{强度参照}：深境螺旋的地脉异常自 5.8 起即把月曜／星烁反应与对应的常规反应并列加成（如 7.0：扩散伤害 +200\% 与\rxStellar{星扩散} +75\% 并列），可视作官方对新反应量级的定位提示 \src{T0 · 5.8／7.0 更新说明}。
+\indent\textbf{强度参照}：深境螺旋的地脉异常自 5.8 起即把月曜／星烁反应与对应的常规反应并列加成（如 7.0：扩散伤害 +200\% 与\rxSSW{星扩散} +75\% 并列），可视作官方对新反应量级的定位提示 \src{T0 · 5.8／7.0 更新说明}。
 
 \medskip
